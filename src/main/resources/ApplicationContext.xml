@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.2.xsd"
+>
+
+    <bean id="random" class="java.lang.Integer" scope="prototype" factory-method="java.util.Random.nextInt">
+
+    </bean>
+
+    <bean id="main" class="Main" init-method="init">
+        
+    </bean>
+
+    <bean id="fileWorker" class="fileworker.FileWorker"/>
+
+    <bean id = "jsoupFileWorker" class="JSOUP.JsoupFileWorker"/>
+
+</beans>
