@@ -11,8 +11,7 @@ public class JsoupUrlWorker implements JsoupWorker{
     Document document;
     Elements elements;
 
-    public JsoupUrlWorker(String url){
-        this.url = url;
+    public JsoupUrlWorker(){
     }
 
     public void setDocument(String url)  {
@@ -30,6 +29,10 @@ public class JsoupUrlWorker implements JsoupWorker{
 
     public void setElements(){
         elements = document.select("div#news__panel mix-tabber-slide2__panel");
+    }
+
+    public void setUrl(String url){
+        this.url = url;
     }
 
     public Document getDocument(){

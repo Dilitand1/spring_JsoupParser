@@ -1,6 +1,9 @@
 import JSOUP.JsoupUrlWorker;
 import JSOUP.JsoupWorker;
 import fileworker.FileWorker;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -19,10 +22,13 @@ public class Main {
         System.out.println(main.getId());
 
         FileWorker fileWorker = configurableApplicationContext.getBean("fileWorker",FileWorker.class);
-        JsoupUrlWorker jsoupUrlWorker = configurableApplicationContext.getBean("")
+        JsoupWorker jsoupWorker = configurableApplicationContext.getBean("jsoupFileWorker",JsoupWorker.class);
 
+        Document document = jsoupWorker.getDocument();
+        System.out.println(jsoupWorker.getCountPages("[data-marker*=page(]","data-marker","[0-9]"));
+        //Elements elements = document.select("div.pagination-root-*");
 
-        System.out.println(fileWorker.readFile("text.txt"));
+        //&p=1
     }
 
     void init(){

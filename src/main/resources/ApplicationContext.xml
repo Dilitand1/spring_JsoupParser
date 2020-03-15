@@ -6,15 +6,22 @@
 >
 
     <bean id="random" class="java.lang.Integer" scope="prototype" factory-method="java.util.Random.nextInt">
-
     </bean>
 
     <bean id="main" class="Main" init-method="init">
-        
     </bean>
 
-    <bean id="fileWorker" class="fileworker.FileWorker"/>
+    <bean id="fileWorker" class="fileworker.FileWorker">
+        <property name="append" value="false"/>
+        <property name="inputPath" value="text.txt"/>
+    </bean>
 
-    <bean id = "jsoupFileWorker" class="JSOUP.JsoupFileWorker"/>
+    <bean id = "jsoupUrlWorker" class = "JSOUP.JsoupUrlWorker" >
+        <property name="document" value="https://www.avito.ru/rostov-na-donu?q=geforce+gtx+1050ti"/>
+    </bean>
+
+    <bean id = "jsoupFileWorker" class="JSOUP.JsoupFileWorker">
+        <property name="document" value="output.txt"/>
+    </bean>
 
 </beans>
