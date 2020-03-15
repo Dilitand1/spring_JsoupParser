@@ -19,13 +19,11 @@ public class Main {
         ConfigurableApplicationContext configurableApplicationContext
                 = new ClassPathXmlApplicationContext("ApplicationContext.xml");
         Main main = configurableApplicationContext.getBean("main",Main.class);
-        System.out.println(main.getId());
 
-        FileWorker fileWorker = configurableApplicationContext.getBean("fileWorker",FileWorker.class);
         JsoupWorker jsoupWorker = configurableApplicationContext.getBean("jsoupFileWorker",JsoupWorker.class);
 
         Document document = jsoupWorker.getDocument();
-        System.out.println(jsoupWorker.getCountPages("[data-marker*=page(]","data-marker","[0-9]"));
+        System.out.println(jsoupWorker.getCountPages());
         //Elements elements = document.select("div.pagination-root-*");
 
         //&p=1

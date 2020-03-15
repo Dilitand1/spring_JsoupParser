@@ -11,6 +11,8 @@ public class JsoupUrlWorker implements JsoupWorker{
     Document document;
     Elements elements;
 
+    String cssQ, attr, pattern;
+
     public JsoupUrlWorker(){
     }
 
@@ -45,5 +47,17 @@ public class JsoupUrlWorker implements JsoupWorker{
 
     public Elements getElements() {
         return elements;
+    }
+
+    public void setCssQ(String cssQ) {
+        this.cssQ = cssQ;
+    }
+
+    public void setAttr(String attr) {
+        this.attr = attr;
+    }
+
+    public void setPattern(String pattern) {
+        this.pattern = pattern;
     }
 }

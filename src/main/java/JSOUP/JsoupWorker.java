@@ -10,7 +10,7 @@ public interface JsoupWorker {
     String getUrl();
 
 
-    default int getCountPages(String cssQ,String attr,String pattern){
+    default int getCountPages(/*String cssQ,String attr,String pattern*/){
         return 0;
     };
 
