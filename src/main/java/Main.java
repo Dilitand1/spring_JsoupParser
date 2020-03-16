@@ -25,17 +25,12 @@ public class Main {
                 = new ClassPathXmlApplicationContext("ApplicationContext.xml");
         Main main = configurableApplicationContext.getBean("main",Main.class);
 
-        JsoupFileWorker jsoupWorker = configurableApplicationContext.getBean("jsoupFileWorker",JsoupFileWorker.class);
-
-        jsoupWorker.downloadCountOfPages();
-        jsoupWorker.downloadLinks();
+        JsoupWorker jsoupWorker = configurableApplicationContext.getBean("jsoupFileWorker",JsoupWorker.class);
 
         ArrayList<String> arrayList = jsoupWorker.getLinks();
         for (String s : arrayList){
             System.out.println(s);
         }
-
-
     }
 
     void init(){

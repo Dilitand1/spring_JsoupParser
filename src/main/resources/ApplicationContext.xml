@@ -21,13 +21,15 @@
 
     <bean id = "jsoupUrlWorker" class = "JSOUP.JsoupUrlWorker" >
 <!--        <property name="document" value="${parser.startUrl}"/>-->
+<!--        <property name="linkElements" value="${parser.links.css}"/>-->
+
         <property name="cssQ" value="${parser.pagesCount.css}"/>
         <property name="attr" value="${parser.pagesCount.attr}"/>
         <property name="pattern" value="${parser.pagesCount.pattern}"/>
         <property name="firstPartRef" value="${parser.firstPartRef}"/>
     </bean>
 
-    <bean id = "jsoupFileWorker" class="JSOUP.JsoupFileWorker" parent="jsoupUrlWorker">
+    <bean id = "jsoupFileWorker" class="JSOUP.JsoupFileWorker" parent="jsoupUrlWorker" init-method="init">
         <property name="document" value="output.txt"/>
         <property name="linkElements" value="${parser.links.css}"/>
     </bean>

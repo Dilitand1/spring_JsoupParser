@@ -23,6 +23,11 @@ public class JsoupUrlWorker implements JsoupWorker{
     JsoupUrlWorker(){
     }
 
+    void init(){
+        downloadCountOfPages();
+        downloadLinks();
+    }
+
     public void setDocument(String url)  {
         Document doc = null;
         try {
@@ -82,6 +87,11 @@ public class JsoupUrlWorker implements JsoupWorker{
 
     public Elements getLinkElements() {
         return new Elements(linkElements);
+    }
+
+    @Override
+    public int getCountPages(/*String cssQ,String attr,String pattern*/){
+        return countOfPages;
     }
 
     public void setCssQ(String cssQ) {
