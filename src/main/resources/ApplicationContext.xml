@@ -6,7 +6,7 @@
         http://www.springframework.org/schema/beans/spring-beans-3.2.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd"
 >
     <context:property-placeholder location="classpath:parser.properties"/>
-    <context:component-scan base-package="classpath:java" />
+    <context:component-scan base-package="classpath:java"/>
 
     <bean id="random" class="java.lang.Integer" scope="prototype" factory-method="java.util.Random.nextInt">
     </bean>
@@ -19,19 +19,39 @@
         <property name="inputPath" value="output.txt"/>
     </bean>
 
-    <bean id = "jsoupUrlWorker" class = "JSOUP.JsoupUrlWorker" >
-<!--        <property name="document" value="${parser.startUrl}"/>-->
-<!--        <property name="linkElements" value="${parser.links.css}"/>-->
-
+    <bean id="jsoupUrlAvitoLinksWorker" class="JSOUP.JsoupUrlWorker">
+        <!--        <property name="document" value="${parser.startUrl}"/>-->
+        <!--        <property name="linkElements" value="${parser.links.css}"/>-->
         <property name="cssQ" value="${parser.pagesCount.css}"/>
         <property name="attr" value="${parser.pagesCount.attr}"/>
         <property name="pattern" value="${parser.pagesCount.pattern}"/>
         <property name="firstPartRef" value="${parser.firstPartRef}"/>
     </bean>
 
-    <bean id = "jsoupFileWorker" class="JSOUP.JsoupFileWorker" parent="jsoupUrlWorker" init-method="init">
+    <bean id="jsoupFileWorker" class="JSOUP.JsoupFileWorker" parent="jsoupUrlAvitoLinksWorker" init-method="init">
         <property name="document" value="output.txt"/>
         <property name="linkElements" value="${parser.links.css}"/>
     </bean>
+
+    <bean id="jsoupFileWorker2" class="JSOUP.JsoupFileWorker">
+        <property name="document" value="output2.txt"/>
+        <property name="linkElements" value="${parser.links.css}"/>
+    </bean>
+
+    <bean id = "avitoDownloader" class = "jsoupPageDownloader.AvitoDownloader">
+        <property name="priceClass" value="${avito.priceClass}"/>
+        <property name="adressClass" value="${avito.adressClass}"/>
+        <property name="descriptionClass" value="${avito.descriptionClass}"/>
+        <property name="titleClass" value="${avito.titleClass}"/>
+        <property name="pattern" value="${avito.pattern}"/>
+        <property name="cssPages" value="${avito.cssPages}"/>
+        <property name="cssAllLinks" value="${avito.cssAllLinks}"/>
+        <property name="attr" value="${avito.attr}"/>
+        <property name="firstPartref" value="${avito.firstPartref}"/>
+        <property name="url" value="${avito.url}"/>
+        <property name="urlLinkPageSuffix" value="${avito.urlLinkPageSuffix}"/>
+    </bean>
+
+
 
 </beans>

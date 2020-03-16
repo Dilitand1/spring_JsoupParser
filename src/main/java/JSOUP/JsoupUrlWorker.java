@@ -9,30 +9,31 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 
-public class JsoupUrlWorker implements JsoupWorker{
-    String url;
+public class JsoupUrlWorker implements JsoupWorker {
     Document document;
-
     private Elements linkElements;
-    ArrayList<String> links = new ArrayList<>();
+    private ArrayList<String> links = new ArrayList<>();
 
-    int countOfPages;
+    private int countOfPages;
+    private String firstPartRef;
+    private String cssQ;
+    private String pattern;
+    private String url;
 
-    private String firstPartRef,cssQ, attr, pattern;
-
-    JsoupUrlWorker(){
+    JsoupUrlWorker() {
     }
 
-    void init(){
+    void init() {
         downloadCountOfPages();
         downloadLinks();
     }
 
-    public void setDocument(String url)  {
+    public void setDocument(String url) {
         Document doc = null;
         try {
             doc = Jsoup.connect(url)
                     .userAgent("Chrome/4.0.249.0 Safari/532.5")
+                    //.proxy(Proxy.NO_PROXY)
                     .referrer("http://www.google.com")
                     .get();
         } catch (IOException e) {
@@ -40,7 +41,8 @@ public class JsoupUrlWorker implements JsoupWorker{
         }
         document = doc;
     }
-    public void setLinkElements(String cssQ){
+
+    public void setLinkElements(String cssQ) {
         this.linkElements = document.select(cssQ);
     }
 
@@ -49,9 +51,9 @@ public class JsoupUrlWorker implements JsoupWorker{
         Pattern pattern1 = Pattern.compile(pattern);
         Integer max = 0;
         Elements elements = document.select(cssQ/*"[data-marker*=page(]"*/);
-        for(Element element : elements){
+        for (Element element : elements) {
             String text = element.text();
-            if (pattern1.matcher(text).matches()){
+            if (pattern1.matcher(text).matches()) {
                 if (max < Integer.parseInt(text))
                     max = Integer.parseInt(text);
             }
@@ -60,16 +62,16 @@ public class JsoupUrlWorker implements JsoupWorker{
     }
 
     public void downloadLinks() {
-        for(Element e : linkElements){
+        for (Element e : linkElements) {
             links.add(getFirstPartRef() + e.attr("href").toString());
         }
     }
 
-    public void setUrl(String url){
+    public void setUrl(String url) {
         this.url = url;
     }
 
-    public Document getDocument(){
+    public Document getDocument() {
         return this.document;
     }
 
@@ -90,7 +92,7 @@ public class JsoupUrlWorker implements JsoupWorker{
     }
 
     @Override
-    public int getCountPages(/*String cssQ,String attr,String pattern*/){
+    public int getCountPages(/*String cssQ,String attr,String pattern*/) {
         return countOfPages;
     }
 
@@ -99,7 +101,6 @@ public class JsoupUrlWorker implements JsoupWorker{
     }
 
     public void setAttr(String attr) {
-        this.attr = attr;
     }
 
     public void setPattern(String pattern) {
