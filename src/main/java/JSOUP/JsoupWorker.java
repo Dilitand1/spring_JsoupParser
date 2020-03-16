@@ -9,7 +9,7 @@ public interface JsoupWorker {
     Document getDocument();
     String getUrl();
 
-
+    void downloadCountOfPages();
     default int getCountPages(/*String cssQ,String attr,String pattern*/){
         return 0;
     };

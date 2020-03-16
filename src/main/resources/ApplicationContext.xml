@@ -6,6 +6,7 @@
         http://www.springframework.org/schema/beans/spring-beans-3.2.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd"
 >
     <context:property-placeholder location="classpath:parser.properties"/>
+    <context:component-scan base-package="classpath:java" />
 
     <bean id="random" class="java.lang.Integer" scope="prototype" factory-method="java.util.Random.nextInt">
     </bean>
@@ -15,18 +16,20 @@
 
     <bean id="fileWorker" class="fileworker.FileWorker">
         <property name="append" value="false"/>
-        <property name="inputPath" value="text.txt"/>
+        <property name="inputPath" value="output.txt"/>
     </bean>
 
     <bean id = "jsoupUrlWorker" class = "JSOUP.JsoupUrlWorker" >
-        <property name="document" value="${parser.startUrl}"/>
+<!--        <property name="document" value="${parser.startUrl}"/>-->
         <property name="cssQ" value="${parser.pagesCount.css}"/>
         <property name="attr" value="${parser.pagesCount.attr}"/>
         <property name="pattern" value="${parser.pagesCount.pattern}"/>
+        <property name="firstPartRef" value="${parser.firstPartRef}"/>
     </bean>
 
     <bean id = "jsoupFileWorker" class="JSOUP.JsoupFileWorker" parent="jsoupUrlWorker">
         <property name="document" value="output.txt"/>
+        <property name="linkElements" value="${parser.links.css}"/>
     </bean>
 
 </beans>

@@ -2,18 +2,25 @@ package JSOUP;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.regex.Pattern;
 
 public class JsoupUrlWorker implements JsoupWorker{
     String url;
     Document document;
-    Elements elements;
 
-    String cssQ, attr, pattern;
+    private Elements linkElements;
+    ArrayList<String> links = new ArrayList<>();
 
-    public JsoupUrlWorker(){
+    int countOfPages;
+
+    private String firstPartRef,cssQ, attr, pattern;
+
+    JsoupUrlWorker(){
     }
 
     public void setDocument(String url)  {
@@ -28,9 +35,29 @@ public class JsoupUrlWorker implements JsoupWorker{
         }
         document = doc;
     }
+    public void setLinkElements(String cssQ){
+        this.linkElements = document.select(cssQ);
+    }
 
-    public void setElements(){
-        elements = document.select("div#news__panel mix-tabber-slide2__panel");
+    @Override
+    public void downloadCountOfPages() {
+        Pattern pattern1 = Pattern.compile(pattern);
+        Integer max = 0;
+        Elements elements = document.select(cssQ/*"[data-marker*=page(]"*/);
+        for(Element element : elements){
+            String text = element.text();
+            if (pattern1.matcher(text).matches()){
+                if (max < Integer.parseInt(text))
+                    max = Integer.parseInt(text);
+            }
+        }
+        countOfPages = max;
+    }
+
+    public void downloadLinks() {
+        for(Element e : linkElements){
+            links.add(getFirstPartRef() + e.attr("href").toString());
+        }
     }
 
     public void setUrl(String url){
@@ -45,8 +72,16 @@ public class JsoupUrlWorker implements JsoupWorker{
         return url;
     }
 
-    public Elements getElements() {
-        return elements;
+    public ArrayList<String> getLinks() {
+        return links;
+    }
+
+    public String getFirstPartRef() {
+        return firstPartRef;
+    }
+
+    public Elements getLinkElements() {
+        return new Elements(linkElements);
     }
 
     public void setCssQ(String cssQ) {
@@ -59,5 +94,9 @@ public class JsoupUrlWorker implements JsoupWorker{
 
     public void setPattern(String pattern) {
         this.pattern = pattern;
+    }
+
+    public void setFirstPartRef(String firstPartRef) {
+        this.firstPartRef = firstPartRef;
     }
 }

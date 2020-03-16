@@ -9,6 +9,7 @@ import java.util.regex.Pattern;
 
 public class JsoupFileWorker extends JsoupUrlWorker {
 
+
     public JsoupFileWorker() {
 
     }
@@ -20,28 +21,7 @@ public class JsoupFileWorker extends JsoupUrlWorker {
 
     @Override
     public int getCountPages(/*String cssQ,String attr,String pattern*/){
-        Pattern pattern1 = Pattern.compile(pattern);
-        Integer max = 0;
-        Elements elements = document.select(cssQ/*"[data-marker*=page(]"*/);
-        for(Element element : elements){
-            String text = element.text();
-            if (pattern1.matcher(text).matches()){
-                if (max < Integer.parseInt(text))
-                    max = Integer.parseInt(text);
-            }
-        }
-        return max;
+        return countOfPages;
     }
 
-    public void setCssQ(String cssQ) {
-        this.cssQ = cssQ;
-    }
-
-    public void setAttr(String attr) {
-        this.attr = attr;
-    }
-
-    public void setPattern(String pattern) {
-        this.pattern = pattern;
-    }
 }
