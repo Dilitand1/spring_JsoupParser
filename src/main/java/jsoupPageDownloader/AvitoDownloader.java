@@ -79,7 +79,7 @@ public class AvitoDownloader implements PageDownloader {
         try {
             doc = Jsoup.connect(url)
                     //.userAgent("Chrome/4.0.249.0 Safari/532.5")
-                    .proxy("195.239.115.106",44413)
+                    .proxy("82.194.235.142",8080)
                     //.referrer("http://www.google.com")
                     .get();
         } catch (IOException e) {
