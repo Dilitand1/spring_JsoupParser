@@ -1,0 +1,1150 @@
+
+<!DOCTYPE html>
+
+<html> <head>
+  <script>
+ window.dataLayer = [{"dynx_user":"a","dynx_region":"rostov-na-donu","dynx_prodid":1312704441,"dynx_price":8500,"dynx_category":"tovary_dlya_kompyutera","dynx_vertical":4,"dynx_pagetype":"item"},{"pageType":"Item","itemID":1312704441,"vertical":"GENERAL","categoryId":101,"categorySlug":"tovary_dlya_kompyutera","microCategoryId":3841,"locationId":652000,"isShop":0,"isASDClient":0,"itemPrice":8500,"withDelivery":1,"type_of_trade":"Продаю своё","vid_tovara":"Комплектующие","tip_tovara":"Видеокарты"}];
+ (function(w, d, s, l, i) {
+ w[l] = w[l] || [];
+ w[l].push({
+ 'gtm.start': new Date().getTime(),
+ event: 'gtm.js'
+ });
+ var f = d.getElementsByTagName(s)[0],
+ j = d.createElement(s),
+ dl = l != 'dataLayer' ? '&l=' + l : '';
+ j.async = true;
+ j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+ f.parentNode.insertBefore(j, f);
+ })(window, document, 'script', 'dataLayer', 'GTM-KP9Q9H');
+ </script>
+  <meta charset="utf-8">
+   <meta name="format-detection" content="telephone=no">  <meta name="google-site-verification" content="7iEzRRMJ2_0p66pVS7wTYYvhZZSFBdzL5FVml4IKUS0" />
+            <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.avito.ru/rostov-na-donu/tovary_dlya_kompyutera/videokarta_asus_geforce_gtx_1050_ti_4gb_1312704441">
+      <title>Видеокарта asus GeForce GTX 1050 Ti 4gb купить в Ростовской области на Avito &#8212; Объявления на сайте Авито</title>
+    <link rel="dns-prefetch" href="//an.yandex.ru/"> <link rel="preload" href="//an.yandex.ru/system/context.js" as="script"> <script src="//an.yandex.ru/system/context.js" async></script>
+    <link rel="dns-prefetch" href="//yastatic.net/" > <link rel="preload" href="//yastatic.net/pcode/adfox/loader.js" as="script"> <script src="//yastatic.net/pcode/adfox/loader.js" async></script>
+   <link rel="dns-prefetch" href="//googletagservices.com/" > <link rel="preload" href="//www.googletagservices.com/tag/js/gpt.js" as="script"> <script src="//www.googletagservices.com/tag/js/gpt.js" async></script>
+     <meta name="yandex-verification" content="499bdc75d3636c55" /><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/edcf951a50e7eae10aeb.css"><script src="https://static.avito.ru/s/cc/bundles/909c4ae417b9a5cd5695.js" ></script><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/1292f32a64369c9b214d.css"><script src="https://static.avito.ru/s/cc/bundles/7f552dbca7b963432371.js" ></script><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/53d2be3c75f9cde14e94.css"><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/c2db2eef73d0e6f185a5.css"><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/da2fd69a8ee7bdc022bc.css"><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/12d40f81b7e415ffe00e.css"><script src="https://static.avito.ru/s/cc/bundles/6fe28b6c051467ef0c2f.js" ></script><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/90aae036e18aec88873e.css"><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/c3298eb836d19670aaed.css"><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/ebcae0293be07746b0c1.css"><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/6bc03c892e04b56f656d.css"><script src="https://static.avito.ru/s/cc/bundles/47f639aee1b0f70d9a89.js" ></script><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/8ef44d5f4962ed6d12cd.css"><script src="https://static.avito.ru/s/cc/bundles/929339bc79d43ff30931.js" ></script><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/dc05051745ea311491e1.css"><script src="https://static.avito.ru/s/cc/bundles/b3d53e90695b0049f960.js" ></script><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/242a67f74f37314ae259.css"><script src="https://static.avito.ru/s/cc/bundles/849106ec97bc701992b2.js" ></script><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/2e1abdbe74ad19ff2376.css"><script src="https://static.avito.ru/s/cc/bundles/1b4fb4b8d420f61aba43.js" ></script><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/85b6bdb8815473ef6ff3.css"><script src="https://static.avito.ru/s/cc/bundles/58214d1fc90dc2f5aa16.js" ></script><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/64b1e3df15b7dcb72bf0.css"><script src="https://static.avito.ru/s/cc/bundles/db2ccba05ef26b1ed33c.js" ></script><link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/0aa6a56e38b274a53e64.css"><script src="https://static.avito.ru/s/cc/bundles/27405cff80c5ca8c3f00.js" ></script><link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.avito.st/s/common/touch-icons/common/apple-touch-icon-180x180-precomposed.png?57be3fb" /><link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.avito.st/s/common/touch-icons/common/apple-touch-icon-152x152-precomposed.png?cac4f2a" /><link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.avito.st/s/common/touch-icons/common/apple-touch-icon-144x144-precomposed.png?9615e61" /><link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.avito.st/s/common/touch-icons/common/apple-touch-icon-120x120-precomposed.png?2a32f09" /><link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.avito.st/s/common/touch-icons/common/apple-touch-icon-114x114-precomposed.png?174e153" /><link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.avito.st/s/common/touch-icons/common/apple-touch-icon-76x76-precomposed.png?28e6cfb" /><link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.avito.st/s/common/touch-icons/common/apple-touch-icon-72x72-precomposed.png?aeb90b3" /><link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.avito.st/s/common/touch-icons/common/apple-touch-icon-57x57-precomposed.png?fd7ac94" /><meta name="msapplication-TileColor" content="#000000"><meta name="msapplication-TileImage" content="/s/common/touch-icons/common/mstile-144x144.png"><meta name="msapplication-config" content="browserconfig.xml" /><link href="https://www.avito.st/favicon.ico?9de48a5" rel="shortcut icon" type="image/x-icon" /><link href="https://www.avito.st/ya-tableau-manifest-ru.json?5ac8b8a" rel="yandex-tableau-widget" /><link href="https://www.avito.st/open_search_ru.xml?4b0fd3d" rel="search" type="application/opensearchdescription+xml" title="Авито" /><meta property="og:description" content="Объявление о продаже Видеокарта asus GeForce GTX 1050 Ti 4gb в Ростовской области на Avito. Тип видеокарты игровая
+Графический процессор NVIDIA GeForce GTX 1050 Ti
+Код производителя STRIX-GTX1050TI-O4G-GAMING
+Интерфейс PCI-E 16x 3.0
+Кодовое название графического процессора GP107-400
+Техпроцесс 14 нм
+Количество поддерживаемых мониторов 3
+Максимальное разрешение 7680x4320
+Технические характеристики
+Частота графического процессора 1379 МГ..." /><meta name="description" content="Объявление о продаже Видеокарта asus GeForce GTX 1050 Ti 4gb в Ростовской области на Avito. Тип видеокарты игровая
+Графический процессор NVIDIA GeForce GTX 1050 Ti
+Код производителя STRIX-GTX1050TI-O4G-GAMING
+Интерфейс PCI-E 16x 3.0
+Кодовое название графического процессора GP107-400
+Техпроцесс 14 нм
+Количество поддерживаемых мониторов 3
+Максимальное разрешение 7680x4320
+Технические характеристики
+Частота графического процессора 1379 МГ..." /><meta name="mrc__share_title" content="Объявление на Авито - Видеокарта asus GeForce GTX 1050 Ti 4gb" /><meta name="mrc__share_description" content="Тип видеокарты игровая Графический процессор NVIDIA GeForce GTX 1050 Ti Код производителя STRIX-GTX1050TI-O4G-GAMING Интерфей..." /><link rel="image_src" href="https://www.avito.ru/img/share/auto/5055920348" /><meta property="og:title" content="Видеокарта asus GeForce GTX 1050 Ti 4gb" /><meta property="og:type" content="website" /><meta property="og:url" content="https://www.avito.ru/rostov-na-donu/tovary_dlya_kompyutera/videokarta_asus_geforce_gtx_1050_ti_4gb_1312704441" /><meta property="og:site_name" content="Авито" /><meta property="og:locale" content="ru_RU" /><meta property="fb:app_id" content="472292516308756" /><meta property="product:price:amount" content="8500" /><meta property="product:price:currency" content="RUB"/><meta property="og:image" content="https://www.avito.ru/img/share/auto/5055920348" /><meta property="og:image:alt" content="Видеокарта asus GeForce GTX 1050 Ti 4gb" /><meta property="og:image" content="https://www.avito.ru/img/share/auto/5055920903" /><meta property="og:image:alt" content="Видеокарта asus GeForce GTX 1050 Ti 4gb" /><meta property="og:image" content="https://www.avito.ru/img/share/auto/5055921276" /><meta property="og:image:alt" content="Видеокарта asus GeForce GTX 1050 Ti 4gb" /><meta property="og:image" content="https://www.avito.ru/img/share/auto/5055920348" /><meta property="og:image:alt" content="Видеокарта asus GeForce GTX 1050 Ti 4gb" /><link rel="canonical" href="https://www.avito.ru/rostov-na-donu/tovary_dlya_kompyutera/videokarta_asus_geforce_gtx_1050_ti_4gb_1312704441" /><link rel="alternate" href="android-app&#x3A;&#x2F;&#x2F;com.avito.android&#x2F;ru.avito&#x2F;1&#x2F;items&#x2F;1312704441" /><link rel="alternate" href="ios-app&#x3A;&#x2F;&#x2F;417281773&#x2F;ru.avito&#x2F;1&#x2F;items&#x2F;1312704441" />  <script src="https://static.avito.ru/s/cc/chunks/996adbfb0217f1aebe2c.js" ></script>
+<script src="https://static.avito.ru/s/cc/bundles/f8703ea4e5ad5de5804b.js" ></script>
+ <script src="https://static.avito.ru/s/cc/chunks/97c91b2c7d138de0e7fd.js" ></script>
+<script src="https://static.avito.ru/s/cc/bundles/55b6433460231e998d74.js" ></script>
+    <script>
+ window.capturedErrors = [];
+ window.addEventListener('error', function(error) {
+ window.capturedErrors.push(error);
+ });
+ </script> <script>
+ window.avito = window.avito || {};
+ window.avito.platform = 'desktop';
+ window.avito.siteName = 'Авито';
+ window.avito.staticPrefix = 'https://www.avito.st';
+ window.avito.supportPrefix = 'https://support.avito.ru';
+ window.avito.pageId = 'item';
+ window.avito.categoryId = 101;
+ window.avito.locationId = null;
+ window.avito.fromPage = 'item';
+ window.avito.sentry = {
+ dsn: 'https://1ede3b886c8b4efd9230509682fe2f12@sntr.avito.ru/41',
+ release: "rc-202003161331-144412"
+ };
+ window.avito.isAuthenticated = '' === '1';
+ window.avito.isVerifiedCompany = '' === '1';
+ window.avito.metrics = {};
+ window.avito.metrics.categoryId = 101;
+ window.avito.metrics.browser = 'chrome.79';
+ window.avito.filtersGroup = 'desktop_catalog_filters';
+ window.avito.experiments = window.avito.experiments || {};
+ window.avito.abFeatures = window.avito.abFeatures || {};
+ // Messenger config section
+ window.avito.socketserver = 'wss://socket.avito.ru/socket';
+ window.avito.httpfallback = '';
+ window.avito.socketImageUploadUrl = 'https://socket.avito.ru/images';
+ window.avito.socketMetricsUrl = 'https://socket.avito.ru/metrics';
+ window.avito.isTestAccount = '' === '1';
+ window.avito.userId = '0';
+  </script>
+  <script src="/s/a/j/dfp/px.js?ch=1"></script> <script src="/s/a/j/dfp/px.js?ch=2"></script>
+
+ <script>
+ window.avito.ads = {
+ userGroup: 75
+ };
+ </script>
+  <script src="https://static.avito.ru/s/cc/chunks/8a68d13f657250af2a9e.js" ></script>
+<script src="https://static.avito.ru/s/cc/bundles/87ea00a177214f8f6182.js" ></script>
+  <script src="https://static.avito.ru/s/cc/bundles/c4c9f2747bf89b17fb40.js" ></script>
+  <script src="https://static.avito.ru/s/cc/bundles/81ded56ca7fdf49115b9.js" ></script>
+   <script src="https://static.avito.ru/s/cc/bundles/dab352d7ea6fe5df1b23.js" ></script>
+  <script src="https://static.avito.ru/s/cc/bundles/8fd7daf94612eec7e8da.js" ></script>
+ <script src="https://static.avito.ru/s/cc/bundles/c30f5481a434932f19e8.js" ></script>
+
+ <script>
+ var avito = avito || {};
+ avito.item = avito.item || {};
+ avito.abFeatures = avito.abFeatures || {};
+ avito.item.url = '/rostov-na-donu/tovary_dlya_kompyutera/videokarta_asus_geforce_gtx_1050_ti_4gb_1312704441';
+ avito.item.id = '1312704441';
+ avito.item.rootCategoryId = 6;
+ avito.item.price = '8500';
+ avito.item.countryHost = 'www.avito.ru';
+ avito.item.siteName = 'Авито';
+ avito.item.isRealty = 0;
+ avito.item.isMyItem = 0;
+ avito.item.hasCvPackage = 0;
+ avito.item.tokenName = 'token[4089584518500]';
+ avito.item.tokenValue = '7aee66e0c8f1cbfd';
+ avito.item.searchHash = '';
+ avito.item.userHashId = '78760556';
+ avito.item.image = '//48.img.avito.st/208x156/5055920348.jpg';
+ avito.item.location = '\u0420\u043E\u0441\u0442\u043E\u0432\u0441\u043A\u0430\u044F\u0020\u043E\u0431\u043B\u0430\u0441\u0442\u044C,\u0020\u0420\u043E\u0441\u0442\u043E\u0432\u002D\u043D\u0430\u002D\u0414\u043E\u043D\u0443,\u0020\u043F\u0440\u002D\u0442\u0020\u041C\u0438\u0445\u0430\u0438\u043B\u0430\u0020\u041D\u0430\u0433\u0438\u0431\u0438\u043D\u0430';
+ avito.item.title = '\u0412\u0438\u0434\u0435\u043E\u043A\u0430\u0440\u0442\u0430\u0020asus\u0020GeForce\u0020GTX\u00201050\u0020Ti\u00204gb';
+ avito.item.priceFormatted = '8 500&nbsp;₽';
+ avito.item.vin = '';
+ avito.item.locationId = 652000;
+ avito.item.categoryId = 101;
+            avito.item.phone = '5ff978f1204932767e382w3595d8bbf6fbbe7wd7d0516ca0da6adwcacd158d727efbfw8fbw48d695wc282e7w972e94w821f872ff';             avito.item.useGreenColor = true;  </script>
+    <link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/131bf1af5521c479421e.css">
+<script src="https://static.avito.ru/s/cc/bundles/7b1e0b32c98c8e6c23f4.js" ></script>
+  <script>
+ window.avito = window.avito || {};
+ window.avito.banners = {"ldr_top":[{"sellingSystem":"AdFox","parameters":{"block_id":"8_bztzj-fqrz","stat_id":"100010174","params":{"puid2":1,"puid18":"item","puid1":75,"puid5":6,"puid12":"h101:h31","puid33":"0","puid14":"193.22.242.116","puid41":"\/rostov-na-donu\/tovary_dlya_kompyutera\/videokarta_asus_geforce_gtx_1050_ti_4gb_1312704441","puid15":"6581:6611","puid6":101,"puid4":651110,"puid3":652000,"puid26":0,"puid30":"0","puid31":0,"puid23":"8000-8999","puid25":1,"puid34":"Видеокарта asus GeForce GTX 1050 Ti 4gb","puid35":8500,"puid36":"\/\/48.img.avito.st\/640x480\/5055920348.jpg","puid63":"70"},"alid":"39ebe31ec3faba590f5b791ce5fbfa14"}},{"sellingSystem":"DFP","parameters":{"dfp_slot":"\/7870\/AR\/bytovaya_elektronika\/tovary_dlya_kompyutera\/Item\/ldr_top","google_adexchange_pf":"20","yandex_rtb_low_block_id":"R-A-419506-34","yandex_rtb_low_stat_id":"100010174","sizes":[[1000,120],[1000,90],[970,90],[728,90],[980,120],[960,90],[950,90],[1,1],[900,90],[1000,200],[644,105]],"count":1,"targetings":{"bp":"ldr_top"},"alid":"39ebe31ec3faba590f5b791ce5fbfa14"}}],"tgb1":[{"sellingSystem":"AdFox","parameters":{"block_id":"8_bzueg-fvlr","stat_id":"100010174","params":{"puid2":1,"puid18":"item","puid1":75,"puid5":6,"puid12":"h101:h31","puid33":"0","puid14":"193.22.242.116","puid41":"\/rostov-na-donu\/tovary_dlya_kompyutera\/videokarta_asus_geforce_gtx_1050_ti_4gb_1312704441","puid15":"6581:6611","puid6":101,"puid4":651110,"puid3":652000,"puid26":0,"puid30":"0","puid31":0,"puid23":"8000-8999","puid25":1,"puid34":"Видеокарта asus GeForce GTX 1050 Ti 4gb","puid35":8500,"puid36":"\/\/48.img.avito.st\/640x480\/5055920348.jpg","puid63":"50"},"alid":"f9f1ef424c1aaa4f5ee734f2743ad6d5"}},{"sellingSystem":"DFP","parameters":{"dfp_slot":"\/7870\/AR\/bytovaya_elektronika\/tovary_dlya_kompyutera\/Item\/tgb1","google_adexchange_pf":"20","yandex_rtb_low_block_id":"R-A-419506-22","yandex_rtb_low_stat_id":"100010174","sizes":[[240,160],[240,133],[240,145],[240,200],[300,195],[300,250],[240,400]],"count":1,"targetings":{"bp":"tgb1"},"alid":"f9f1ef424c1aaa4f5ee734f2743ad6d5"}}],"tgb2":[{"sellingSystem":"Yandex RTB","parameters":{"block_id":"R-A-419506-123","stat_id":"100010174","alid":"c1ef752e416de938344b91d0f35dd6ed"}},{"sellingSystem":"DFP","parameters":{"dfp_slot":"\/7870\/AR\/bytovaya_elektronika\/tovary_dlya_kompyutera\/Item\/tgb2","google_adexchange_pf":"20","yandex_rtb_low_block_id":"R-A-419506-56","yandex_rtb_low_stat_id":"100010174","sizes":[[240,160],[240,133],[240,145],[240,200],[300,195],[300,250],[240,400]],"count":1,"targetings":{"bp":"tgb2"},"alid":"c1ef752e416de938344b91d0f35dd6ed"}}],"wl":[{"sellingSystem":"AdFox","parameters":{"block_id":"8_bztzp-fvlf","stat_id":"100010174","params":{"puid2":1,"puid18":"item","puid1":75,"puid5":6,"puid12":"h101:h31","puid33":"0","puid14":"193.22.242.116","puid41":"\/rostov-na-donu\/tovary_dlya_kompyutera\/videokarta_asus_geforce_gtx_1050_ti_4gb_1312704441","puid15":"6581:6611","puid6":101,"puid4":651110,"puid3":652000,"puid26":0,"puid30":"0","puid31":0,"puid23":"8000-8999","puid25":1,"puid34":"Видеокарта asus GeForce GTX 1050 Ti 4gb","puid35":8500,"puid36":"\/\/48.img.avito.st\/640x480\/5055920348.jpg","puid63":"50"},"alid":"b2f391eb1f328d4db9afb9c987f85bce"}},{"sellingSystem":"DFP","parameters":{"dfp_slot":"\/7870\/AR\/bytovaya_elektronika\/tovary_dlya_kompyutera\/Item\/wl","google_adexchange_pf":"20","yandex_rtb_low_block_id":"R-A-419506-22","yandex_rtb_low_stat_id":"100010174","sizes":[[240,240],[240,400],[300,250],[308,400]],"count":1,"targetings":{"bp":"wl"},"alid":"b2f391eb1f328d4db9afb9c987f85bce"}}],"ldr_low":[{"sellingSystem":"Yandex RTB","parameters":{"block_id":"R-A-419506-125","stat_id":"100010174","alid":"4605d08467a86b65790000eebbbbc5a9"}},{"sellingSystem":"DFP","parameters":{"dfp_slot":"\/7870\/AR\/bytovaya_elektronika\/tovary_dlya_kompyutera\/Item\/ldr_low","google_adexchange_pf":"10","yandex_rtb_low_block_id":"R-A-419506-48","yandex_rtb_low_stat_id":"100010174","sizes":[[728,90],[1000,90],[1000,120],[970,90],[980,120],[900,90]],"count":1,"targetings":{"bp":"ldr_low"},"alid":"4605d08467a86b65790000eebbbbc5a9"}}]};
+ window.avito.rmp = window.avito.rmp || {};
+ window.avito.rmp.dfpTargetings = {"isrmp":1,"page_type":"item","AudRandom":75,"keyword":"","g_metro":null,"master_category":6,"pmin":null,"pmax":null,"cat_interests":["h101","h31"],"params_interests":[],"socd":[],"abp":"0","ip":"193.22.242.116","referer":"\/rostov-na-donu\/tovary_dlya_kompyutera\/videokarta_asus_geforce_gtx_1050_ti_4gb_1312704441","item_property":["6581","6611"],"slave_category":101,"g_country":621540,"g_reg":651110,"g_city":652000,"g_domofond_reg":"rostovskaya_oblast-r43","Usid":0,"stlogin":"0","phcodedesc":null,"Uname_Get4C":"","has_shop":0,"company_id":null,"price":"8000-8999","stcompany":1,"par_title":"Видеокарта asus GeForce GTX 1050 Ti 4gb","par_price":8500,"par_picture":"\/\/48.img.avito.st\/640x480\/5055920348.jpg"};
+ window.avito.rmp.debug = [];
+ window.avito.rmp.enabledBanners = {"ldr_top":{"code":"ldr_top"},"tgb1":{"code":"tgb1"},"tgb2":{"code":"tgb2"},"wl":{"code":"wl"},"ldr_low":{"code":"ldr_low"}};
+ window.avito.rmp.enableEventSampling = false;
+ window.avito.abFeatures = window.avito.abFeatures || {};
+ window.avito.abFeatures.adsRefreshCheckScrollDynamicHeight = false;
+ window.avito.abFeatures.adsRefreshCheckScrollFixedHeight = false;
+ window.avito.abFeatures.adsRefreshCheckIntervalDynamicHeight = false;
+ window.avito.abFeatures.adsRefreshCheckIntervalFixedHeight = false;
+      window.avito_desktop = true;
+ </script>
+ <script src="https://static.avito.ru/s/cc/bundles/0862ecf1e92e46a25324.js" ></script>
+  <script src="https://static.avito.ru/s/cc/chunks/8d71bd1c5de8393e1296.js" async></script>
+<script src="https://static.avito.ru/s/cc/chunks/95283a5e4254c85e949c.js" async></script>
+<script src="https://static.avito.ru/s/cc/chunks/98d93fcb1728f2a05b30.js" async></script>
+<script src="https://static.avito.ru/s/cc/bundles/a5e26f7ef01c42c3ea71.js" async></script>
+   <script src="https://static.avito.ru/s/cc/bundles/aabee0a7f4ecb5140576.js" async></script>
+  <script src="https://static.avito.ru/s/cc/bundles/5b603f65afa35ff91ef3.js" ></script>
+ </head> <body class="windows windows chrome chrome-chrome "  >
+  <noscript> <iframe src="//www.googletagmanager.com/ns.html?id=GTM-KP9Q9H" height="0" width="0" style="display:none;visibility:hidden"></iframe> </noscript>
+
+<div class="js-header-container header-container   header-container_no-bottom-margin    header-responsive">
+    <div class='js-header' data-state='{"body_class":"windows windows chrome chrome-chrome","country":{"host":"www.avito.ru","country_slug":"rossiya","site_name":"Авито","currency_sign":"₽"},"currentPage":"item","headerInfo":[],"addButtonText":"Подать объявление","hideAddButton":false,"isNCEnabled":false,"isShowAvitoPro":false,"luri":"rostov-na-donu","menu":{"catalog":{"title":"Объявления","link":"catalog","active":true},"shops":{"title":"Магазины","link":"shops"},"business":{"title":"Бизнес","link":"business"},"support":{"title":"Помощь","absoluteLink":"support.avito.ru"}},"messenger":[],"servicesClassName":"header-services","user":{"isAuthenticated":false,"id":0,"name":"","hasShopSubscription":false,"isLegalPerson":false,"avatar":null},"userAccount":{"balance":{"bonus":"","real":"0","total":"0"},"isSeparationBalance":null},"user_location_id":652000,"responsive":true,"hierarchy":[],"inTNS8114test":true,"now":1584452366,"_dashboard":{}}'><div
+ class="header-root-1FCTt header-services header-responsive-yeqX8"
+ data-marker="header/navbar"><div class="header-inner-3iFNe header-clearfix-kI6fL"><ul class="header-list-IUZFq header-nav-wQVeb header-clearfix-kI6fL"><li class="header-nav-item-1OJG-"><a
+ class="header-link-TLsAU header-nav-link-126h3"
+ href="/rostov-na-donu"
+    >Объявления</a></li><li class="header-nav-item-1OJG-"><a
+ class="header-link-TLsAU header-nav-link-126h3"
+ href="/shops/rostov-na-donu"
+    >Магазины</a></li><li class="header-nav-item-1OJG-"><a
+ class="header-link-TLsAU header-nav-link-126h3"
+ href="/business"
+   >Бизнес</a></li><li class="header-nav-item-1OJG-"><a
+ class="header-link-TLsAU header-nav-link-126h3"
+ href="//support.avito.ru"
+   target="_blank" rel="noopener noreferrer" >Помощь</a></li></ul><div class="header-services-menu-2tz5y"><div class="header-services-menu-item-3H7kQ" data-marker="header/favorites"><a class="header-services-menu-link-fsJlE"
+ href="/favorites"
+ title="Избранное"
+ ><span class="header-services-menu-icon-wrap-STcWG"><span class="header-services-menu-icon-PXhUE"><svg width="21" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.918 5.085a5.256 5.256 0 0 1 7.524 0c2.077 2.114 2.077 5.541 0 7.655l-7.405 7.534a.75.75 0 0 1-1.074 0L2.558 12.74c-2.077-2.114-2.077-5.54 0-7.655a5.256 5.256 0 0 1 7.524 0c.15.152.289.312.418.479.13-.167.269-.327.418-.479z" fill="#CCC" fill-rule="nonzero"/></svg></span><i class="header-icon-count-2EGgu header-icon-count_red-3f61L header-icon-count_hidden-3av6Y"></i></span></a></div><div class="header-services-menu-item_username-32omV "><a class="header-services-menu-link-fsJlE header-services-menu-link-not-authenticated-3Uyu_"
+ href="#login?s=h"
+ data-marker="header/login-button">Вход и регистрация</a></div></div><div class="header-button-wrapper-2UC-r"><a class="button-button-Dtqx2 button-button-origin-12oVr button-button-origin-blue-358Vt"
+ href="#login?s=h&amp;next=%2Fadditem">Подать объявление</a></div></div></div></div>    <div class='js-header-navigation' data-state='{"alternativeCategoryMenu":null,"categoryMenu":[{"title":"Авто","categoryId":"Obj_Category_ROOT_TRANSPORT"},{"title":"Недвижимость","categoryId":"Obj_Category_ROOT_REAL_ESTATE"},{"title":"Работа","categoryId":"Obj_Category_ROOT_JOB"},{"title":"Услуги","categoryId":"Obj_Category_ROOT_SERVICES"}],"categoryTree":[{"id":1000001,"mcId":1,"name":"Все категории","subs":[{"id":1000002,"mcId":2,"name":"Транспорт","subs":[{"id":1000014,"mcId":14,"name":"Автомобили","subs":[],"url":"\/rostov-na-donu\/avtomobili?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":9,"params":[],"count":1},{"id":1000015,"mcId":15,"name":"Мотоциклы и мототехника","subs":[],"url":"\/rostov-na-donu\/mototsikly_i_mototehnika?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":14,"params":[],"count":1},{"id":1000016,"mcId":16,"name":"Грузовики и спецтехника","subs":[],"url":"\/rostov-na-donu\/gruzoviki_i_spetstehnika?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":81,"params":[],"count":1},{"id":1000012,"mcId":12,"name":"Водный транспорт","subs":[],"url":"\/rostov-na-donu\/vodnyy_transport?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":11,"params":[],"count":1},{"id":1000017,"mcId":17,"name":"Запчасти и аксессуары","subs":[],"url":"\/rostov-na-donu\/zapchasti_i_aksessuary?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":10,"params":[],"count":1}],"url":"\/rostov-na-donu\/transport?cd=1","current":false,"currentParent":false,"opened":false,"level":1,"categoryId":1,"params":[],"count":6},{"id":1000005,"mcId":5,"name":"Недвижимость","subs":[{"id":1000030,"mcId":30,"name":"Квартиры","subs":[],"url":"\/rostov-na-donu\/kvartiry?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":24,"params":[],"count":1},{"id":1000031,"mcId":31,"name":"Комнаты","subs":[],"url":"\/rostov-na-donu\/komnaty?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":23,"params":[],"count":1},{"id":1000032,"mcId":32,"name":"Дома, дачи, коттеджи","subs":[],"url":"\/rostov-na-donu\/doma_dachi_kottedzhi?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":25,"params":[],"count":1},{"id":1000033,"mcId":33,"name":"Земельные участки","subs":[],"url":"\/rostov-na-donu\/zemelnye_uchastki?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":26,"params":[],"count":1},{"id":1000034,"mcId":34,"name":"Гаражи и машиноместа","subs":[],"url":"\/rostov-na-donu\/garazhi_i_mashinomesta?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":85,"params":[],"count":1},{"id":1000035,"mcId":35,"name":"Коммерческая недвижимость","subs":[],"url":"\/rostov-na-donu\/kommercheskaya_nedvizhimost?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":42,"params":[],"count":1},{"id":1000036,"mcId":36,"name":"Недвижимость за рубежом","subs":[],"url":"\/rostov-na-donu\/nedvizhimost_za_rubezhom?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":86,"params":[],"count":1}],"url":"\/rostov-na-donu\/nedvizhimost?cd=1","current":false,"currentParent":false,"opened":false,"level":1,"categoryId":4,"params":[],"count":8},{"id":1000010,"mcId":10,"name":"Работа","subs":[{"id":14457,"mcId":61,"name":"Вакансии","subs":[],"url":"\/rostov-na-donu\/vakansii?cd=1&rn=14457","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":111,"params":[],"count":1},{"id":1000061,"mcId":61,"name":"Отрасли","subs":[],"url":"\/rostov-na-donu\/vakansii?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":111,"params":[],"count":1},{"id":1000062,"mcId":62,"name":"Резюме","subs":[],"url":"\/rostov-na-donu\/rezume?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":112,"params":[],"count":1}],"url":"\/rostov-na-donu\/rabota?cd=1","current":false,"currentParent":false,"opened":false,"level":1,"categoryId":110,"params":[],"count":3},{"id":1000063,"mcId":63,"name":"Услуги","subs":[],"url":"\/rostov-na-donu\/predlozheniya_uslug?cd=1","current":false,"currentParent":false,"opened":false,"level":1,"categoryId":114,"params":[],"count":24},{"id":1000006,"mcId":6,"name":"Личные вещи","subs":[{"id":1000037,"mcId":37,"name":"Одежда, обувь, аксессуары","subs":[],"url":"\/rostov-na-donu\/odezhda_obuv_aksessuary?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":27,"params":[],"count":1},{"id":1000038,"mcId":38,"name":"Детская одежда и обувь","subs":[],"url":"\/rostov-na-donu\/detskaya_odezhda_i_obuv?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":29,"params":[],"count":1},{"id":1000039,"mcId":39,"name":"Товары для детей и игрушки","subs":[],"url":"\/rostov-na-donu\/tovary_dlya_detey_i_igrushki?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":30,"params":[],"count":1},{"id":1000040,"mcId":40,"name":"Часы и украшения","subs":[],"url":"\/rostov-na-donu\/chasy_i_ukrasheniya?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":28,"params":[],"count":1},{"id":1000041,"mcId":41,"name":"Красота и здоровье","subs":[],"url":"\/rostov-na-donu\/krasota_i_zdorove?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":88,"params":[],"count":1}],"url":"\/rostov-na-donu\/lichnye_veschi?cd=1","current":false,"currentParent":false,"opened":false,"level":1,"categoryId":5,"params":[],"count":6},{"id":1000003,"mcId":3,"name":"Для дома и дачи","subs":[{"id":1000020,"mcId":20,"name":"Бытовая техника","subs":[],"url":"\/rostov-na-donu\/bytovaya_tehnika?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":21,"params":[],"count":1},{"id":1000021,"mcId":21,"name":"Мебель и интерьер","subs":[],"url":"\/rostov-na-donu\/mebel_i_interer?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":20,"params":[],"count":1},{"id":1000022,"mcId":22,"name":"Посуда и товары для кухни","subs":[],"url":"\/rostov-na-donu\/posuda_i_tovary_dlya_kuhni?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":87,"params":[],"count":1},{"id":1000018,"mcId":18,"name":"Продукты питания","subs":[],"url":"\/rostov-na-donu\/produkty_pitaniya?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":82,"params":[],"count":1},{"id":1000023,"mcId":23,"name":"Ремонт и строительство","subs":[],"url":"\/rostov-na-donu\/remont_i_stroitelstvo?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":19,"params":[],"count":1},{"id":1000019,"mcId":19,"name":"Растения","subs":[],"url":"\/rostov-na-donu\/rasteniya?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":106,"params":[],"count":1}],"url":"\/rostov-na-donu\/dlya_doma_i_dachi?cd=1","current":false,"currentParent":false,"opened":false,"level":1,"categoryId":2,"params":[],"count":7},{"id":1000007,"mcId":7,"name":"Бытовая электроника","subs":[{"id":1000043,"mcId":43,"name":"Аудио и видео","subs":[],"url":"\/rostov-na-donu\/audio_i_video?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":32,"params":[],"count":1},{"id":1000044,"mcId":44,"name":"Игры, приставки и программы","subs":[],"url":"\/rostov-na-donu\/igry_pristavki_i_programmy?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":97,"params":[],"count":1},{"id":1000045,"mcId":45,"name":"Настольные компьютеры","subs":[],"url":"\/rostov-na-donu\/nastolnye_kompyutery?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":31,"params":[],"count":1},{"id":1000046,"mcId":46,"name":"Ноутбуки","subs":[],"url":"\/rostov-na-donu\/noutbuki?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":98,"params":[],"count":1},{"id":1000047,"mcId":47,"name":"Оргтехника и расходники","subs":[],"url":"\/rostov-na-donu\/orgtehnika_i_rashodniki?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":99,"params":[],"count":1},{"id":1000048,"mcId":48,"name":"Планшеты и электронные книги","subs":[],"url":"\/rostov-na-donu\/planshety_i_elektronnye_knigi?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":96,"params":[],"count":1},{"id":1000049,"mcId":49,"name":"Телефоны","subs":[],"url":"\/rostov-na-donu\/telefony?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":84,"params":[],"count":1},{"id":1000042,"mcId":42,"name":"Товары для компьютера","subs":[],"url":"\/rostov-na-donu\/tovary_dlya_kompyutera?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":101,"params":[],"count":1},{"id":1000050,"mcId":50,"name":"Фототехника","subs":[],"url":"\/rostov-na-donu\/fototehnika?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":105,"params":[],"count":1}],"url":"\/rostov-na-donu\/bytovaya_elektronika?cd=1","current":false,"currentParent":false,"opened":false,"level":1,"categoryId":6,"params":[],"count":10},{"id":1000008,"mcId":8,"name":"Хобби и отдых","subs":[{"id":1000051,"mcId":51,"name":"Билеты и путешествия","subs":[],"url":"\/rostov-na-donu\/bilety_i_puteshestviya?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":33,"params":[],"count":1},{"id":1000053,"mcId":53,"name":"Велосипеды","subs":[],"url":"\/rostov-na-donu\/velosipedy?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":34,"params":[],"count":1},{"id":1000054,"mcId":54,"name":"Книги и журналы","subs":[],"url":"\/rostov-na-donu\/knigi_i_zhurnaly?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":83,"params":[],"count":1},{"id":1000055,"mcId":55,"name":"Коллекционирование","subs":[],"url":"\/rostov-na-donu\/kollektsionirovanie?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":36,"params":[],"count":1},{"id":1000052,"mcId":52,"name":"Музыкальные инструменты","subs":[],"url":"\/rostov-na-donu\/muzykalnye_instrumenty?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":38,"params":[],"count":1},{"id":1000056,"mcId":56,"name":"Охота и рыбалка","subs":[],"url":"\/rostov-na-donu\/ohota_i_rybalka?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":102,"params":[],"count":1},{"id":1000057,"mcId":57,"name":"Спорт и отдых","subs":[],"url":"\/rostov-na-donu\/sport_i_otdyh?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":39,"params":[],"count":1}],"url":"\/rostov-na-donu\/hobbi_i_otdyh?cd=1","current":false,"currentParent":false,"opened":false,"level":1,"categoryId":7,"params":[],"count":8},{"id":1000004,"mcId":4,"name":"Животные","subs":[{"id":1000024,"mcId":24,"name":"Собаки","subs":[],"url":"\/rostov-na-donu\/sobaki?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":89,"params":[],"count":1},{"id":1000025,"mcId":25,"name":"Кошки","subs":[],"url":"\/rostov-na-donu\/koshki?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":90,"params":[],"count":1},{"id":1000026,"mcId":26,"name":"Птицы","subs":[],"url":"\/rostov-na-donu\/ptitsy?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":91,"params":[],"count":1},{"id":1000027,"mcId":27,"name":"Аквариум","subs":[],"url":"\/rostov-na-donu\/akvarium?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":92,"params":[],"count":1},{"id":1000028,"mcId":28,"name":"Другие животные","subs":[],"url":"\/rostov-na-donu\/drugie_zhivotnye?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":93,"params":[],"count":1},{"id":1000029,"mcId":29,"name":"Товары для животных","subs":[],"url":"\/rostov-na-donu\/tovary_dlya_zhivotnyh?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":94,"params":[],"count":1}],"url":"\/rostov-na-donu\/zhivotnye?cd=1","current":false,"currentParent":false,"opened":false,"level":1,"categoryId":35,"params":[],"count":7},{"id":1000009,"mcId":9,"name":"Для бизнеса","subs":[{"id":1000059,"mcId":59,"name":"Готовый бизнес","subs":[],"url":"\/rostov-na-donu\/gotoviy_biznes?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":116,"params":[],"count":1},{"id":1000060,"mcId":60,"name":"Оборудование для бизнеса","subs":[],"url":"\/rostov-na-donu\/oborudovanie_dlya_biznesa?cd=1","current":false,"currentParent":false,"opened":false,"level":2,"categoryId":40,"params":[],"count":1}],"url":"\/rostov-na-donu\/dlya_biznesa?cd=1","current":false,"currentParent":false,"opened":false,"level":1,"categoryId":8,"params":[],"count":3}],"url":"\/rostov-na-donu?cd=1","current":true,"currentParent":false,"opened":false,"level":0,"categoryId":null,"params":[],"count":82}],"commonCategories":{"Obj_Category_VERTICAL_AUTO":{"slug":null,"id":0},"Obj_Category_VERTICAL_REALTY":{"slug":"transport","id":1},"Obj_Category_VERTICAL_JOB":{"slug":"dlya_doma_i_dachi","id":2},"Obj_Category_VERTICAL_SERVICES":{"slug":null,"id":3},"Obj_Category_ROOT_TRANSPORT":{"slug":"transport","id":1},"Obj_Category_ROOT_REAL_ESTATE":{"slug":"nedvizhimost","id":4},"Obj_Category_ROOT_JOB":{"slug":"rabota","id":110},"Obj_Category_JOB_VACANCIES":{"slug":"vakansii","id":111},"Obj_Category_JOB_RESUME":{"slug":"rezume","id":112},"Obj_Category_ROOT_SERVICES":{"slug":"predlozheniya_uslug","id":114},"Obj_Category_TRANSPORT_CARS":{"slug":"avtomobili","id":9}},"constant":{"Obj_Category_VERTICAL_AUTO":0,"Obj_Category_VERTICAL_REALTY":1,"Obj_Category_VERTICAL_JOB":2,"Obj_Category_VERTICAL_SERVICES":3,"Obj_Category_ROOT_TRANSPORT":1,"Obj_Category_ROOT_REAL_ESTATE":4,"Obj_Category_ROOT_JOB":110,"Obj_Category_JOB_VACANCIES":111,"Obj_Category_JOB_RESUME":112,"Obj_Category_ROOT_SERVICES":114,"Obj_Category_TRANSPORT_CARS":9},"country":{"country_slug":"rossiya","site_name":"Авито","currency_sign":"₽"},"luri":"rostov-na-donu","verticalId":4,"responsive":true,"orderAllCategories":[{"id":0,"values":[1,2,8]},{"id":1,"values":[4,6]},{"id":2,"values":[110,114,7]},{"id":3,"values":[5,35]}],"now":1584452366,"_dashboard":{}}'><div
+ class="header-navigation-basic-i28MZ header-container-basic header-navigation-responsive-2_5tJ"
+ data-marker="header/navigation"><div class="header-navigation-basic-inner-226Ce  header-container-basic-inner"><div class="header-navigation-logo-2aaur"><span class="logo-root-fxfjv"><a class="logo-logo-2YITg" href="/" title=&quot;Авито &amp;mdash; сайт объявлений&quot;></a></span></div><div class="header-navigation-categories-87Lbp"><div><ul class="simple-with-more-rubricator-category-list-1B8Ve"><li class="simple-with-more-rubricator-category-item-1oRcq "><a class="simple-with-more-rubricator-link-27kbj simple-with-more-rubricator-category-link-3ngHO"
+ href="/rostov-na-donu/transport"
+ data-marker="navigation/link"
+ data-category-id="1"
+ >Авто</a></li><li class="simple-with-more-rubricator-category-item-1oRcq "><a class="simple-with-more-rubricator-link-27kbj simple-with-more-rubricator-category-link-3ngHO"
+ href="/rostov-na-donu/nedvizhimost"
+ data-marker="navigation/link"
+ data-category-id="4"
+ >Недвижимость</a></li><li class="simple-with-more-rubricator-category-item-1oRcq "><a class="simple-with-more-rubricator-link-27kbj simple-with-more-rubricator-category-link-3ngHO"
+ href="/rostov-na-donu/rabota"
+ data-marker="navigation/link"
+ data-category-id="110"
+ >Работа</a></li><li class="simple-with-more-rubricator-category-item-1oRcq "><a class="simple-with-more-rubricator-link-27kbj simple-with-more-rubricator-category-link-3ngHO"
+ href="/rostov-na-donu/predlozheniya_uslug"
+ data-marker="navigation/link"
+ data-category-id="114"
+ >Услуги</a></li><li class="simple-with-more-rubricator-category-item-1oRcq"><button class="simple-with-more-rubricator-link-27kbj simple-with-more-rubricator-category-link-3ngHO simple-with-more-rubricator-category-link_more-3cOco"
+ data-marker="navigation/more-button"
+ type="button" data-location-id="">ещё</button></li></ul><div
+ class="simple-with-more-rubricator-more-popup-2fDTp"
+ data-marker="navigation/more-popup"><div
+ class="simple-with-more-rubricator-more-popup-arrow-13hlF"
+ ></div><div><div class="simple-with-more-rubricator-header-categories-all-2Yo_9 js-header-more-content"><div class="simple-with-more-rubricator-header-categories-all__all-1ElCY"><a href="/rostov-na-donu">Все категории</a></div><div
+ class="simple-with-more-rubricator-header-categories-all__column-wrapper-Ognfc"
+ ><div class="simple-with-more-rubricator-header-categories-all__column-3KQAH"><ul class="simple-with-more-rubricator-header-categories-all__list-3UY03"><li class=" simple-with-more-rubricator-header-categories-all__item_parent-yGrsI"><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/nedvizhimost?cd=1"
+ data-category-id="1000005"
+ >Недвижимость</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/kvartiry?cd=1"
+ data-category-id="1000030"
+ >Квартиры</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/komnaty?cd=1"
+ data-category-id="1000031"
+ >Комнаты</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/doma_dachi_kottedzhi?cd=1"
+ data-category-id="1000032"
+ >Дома, дачи, коттеджи</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/zemelnye_uchastki?cd=1"
+ data-category-id="1000033"
+ >Земельные участки</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/garazhi_i_mashinomesta?cd=1"
+ data-category-id="1000034"
+ >Гаражи и машиноместа</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/kommercheskaya_nedvizhimost?cd=1"
+ data-category-id="1000035"
+ >Коммерческая недвижимость</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/nedvizhimost_za_rubezhom?cd=1"
+ data-category-id="1000036"
+ >Недвижимость за рубежом</a></li></ul><ul class="simple-with-more-rubricator-header-categories-all__list-3UY03"><li class=" simple-with-more-rubricator-header-categories-all__item_parent-yGrsI"><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/rabota?cd=1"
+ data-category-id="1000010"
+ >Работа</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/vakansii?cd=1&amp;rn=14457"
+ data-category-id="14457"
+ >Вакансии</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/vakansii?cd=1"
+ data-category-id="1000061"
+ >Отрасли</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/rezume?cd=1"
+ data-category-id="1000062"
+ >Резюме</a></li></ul><ul class="simple-with-more-rubricator-header-categories-all__list-3UY03"><li class=" simple-with-more-rubricator-header-categories-all__item_parent-yGrsI"><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/zhivotnye?cd=1"
+ data-category-id="1000004"
+ >Животные</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/sobaki?cd=1"
+ data-category-id="1000024"
+ >Собаки</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/koshki?cd=1"
+ data-category-id="1000025"
+ >Кошки</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/ptitsy?cd=1"
+ data-category-id="1000026"
+ >Птицы</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/akvarium?cd=1"
+ data-category-id="1000027"
+ >Аквариум</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/drugie_zhivotnye?cd=1"
+ data-category-id="1000028"
+ >Другие животные</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/tovary_dlya_zhivotnyh?cd=1"
+ data-category-id="1000029"
+ >Товары для животных</a></li></ul></div><div class="simple-with-more-rubricator-header-categories-all__column-3KQAH"><ul class="simple-with-more-rubricator-header-categories-all__list-3UY03"><li class=" simple-with-more-rubricator-header-categories-all__item_parent-yGrsI"><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/lichnye_veschi?cd=1"
+ data-category-id="1000006"
+ >Личные вещи</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/odezhda_obuv_aksessuary?cd=1"
+ data-category-id="1000037"
+ >Одежда, обувь, аксессуары</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/detskaya_odezhda_i_obuv?cd=1"
+ data-category-id="1000038"
+ >Детская одежда и обувь</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/tovary_dlya_detey_i_igrushki?cd=1"
+ data-category-id="1000039"
+ >Товары для детей и игрушки</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/chasy_i_ukrasheniya?cd=1"
+ data-category-id="1000040"
+ >Часы и украшения</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/krasota_i_zdorove?cd=1"
+ data-category-id="1000041"
+ >Красота и здоровье</a></li></ul><ul class="simple-with-more-rubricator-header-categories-all__list-3UY03"><li class=" simple-with-more-rubricator-header-categories-all__item_parent-yGrsI"><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/bytovaya_elektronika?cd=1"
+ data-category-id="1000007"
+ >Бытовая электроника</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/audio_i_video?cd=1"
+ data-category-id="1000043"
+ >Аудио и видео</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/igry_pristavki_i_programmy?cd=1"
+ data-category-id="1000044"
+ >Игры, приставки и программы</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/nastolnye_kompyutery?cd=1"
+ data-category-id="1000045"
+ >Настольные компьютеры</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/noutbuki?cd=1"
+ data-category-id="1000046"
+ >Ноутбуки</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/orgtehnika_i_rashodniki?cd=1"
+ data-category-id="1000047"
+ >Оргтехника и расходники</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/planshety_i_elektronnye_knigi?cd=1"
+ data-category-id="1000048"
+ >Планшеты и электронные книги</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/telefony?cd=1"
+ data-category-id="1000049"
+ >Телефоны</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/tovary_dlya_kompyutera?cd=1"
+ data-category-id="1000042"
+ >Товары для компьютера</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/fototehnika?cd=1"
+ data-category-id="1000050"
+ >Фототехника</a></li></ul></div><div class="simple-with-more-rubricator-header-categories-all__column-3KQAH"><ul class="simple-with-more-rubricator-header-categories-all__list-3UY03"><li class=" simple-with-more-rubricator-header-categories-all__item_parent-yGrsI"><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href=""
+ data-category-id=""
+ ></a></li></ul><ul class="simple-with-more-rubricator-header-categories-all__list-3UY03"><li class=" simple-with-more-rubricator-header-categories-all__item_parent-yGrsI"><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href=""
+ data-category-id=""
+ ></a></li></ul><ul class="simple-with-more-rubricator-header-categories-all__list-3UY03"><li class=" simple-with-more-rubricator-header-categories-all__item_parent-yGrsI"><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/hobbi_i_otdyh?cd=1"
+ data-category-id="1000008"
+ >Хобби и отдых</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/bilety_i_puteshestviya?cd=1"
+ data-category-id="1000051"
+ >Билеты и путешествия</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/velosipedy?cd=1"
+ data-category-id="1000053"
+ >Велосипеды</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/knigi_i_zhurnaly?cd=1"
+ data-category-id="1000054"
+ >Книги и журналы</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/kollektsionirovanie?cd=1"
+ data-category-id="1000055"
+ >Коллекционирование</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/muzykalnye_instrumenty?cd=1"
+ data-category-id="1000052"
+ >Музыкальные инструменты</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/ohota_i_rybalka?cd=1"
+ data-category-id="1000056"
+ >Охота и рыбалка</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/sport_i_otdyh?cd=1"
+ data-category-id="1000057"
+ >Спорт и отдых</a></li></ul></div><div class="simple-with-more-rubricator-header-categories-all__column-3KQAH"><ul class="simple-with-more-rubricator-header-categories-all__list-3UY03"><li class=" simple-with-more-rubricator-header-categories-all__item_parent-yGrsI"><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/dlya_doma_i_dachi?cd=1"
+ data-category-id="1000003"
+ >Для дома и дачи</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/bytovaya_tehnika?cd=1"
+ data-category-id="1000020"
+ >Бытовая техника</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/mebel_i_interer?cd=1"
+ data-category-id="1000021"
+ >Мебель и интерьер</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/posuda_i_tovary_dlya_kuhni?cd=1"
+ data-category-id="1000022"
+ >Посуда и товары для кухни</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/produkty_pitaniya?cd=1"
+ data-category-id="1000018"
+ >Продукты питания</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/remont_i_stroitelstvo?cd=1"
+ data-category-id="1000023"
+ >Ремонт и строительство</a></li><li class=""><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href="/rostov-na-donu/rasteniya?cd=1"
+ data-category-id="1000019"
+ >Растения</a></li></ul><ul class="simple-with-more-rubricator-header-categories-all__list-3UY03"><li class=" simple-with-more-rubricator-header-categories-all__item_parent-yGrsI"><a class="simple-with-more-rubricator-header-categories-all__link-k_Jr3 js-header-categories-all__link"
+ href=""
+ data-category-id=""
+ ></a></li></ul></div></div></div></div></div></div></div></div></div></div>  </div>
+    <div class="layout-internal layout-responsive">
+
+<div class="b-search-form  b-search-form_item"> <script>
+  </script> <form
+ id="search_form"
+ class="search-form__form js-search-form-catalog js-search-form"
+ autocomplete="off"
+ action="/search"
+ method="post"
+ data-initial-request-counter='1'
+ data-hide-counter=""
+ data-total-count=''
+ data-marker="search-form"> <div class="search-form-main-controls js-search-form-main-controls">
+  <input type="hidden" class="js-search-map" name="map" value="">
+      <input type="hidden" class="js-token" name="token[4089584518500]" value="7aee66e0c8f1cbfd">
+
+ <div class="search-form__row search-form__row_1 clearfix">
+  <div class="search-form__category"> <div class="form-select-v2">
+
+ <select id="category" name="category_id"
+ class="js-search-form-category "
+ data-marker="search-form/category"> <option value="">Любая категория</option>
+   <option value="1" class="opt-group"  >Транспорт</option>
+    <option value="9" >Автомобили</option>
+    <option value="14" >Мотоциклы и мототехника</option>
+    <option value="81" >Грузовики и спецтехника</option>
+    <option value="11" >Водный транспорт</option>
+    <option value="10" >Запчасти и аксессуары</option>
+    <option value="4" class="opt-group"  >Недвижимость</option>
+    <option value="24" >Квартиры</option>
+    <option value="23" >Комнаты</option>
+    <option value="25" >Дома, дачи, коттеджи</option>
+    <option value="26" >Земельные участки</option>
+    <option value="85" >Гаражи и машиноместа</option>
+    <option value="42" >Коммерческая недвижимость</option>
+    <option value="86" >Недвижимость за рубежом</option>
+    <option value="110" class="opt-group"  >Работа</option>
+    <option value="111" >Вакансии</option>
+    <option value="112" >Резюме</option>
+    <option value="113" class="opt-group"  >Услуги</option>
+    <option value="114" >Предложение услуг</option>
+    <option value="5" class="opt-group"  >Личные вещи</option>
+    <option value="27" >Одежда, обувь, аксессуары</option>
+    <option value="29" >Детская одежда и обувь</option>
+    <option value="30" >Товары для детей и игрушки</option>
+    <option value="28" >Часы и украшения</option>
+    <option value="88" >Красота и здоровье</option>
+    <option value="2" class="opt-group"  >Для дома и дачи</option>
+    <option value="21" >Бытовая техника</option>
+    <option value="20" >Мебель и интерьер</option>
+    <option value="87" >Посуда и товары для кухни</option>
+    <option value="82" >Продукты питания</option>
+    <option value="19" >Ремонт и строительство</option>
+    <option value="106" >Растения</option>
+    <option value="6" class="opt-group"  >Бытовая электроника</option>
+    <option value="32" >Аудио и видео</option>
+    <option value="97" >Игры, приставки и программы</option>
+    <option value="31" >Настольные компьютеры</option>
+    <option value="98" >Ноутбуки</option>
+    <option value="99" >Оргтехника и расходники</option>
+    <option value="96" >Планшеты и электронные книги</option>
+    <option value="84" >Телефоны</option>
+    <option value="101"  selected>Товары для компьютера</option>
+    <option value="105" >Фототехника</option>
+    <option value="7" class="opt-group"  >Хобби и отдых</option>
+    <option value="33" >Билеты и путешествия</option>
+    <option value="34" >Велосипеды</option>
+    <option value="83" >Книги и журналы</option>
+    <option value="36" >Коллекционирование</option>
+    <option value="38" >Музыкальные инструменты</option>
+    <option value="102" >Охота и рыбалка</option>
+    <option value="39" >Спорт и отдых</option>
+    <option value="35" class="opt-group"  >Животные</option>
+    <option value="89" >Собаки</option>
+    <option value="90" >Кошки</option>
+    <option value="91" >Птицы</option>
+    <option value="92" >Аквариум</option>
+    <option value="93" >Другие животные</option>
+    <option value="94" >Товары для животных</option>
+    <option value="8" class="opt-group"  >Для бизнеса</option>
+    <option value="116" >Готовый бизнес</option>
+    <option value="40" >Оборудование для бизнеса</option>
+   </select> </div> </div>
+  <div class="search-form__submit"> <input
+ type="submit"
+ value="Найти"
+ class="search button button-origin js-search-button"
+ data-marker="search-form/submit-button"> </div>
+
+ <div class="hidden js-show-elements" data-show-elements="[&quot;smallRadius&quot;,&quot;districts&quot;]"></div> <div class="search-form__direction"> <div id="directions" class="form-select-v2 param  hidden" data-marker="search-form/directions"> <select
+  disabled
+  name="smallRadius[]" id="directions-select"
+ class="directions"  data-filter="1"> <option data-prev-alias="smallRadius" value="">Радиус / Район</option> </select>
+  <select multiple class="hidden-input-for-tab" id="directions-multiple"></select> </div> <div
+ class="search-form__change-filters disabled js-change-filters"
+  hidden  data-current-tab="smallRadius"
+ data-selected-elements='[]'
+ ></div> </div>
+
+ <div class="search-form__radius"> <div
+ class="
+ form-select-v2
+ js-search-form-radius
+ "> <select
+  id="radius"
+ name="radius"
+ class="js-search-form-radius-select"
+ title="Радиус поиска"
+ data-is-small-radius="1"
+ data-marker="search-form/radius"> <option value="">Радиус / Район</option> </select> </div> <div
+ class="search-form__change-radius disabled  js-change-small-radius "
+  ></div> </div>
+   <input
+ hidden
+ name="geoCoords"
+ class="hidden js-geo-coords"
+ data-default-coords="{&quot;latitude&quot;:47.222543,&quot;longitude&quot;:39.718732,&quot;zoom&quot;:16}"
+ data-geo-coords="{&quot;latitude&quot;:47.222543,&quot;longitude&quot;:39.718732,&quot;zoom&quot;:16}" />
+    <div class="search-form__location">
+   <div class="form-select-v2"> <select
+ id="region"
+ name="location_id"
+ class="js-search-form-region"
+ data-marker="search-form/region">
+ <option
+ value="621540"
+ data-parent-id=""
+   >По всей России</option><option
+ value="651110"
+ data-parent-id="621540"
+   >Ростовская область</option><option class="opt-group" disabled>-- Города --</option><option
+ value="652000"
+ data-parent-id="651110"
+   selected >Ростов-на-Дону</option><option
+ value="651120"
+ data-parent-id="651110"
+   >Азов</option><option
+ value="651130"
+ data-parent-id="651110"
+   >Аксай</option><option
+ value="651180"
+ data-parent-id="651110"
+   >Батайск</option><option
+ value="651280"
+ data-parent-id="651110"
+   >Волгодонск</option><option
+ value="651510"
+ data-parent-id="651110"
+   >Каменск-Шахтинский</option><option
+ value="651830"
+ data-parent-id="651110"
+   >Новочеркасск</option><option
+ value="651840"
+ data-parent-id="651110"
+   >Новошахтинск</option><option
+ value="652010"
+ data-parent-id="651110"
+   >Сальск</option><option
+ value="652100"
+ data-parent-id="651110"
+   >Таганрог</option><option
+ value="652200"
+ data-parent-id="651110"
+   >Шахты</option> <option value="0">Выбрать другой...</option> </select> </div> <div
+ class="search-form__change-location disabled js-change-location"
+ data-location-id="652000"
+ data-location-name="Ростов-на-Дону"
+ data-category-id="101"
+ ></div> </div>
+  <div class="search-form__key-words"> <div id="search_holder" class="search-form__key-words__search-holder"> <input id="search"
+ type="text" name="name" value=""
+ placeholder="Поиск по объявлениям"
+  spellcheck="false" data-suggest="true" maxlength="100"
+ data-suggest-delay=""
+ data-marker="search-form/suggest"> </div> </div> </div> <div
+    class="search-form__row search-form__row_2 js-pre-filters hidden"
+ id="pre-filters"
+ data-delivery-categories='null'
+ data-delivery-locations='null'>
+  <label class="form-checkbox" data-marker="search-form/by-title"> <input type="checkbox" class="js-by-title" name="bt" > <span class="form-checkbox__label">только в названиях</span> </label> <label class="form-checkbox" data-marker="search-form/with-images"> <input type="checkbox" class="js-with-images" name="i" > <span class="form-checkbox__label">только с фото</span> </label> <label class="form-checkbox js-search-form-delivery hidden"> <input class="js-search-form-delivery-checkbox" type="checkbox" name="d" > <span class="form-checkbox__label"> <span class="search-form-delivery-regions">&nbsp;</span>
+ только с доставкой
+ </span> </label>
+     <label
+ class="save-link_wrapper save-link_add "
+ data-is-saved=""
+ >
+  <a
+ href="/autosearch/add"
+ class="save-link js-search-form-save-link"
+ data-action="add"
+ >Сохранить поиск</a>
+  </label>
+   </div> </div>
+  </form>
+ </div>
+ </div>
+
+ <div class="item-view-page-layout item-view-page-layout_content item-view-page-layout_responsive"> <div class="l-content clearfix">
+     <div class="avito-ads-container avito-ads-container_ldr_top ad_1000x120 js-ads-loading avito-ads-placeholder avito-ads-placeholder_ldr_top"> <div id="template_ldr_top" class="avito-ads-template"> <div class="js-banner-1000x120 item-view-ads-ldr_top avito-ads-content"> </div> </div> </div>
+
+<div class="item-navigation ">
+   <div itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs js-breadcrumbs ">
+      <span itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem"> <a
+ itemprop="item"
+ itemtype="http://schema.org/ListItem"
+ class="js-breadcrumbs-link js-breadcrumbs-link-interaction"
+ href="/rostov-na-donu"
+ title="Все объявления в Ростове-на-Дону"
+ > <span itemprop="name">Все объявления в Ростове-на-Дону</span> </a> <meta itemprop="position" content="1"> </span>
+   <span class="breadcrumbs-separator">/</span>
+       <span itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem"> <a
+ itemprop="item"
+ itemtype="http://schema.org/ListItem"
+ class="js-breadcrumbs-link js-breadcrumbs-link-interaction"
+ href="/rostov-na-donu/bytovaya_elektronika"
+ title="Бытовая электроника в Ростове-на-Дону"
+ > <span itemprop="name">&hellip;</span> </a> <meta itemprop="position" content="2"> </span>
+   <span class="breadcrumbs-separator">/</span>
+       <span itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem"> <a
+ itemprop="item"
+ itemtype="http://schema.org/ListItem"
+ class="js-breadcrumbs-link js-breadcrumbs-link-interaction"
+ href="/rostov-na-donu/tovary_dlya_kompyutera"
+ title="Товары для компьютера в Ростове-на-Дону"
+ > <span itemprop="name">&hellip;</span> </a> <meta itemprop="position" content="3"> </span>
+   <span class="breadcrumbs-separator">/</span>
+       <span itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem"> <a
+ itemprop="item"
+ itemtype="http://schema.org/ListItem"
+ class="js-breadcrumbs-link js-breadcrumbs-link-interaction"
+ href="/rostov-na-donu/tovary_dlya_kompyutera/komplektuyuschie-ASgBAgICAUTGB~pm"
+ title="Комплектующие"
+ > <span itemprop="name">Комплектующие</span> </a> <meta itemprop="position" content="4"> </span>
+   <span class="breadcrumbs-separator">/</span>
+       <span itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem"> <a
+ itemprop="item"
+ itemtype="http://schema.org/ListItem"
+ class="js-breadcrumbs-link js-breadcrumbs-link-interaction"
+ href="/rostov-na-donu/tovary_dlya_kompyutera/komplektuyuschie/videokarty-ASgBAgICAkTGB~pm7gmmZw"
+ title="Видеокарты"
+ > <span itemprop="name">Видеокарты</span> </a> <meta itemprop="position" content="5"> </span>
+    </div>
+    <div class="item-navigation-next"> <a class="js-item-view-back-button" href="/rostov-na-donu/tovary_dlya_kompyutera" rel="nofollow" data-from-block=1>В каталог</a>&#160;&#160;&#160;<a class="js-item-view-next-button" href="/rostov-na-donu/tovary_dlya_kompyutera/videokarta_asus_geforce_gtx_1050_ti_4gb_1312704441/next?back=/rostov-na-donu/tovary_dlya_kompyutera" rel="nofollow">Следующее &rarr;</a> </div>
+ </div>
+
+ <div
+ class="item-view js-item-view"
+ itemscope itemtype="http://schema.org/Product">
+
+<div class="sticky-header sticky-header_long-btn-bar js-sticky-header sticky-header_responsive" data-relative-node="toggle-sticker-header"> <div class="item-view-page-layout"> <div class="sticky-header-content"> <div class="sticky-header-left">
+  <div class="sticky-header-favorites">
+  <a href="/favorites/add/1312704441"
+ data-action
+ data-options="&#x7B;&quot;isFavorite&quot;&#x3A;false,&quot;categorySlug&quot;&#x3A;&quot;tovary_dlya_kompyutera&quot;,&quot;compare&quot;&#x3A;null&#x7D;"
+ class="sticky-header-favorites-link add-favorite add-favorite_small js-add-favorite-header"></a> </div>
+  <div class="sticky-header-notes"> <span class="sticky-header-notes-link item-notes-icon_add item-notes-icon_add_header js-add-note-header"></span> </div>
+   <div class="sticky-header-prop sticky-header-title">
+ Видеокарта asus GeForce GTX 1050 Ti 4gb
+ </div> <div class="sticky-header-prop sticky-header-price">
+
+<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="price-value price-value_side-header" id="price-value"> <span class="price-value-string js-price-value-string">
+   <span class="js-item-price" content="8500" itemprop="price">8 500</span>&nbsp;<span itemprop="priceCurrency" content="RUB" class="price-value-prices-list-item-currency_sign"><span class="font_arial-rub">₽</span></span>
+ </span>
+ </div>
+ </div> </div> <div class="sticky-header-right">
+   <div class="sticky-header-prop sticky-header-seller"> <span class="sticky-header-seller-text" title="Владимир">Владимир</span> </div>
+   <div class="sticky-header-prop sticky-header-contacts">
+  <div
+ class="js-safedeal-node-header safedeal-header-button"
+ data-marker="safedeal-item-header"></div>
+
+ <span class="js-item-phone-react" data-props="{&quot;size&quot;:&quot;s&quot;,&quot;source&quot;:&quot;stckheader&quot;}"></span>
+
+<span class="js-messenger-button"
+ data-props="&#x7B;&quot;isOpenInNewTab&quot;&#x3A;null,&quot;isAuthorized&quot;&#x3A;false,&quot;isFullWidth&quot;&#x3A;null,&quot;isMiniMessenger&quot;&#x3A;null,&quot;isIconButton&quot;&#x3A;null,&quot;hasHidePhoneOnboarding&quot;&#x3A;false,&quot;sellerIdHash&quot;&#x3A;78760556,&quot;itemId&quot;&#x3A;1312704441,&quot;itemUrl&quot;&#x3A;&quot;&#x5C;&#x2F;rostov-na-donu&#x5C;&#x2F;tovary_dlya_kompyutera&#x5C;&#x2F;videokarta_asus_geforce_gtx_1050_ti_4gb_1312704441&quot;,&quot;itemCVViewed&quot;&#x3A;null,&quot;categoryId&quot;&#x3A;101,&quot;buttonText&quot;&#x3A;&quot;&#x20;&#x20;&#x041D;&#x0430;&#x043F;&#x0438;&#x0441;&#x0430;&#x0442;&#x044C;&#x20;&#x0441;&#x043E;&#x043E;&#x0431;&#x0449;&#x0435;&#x043D;&#x0438;&#x0435;&#x5C;n&#x20;&quot;,&quot;replyTime&quot;&#x3A;null,&quot;logParams&quot;&#x3A;&#x7B;&quot;isFromOasis&quot;&#x3A;false,&quot;userId&quot;&#x3A;0,&quot;wsrc&quot;&#x3A;&quot;item&quot;,&quot;s&quot;&#x3A;&quot;mi&quot;&#x7D;,&quot;experiments&quot;&#x3A;&#x7B;&quot;item&quot;&#x3A;&#x5B;&#x5D;,&quot;loginPopup&quot;&#x3A;&#x7B;&quot;abs&quot;&#x3A;&quot;2514&#x3A;1&#x3A;3900&quot;,&quot;name&quot;&#x3A;&quot;aa_test_enter_metrics&quot;,&quot;feature&quot;&#x3A;&quot;control1&quot;&#x7D;&#x7D;,&quot;side&quot;&#x3A;&quot;header&quot;,&quot;useBlueColor&quot;&#x3A;true,&quot;useIcons&quot;&#x3A;null&#x7D;"
+ data-marker="messenger-button"
+ data-side="header" > <a
+ class="button button-origin contactBar_blueColor"
+  style="">
+    Написать сообщение
+   </a> </span>
+  </div>
+  </div> </div> </div> </div>
+              <div class="item-view-header">
+  </div>
+
+ <div class="item-view-content"> <div class="item-view-content-left">
+
+<div class="item-view-title-info js-item-view-title-info"> <div class="title-info title-info_mode-with-favorite"> <div class="title-info-main"> <h1 class="title-info-title">
+  <span class="title-info-title-text" itemprop="name">Видеокарта asus GeForce GTX 1050 Ti 4gb</span>
+ </h1> </div> <div id="toggle-sticker-header" class="js-toggle-sticker-header"></div>
+  <div class="title-info-metadata">
+    </div>
+  <div class="title-info-actions"> <div class="title-info-actions-item">
+
+<a
+ data-side=""
+ data-action
+ data-favorite-mode="button"
+ data-options="&#x7B;&quot;isFavorite&quot;&#x3A;false,&quot;categorySlug&quot;&#x3A;&quot;tovary_dlya_kompyutera&quot;,&quot;compare&quot;&#x3A;null&#x7D;"
+ href="/favorites/add/1312704441"
+ class="button button-origin button-origin_small add-favorite-button js-add-favorite"> <i class="add-favorite-button-icon"></i> <span class="add-favorite-button-text">Добавить в избранное</span> </a>
+
+<a
+ data-side=""
+ href="#login?next=%3Fopen-add-note&s=n"
+ class="button button-origin button-origin_small item-notes-button js-item-add-note-button"> <i class="item-notes-icon_add"></i>Добавить заметку
+</a>
+
+ <div class="title-info-metadata-item-redesign">
+   11 марта в 19:45  </div> </div> </div>
+    </div> </div>
+
+ <div class="item-view-main js-item-view-main">
+   <div class="item-view-gallery" data-hero="true">
+
+<div class="gallery gallery_state-clicked js-gallery" > <div class="gallery-imgs-wrapper js-gallery-imgs-wrapper ">
+   <div class="gallery-imgs-container js-gallery-imgs-container">
+   <div class="gallery-img-wrapper js-gallery-img-wrapper"> <div class="gallery-img-frame js-gallery-img-frame"
+ data-url="//48.img.avito.st/640x480/5055920348.jpg"
+ data-title="Видеокарта asus GeForce GTX 1050 Ti 4gb">
+  <span class="gallery-img-cover" style="background-image: url('//48.img.avito.st/640x480/5055920348.jpg')"></span> <img src="//48.img.avito.st/640x480/5055920348.jpg" alt="Видеокарта asus GeForce GTX 1050 Ti 4gb">
+  </div> </div>
+  <div class="gallery-img-wrapper js-gallery-img-wrapper"> <div class="gallery-img-frame js-gallery-img-frame"
+ data-url="//03.img.avito.st/640x480/5055920903.jpg"
+ data-title="Видеокарта asus GeForce GTX 1050 Ti 4gb">
+  </div> </div>
+  <div class="gallery-img-wrapper js-gallery-img-wrapper"> <div class="gallery-img-frame js-gallery-img-frame"
+ data-url="//76.img.avito.st/640x480/5055921276.jpg"
+ data-title="Видеокарта asus GeForce GTX 1050 Ti 4gb">
+  </div> </div>
+  </div>
+    <div class="gallery-navigation gallery-navigation_prev js-gallery-navigation" data-dir="prev"> <span class="gallery-navigation-icon"></span> </div> <div class="gallery-navigation gallery-navigation_next js-gallery-navigation" data-dir="next"> <span class="gallery-navigation-icon"></span> </div>
+  </div>
+   <div class="gallery-list-wrapper "> <ul class="gallery-list js-gallery-list">
+    <li class="gallery-list-item gallery-list-item_selected js-gallery-list-item" data-index="0" data-type="image"> <span class="gallery-list-item-link" title="Видеокарта asus GeForce GTX 1050 Ti 4gb" style="background-image: url(//48.img.avito.st/75x55/5055920348.jpg);"></span> </li>
+  <li class="gallery-list-item  js-gallery-list-item" data-index="1" data-type="image"> <span class="gallery-list-item-link" title="Видеокарта asus GeForce GTX 1050 Ti 4gb" style="background-image: url(//03.img.avito.st/75x55/5055920903.jpg);"></span> </li>
+  <li class="gallery-list-item  js-gallery-list-item" data-index="2" data-type="image"> <span class="gallery-list-item-link" title="Видеокарта asus GeForce GTX 1050 Ti 4gb" style="background-image: url(//76.img.avito.st/75x55/5055921276.jpg);"></span> </li>
+  </ul> </div>
+   </div>
+
+<div class="gallery-extended gallery-extended_state-clicked gallery-extended_state-hide js-gallery-extended" data-shop-id="" > <div class="gallery-extended-content-wrapper js-gallery-extended-content-wrapper"> <div class="gallery-extended-content js-gallery-extended-content"> <div class="gallery-extended-container js-gallery-extended-container">
+  <div class="gallery-extended-close js-gallery-extended-close"></div> <div class="gallery-extended-imgs-control">
+   <div class="gallery-extended-img-nav gallery-extended-img-nav_type-prev js-gallery-extended-img-nav" data-dir="prev"> <span class="gallery-extended-img-nav-icon"></span> </div> <div class="gallery-extended-img-nav gallery-extended-img-nav_type-next js-gallery-extended-img-nav" data-dir="next"> <span class="gallery-extended-img-nav-icon"></span> </div>
+   <div class="gallery-extended-imgs-wrapper js-gallery-extended-imgs-wrapper">
+    <div class="gallery-extended-img-frame gallery-extended-img-frame_state-selected js-gallery-extended-img-frame"
+ data-url="//48.img.avito.st/1280x960/5055920348.jpg"
+ data-image-id="5055920348"
+ data-alt-urls="[&quot;\/\/48.img.avito.st\/640x480\/5055920348.jpg&quot;]"
+ data-title="Видеокарта asus GeForce GTX 1050 Ti 4gb"> </div>
+   <div class="gallery-extended-img-frame js-gallery-extended-img-frame"
+ data-url="//03.img.avito.st/1280x960/5055920903.jpg"
+ data-image-id="5055920903"
+ data-alt-urls="[&quot;\/\/03.img.avito.st\/640x480\/5055920903.jpg&quot;]"
+ data-title="Видеокарта asus GeForce GTX 1050 Ti 4gb"> </div>
+   <div class="gallery-extended-img-frame js-gallery-extended-img-frame"
+ data-url="//76.img.avito.st/1280x960/5055921276.jpg"
+ data-image-id="5055921276"
+ data-alt-urls="[&quot;\/\/76.img.avito.st\/640x480\/5055921276.jpg&quot;]"
+ data-title="Видеокарта asus GeForce GTX 1050 Ti 4gb"> </div>
+  </div> </div>
+   </div> </div> </div>
+   <div class="gallery-extended-list-wrapper js-gallery-extended-list-wrapper"> <ul class="gallery-extended-list js-gallery-extended-list">
+     <li class="gallery-extended-list-item  gallery-extended-list-item_selected js-gallery-extended-list-item" data-index="0" data-type="image"> <span class="gallery-extended-list-item-link" title="Видеокарта asus GeForce GTX 1050 Ti 4gb &#8212; фотография №1" style="background-image: url(//48.img.avito.st/75x55/5055920348.jpg);"></span> </li>
+   <li class="gallery-extended-list-item  js-gallery-extended-list-item" data-index="1" data-type="image"> <span class="gallery-extended-list-item-link" title="Видеокарта asus GeForce GTX 1050 Ti 4gb &#8212; фотография №2" style="background-image: url(//03.img.avito.st/75x55/5055920903.jpg);"></span> </li>
+   <li class="gallery-extended-list-item  js-gallery-extended-list-item" data-index="2" data-type="image"> <span class="gallery-extended-list-item-link" title="Видеокарта asus GeForce GTX 1050 Ti 4gb &#8212; фотография №3" style="background-image: url(//76.img.avito.st/75x55/5055921276.jpg);"></span> </li>
+  </ul> </div>
+  <div class="gallery-extended-list-navigation gallery-extended-list-navigation_state-hide js-gallery-extended-list-navigation" data-dir="up"> <span class="gallery-extended-list-navigation-icon"></span> </div> <div class="gallery-extended-list-navigation gallery-extended-list-navigation_state-hide gallery-extended-list-navigation_bottom js-gallery-extended-list-navigation_bottom" data-dir="bottom"> <span class="gallery-extended-list-navigation-icon"></span> </div>
+   </div>
+    </div>
+                <div class="item-view-block item-view-map js-item-view-map" itemscope itemtype="http://schema.org/Place"> <div class="item-map js-item-map"> <div class="item-map-location">
+  <div class="item-address">
+           <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span class="item-address__string">
+ Ростовская область, Ростов-на-Дону, пр-т Михаила Нагибина
+ </span><div class="item-address-georeferences"><span class="item-address-georeferences"><span class="item-address-georeferences-item"><span class="item-address-georeferences-item__content">р-н Ворошиловский</span></span></span></div></div>
+</div>
+
+ <div class="item-map-location__control">
+  <div class="item-map-control"> <a data-text-open="Показать карту"
+ data-text-close="Скрыть карту"
+ class="item-map-slider-toggle js-item-map-slider-toggle ">
+ Показать карту
+ </a> </div>
+  </div> </div>
+ <div class="b-search-map item-map-wrapper js-item-map-wrapper"
+ data-map-zoom="16"
+ data-map-lat="47.253437"
+ data-map-lon="39.714352"
+ data-map-type="dynamic"
+ data-show-neighbour=""
+ data-item-id="1312704441"
+ data-location-id="652000"
+ data-category-id="101"
+ data-shop-id=""
+ data-add-params='{}'> <div class="search-map" id="search-map"></div> </div>
+  </div> </div>
+   <div class="item-view-block">
+
+<div class="item-description"> <div class="item-description-text" itemprop="description">
+  <p>Тип видеокарты игровая <br />Графический процессор NVIDIA GeForce GTX 1050 Ti <br />Код производителя STRIX-GTX1050TI-O4G-GAMING <br />Интерфейс PCI-E 16x 3.0 <br />Кодовое название графического процессора GP107-400 <br />Техпроцесс 14 нм <br />Количество поддерживаемых мониторов 3 <br />Максимальное разрешение 7680x4320 <br />Технические характеристики<br />Частота графического процессора 1379 МГц <br />Объем видеопамяти 4096 МБ <br />Тип видеопамяти GDDR5 <br />Частота видеопамяти 7008 МГц <br />Разрядность шины видеопамяти 128 бит <br /> Поддержка CUDA есть, версия 6.1 <br />Поддержка Vulkan есть <br />Версия OpenCL 1.2 <br />Необходимость дополнительного питания 6 pin <br />Рекомендуемая мощность блока питания 300 Вт <br />TDP 75 Вт <br />Отличное состояние , чек и коробка в наличии</p>  </div> </div>
+ </div>
+      </div>
+
+ <div class="item-view-socials">
+ <div class="item-socials"> <div class="item-socials-actions clearfix">
+  <div class="item-socials-share">
+
+<div class="js-social-share social-share"
+ data-services="vkontakte,odnoklassniki,facebook,twitter,moimir,lj"
+ data-title="Объявление на Авито - Видеокарта asus GeForce GTX 1050 Ti 4gb"
+ data-description="Тип видеокарты игровая Графический процессор NVIDIA GeForce GTX 1050 Ti Код производителя STRIX-GTX1050TI-O4G-GAMING Интерфей..."
+ data-url="https://www.avito.ru/rostov-na-donu/tovary_dlya_kompyutera/videokarta_asus_geforce_gtx_1050_ti_4gb_1312704441"
+ data-image="https://www.avito.ru/img/share/auto/5055920348"> </div>
+ </div>
+    <div class="item-socials-abuse"> <button class="js-abuse-button button button-origin">Пожаловаться</button> <input class="js-token" type="hidden" name="token[4089584518500]" value="7aee66e0c8f1cbfd"> <div id="abuse" data-abuse='{"itemId":null,"isAuth":false}'  data-recaptcha-enabled="1"></div> </div>
+  </div> </div>
+ </div>
+      <div class="item-view-similars">
+ <div class="similars js-similars similars_column-4"
+ data-is-big-preview="true"
+ data-show-more-btn="1"> <div class="similars-inner similars-inner_hidden js-similars-inner"> <div
+ class="similars-list js-similars-list"
+ data-serp-link=""
+ data-serp-link-text=""> </div> </div> </div>
+ </div>
+   </div> <div class="item-view-content-right"> <div class="item-view-info js-item-view-info js-sticky-fallback ">
+  <div class="item-view-contacts js-item-view-contacts">
+
+ <div class="item-view-price js-item-view-price"> <div class="item-view-price-content js-item-view-price-content">
+
+<div class="item-price"> <div class="item-price-wrapper">
+
+<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="price-value price-value_side-card" id="price-value"> <span class="price-value-string js-price-value-string">
+   <span class="js-item-price" content="8500" itemprop="price">8 500</span>&nbsp;<span itemprop="priceCurrency" content="RUB" class="price-value-prices-list-item-currency_sign"><span class="font_arial-rub">₽</span></span>
+ </span>
+ </div>
+   </div>
+  </div>
+  <div class="item-price-banner js-item-price-banner"> <div class="item-price-banner-holder">
+    </div> </div>
+  </div> </div>
+
+ <script>
+ var itemTitle = document.querySelector('.js-item-view-title-info');
+ var itemPrice = document.querySelector('.js-item-view-price');
+ var itemPriceContent = document.querySelector('.js-item-view-price-content');
+ var itemPriceCorrectSize = itemTitle.offsetHeight;
+ var itemPriceSize = itemPrice.offsetHeight;
+ itemPrice.style.height = itemPriceCorrectSize  + 'px';
+  var itemInfo = document.querySelector('.js-item-view-info');
+ var gap = itemPriceCorrectSize - itemPriceSize;
+ var stickyGap = 25;
+ var itemTitleTop;
+ var getScrollTop = function () {
+ return (document.scrollingElement || document.documentElement).scrollTop;
+ };
+ var getItemTitleTop = function () {
+ if (itemTitleTop) {
+ return itemTitleTop;
+ }
+ return itemTitle.getBoundingClientRect().top + getScrollTop();
+ };
+ var isWide = function () {
+ return document.documentElement.clientWidth > 1334;
+ };
+ window.addEventListener('DOMContentLoaded', function () {
+ itemTitleTop = itemTitle.getBoundingClientRect().top + getScrollTop();
+ });
+ var recalc = function () {
+ if (!isWide()) {
+ return;
+ }
+ var transform = getScrollTop() - getItemTitleTop() + stickyGap;
+ if (transform < 0) {
+ transform = 0;
+ } else if (transform > gap) {
+ transform = gap;
+ }
+ itemPriceContent.style.transform = 'translateY(' + transform + 'px)';
+ itemInfo.style.top = stickyGap - transform + 'px';
+ };
+ var resize = function () {
+ if (isWide()) {
+ recalc();
+ } else {
+ itemPriceContent.style.transform = '';
+ itemInfo.style.top = '';
+ }
+ };
+ window.addEventListener('resize', resize);
+ window.addEventListener('scroll', recalc);
+ resize();
+  </script>
+     <div class="item-view-actions"> <div class="item-actions js-item-actions">
+  <div
+ class="js-safedeal-node-item safedeal-node-item"
+ data-marker="safedeal-item-card"
+ data-props='{&quot;isLogin&quot;:false,&quot;user&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;&quot;,&quot;avatar&quot;:null},&quot;delivery&quot;:{&quot;isOnlyAvailable&quot;:true},&quot;safedeal&quot;:{&quot;isItemAppropriate&quot;:true,&quot;isServiceAvailable&quot;:false},&quot;courier&quot;:{&quot;isItemAppropriate&quot;:false,&quot;isServiceAvailable&quot;:false},&quot;item&quot;:{&quot;id&quot;:1312704441,&quot;price&quot;:8500,&quot;image&quot;:&quot;\/\/48.img.avito.st\/140x105\/5055920348.jpg&quot;,&quot;title&quot;:&quot;Видеокарта asus GeForce GTX 1050 Ti 4gb&quot;},&quot;design&quot;:{&quot;useNewDesign&quot;:true,&quot;usePurpleColor&quot;:true,&quot;useIcons&quot;:false}}'></div>
+    <div class="item-actions-line">
+   <div class="item-actions-line">
+
+ <script>
+ window.ITEM_PHONE_INIT_DATA = {"seller":{"name":"Владимир","avatar":"https:\/\/www.avito.st\/stub_avatars\/%D0%92\/0_256x256.png","profileUrl":"\/user\/00904b576491bd3493f7d166156600fc\/profile?id=1312704441&src=item"},"shop":null,"itemId":1312704441,"isLogin":false,"phoneImage":null,"phoneMask":"8 918 XXX-XX-XX","experiments":{"isDeliveryPageAbtestEnabled":true},"useGreenColor":true,"useIcons":false}
+ </script>
+
+ <div class="js-item-phone-react" data-props="{&quot;size&quot;:&quot;l&quot;,&quot;source&quot;:&quot;item&quot;}"></div>
+  </div>
+  </div>
+      <div class="item-actions-line">
+
+<span class="js-messenger-button"
+ data-props="&#x7B;&quot;isOpenInNewTab&quot;&#x3A;null,&quot;isAuthorized&quot;&#x3A;false,&quot;isFullWidth&quot;&#x3A;true,&quot;isMiniMessenger&quot;&#x3A;null,&quot;isIconButton&quot;&#x3A;null,&quot;hasHidePhoneOnboarding&quot;&#x3A;false,&quot;sellerIdHash&quot;&#x3A;78760556,&quot;itemId&quot;&#x3A;1312704441,&quot;itemUrl&quot;&#x3A;&quot;&#x5C;&#x2F;rostov-na-donu&#x5C;&#x2F;tovary_dlya_kompyutera&#x5C;&#x2F;videokarta_asus_geforce_gtx_1050_ti_4gb_1312704441&quot;,&quot;itemCVViewed&quot;&#x3A;null,&quot;categoryId&quot;&#x3A;101,&quot;buttonText&quot;&#x3A;&quot;&#x20;&#x20;&#x041D;&#x0430;&#x043F;&#x0438;&#x0441;&#x0430;&#x0442;&#x044C;&#x20;&#x0441;&#x043E;&#x043E;&#x0431;&#x0449;&#x0435;&#x043D;&#x0438;&#x0435;&#x5C;n&#x20;&quot;,&quot;replyTime&quot;&#x3A;&quot;&#x041E;&#x0442;&#x0432;&#x0435;&#x0447;&#x0430;&#x0435;&#x0442;&#x20;&#x0437;&#x0430;&#x20;&#x043D;&#x0435;&#x0441;&#x043A;&#x043E;&#x043B;&#x044C;&#x043A;&#x043E;&#x20;&#x0447;&#x0430;&#x0441;&#x043E;&#x0432;&quot;,&quot;logParams&quot;&#x3A;&#x7B;&quot;isFromOasis&quot;&#x3A;false,&quot;userId&quot;&#x3A;0,&quot;wsrc&quot;&#x3A;&quot;item&quot;,&quot;s&quot;&#x3A;&quot;mi&quot;&#x7D;,&quot;experiments&quot;&#x3A;&#x7B;&quot;item&quot;&#x3A;&#x5B;&#x5D;,&quot;loginPopup&quot;&#x3A;&#x7B;&quot;abs&quot;&#x3A;&quot;2514&#x3A;1&#x3A;3900&quot;,&quot;name&quot;&#x3A;&quot;aa_test_enter_metrics&quot;,&quot;feature&quot;&#x3A;&quot;control1&quot;&#x7D;&#x7D;,&quot;side&quot;&#x3A;&quot;card&quot;,&quot;useBlueColor&quot;&#x3A;true,&quot;useIcons&quot;&#x3A;false&#x7D;"
+ data-marker="messenger-button"
+ data-side="card" > <a
+ class="button button-origin button-origin_full-width button-origin_large-extra contactBar_blueColor"
+  style="padding: 23px 17px;">
+    Написать сообщение
+   </a> </span>
+ </div>
+
+ </div> </div>
+
+ <div class="item-view-seller-info js-item-view-seller-info ">
+
+<div class="seller-info  js-seller-info ">
+  <div class="seller-info-prop js-seller-info-prop_seller-name seller-info-prop_layout-two-col">
+ <div class="seller-info-col"> <div class="seller-info-value"> <div class="seller-info-name js-seller-info-name">
+   <a href="/user/00904b576491bd3493f7d166156600fc/profile?id=1312704441&src=item&page_from=from_item_card&iid=1312704441" title="Нажмите, чтобы перейти в профиль">
+ Владимир
+ </a>
+  </div>
+    </div>
+  <div>Частное лицо</div>
+
+ <div class="seller-info-value">
+   <div>
+ На Авито c августа 2015 </div>
+      </div>
+ </div>    <div class="seller-info-avatar ">
+  <a
+ class="seller-info-avatar-image  js-public-profile-link"
+ href="/user/00904b576491bd3493f7d166156600fc/profile?id=1312704441&src=item&page_from=from_item_card_icon&iid=1312704441"
+ title="Нажмите, чтобы перейти в профиль"style="background-image: url('https://www.avito.st/stub_avatars/%D0%92/0_256x256.png')">Профиль</a>
+  </div>
+   </div>
+   <div class="js-favorite-seller-buttons" data-item-id='1312704441' data-props='{"isShop":false,"isLogin":false,"userKey":"00904b576491bd3493f7d166156600fc","summary":"4 объявления","publicProfileLink":"\/user\/00904b576491bd3493f7d166156600fc\/profile?id=1312704441&src=item","isSubscribed":false,"subscriptionCounter":0}'></div>
+  </div>
+ </div>
+  <div class="item-view-search-info-redesign"> <span data-marker="item-view/item-id">№ 1312704441</span>
+  ,
+<div class="title-info-metadata-item title-info-metadata-views"> <i class="title-info-icon-views"></i>2780 (+3)</div>
+  </div>
+    </div>
+    </div>
+  <div class="item-view-ads">
+    <div class="avito-ads-container avito-ads-container_wl"> <div id="template_wl" class="avito-ads-template"> <div class=" avito-ads-content"> </div> </div> </div>
+    <div class="avito-ads-container avito-ads-container_tgb1"> <div id="template_tgb1" class="avito-ads-template"> <div class="ad_300x133 avito-ads-content"> </div> </div> </div>
+
+ <div class="avito-ads-tgb2-sticky-container">
+    <div class="avito-ads-container avito-ads-container_tgb2"> <div id="template_tgb2" class="avito-ads-template"> <div class="ad_300x133 avito-ads-content"> </div> </div> </div>
+ </div> </div>
+  </div> </div>
+  <div class="item-view-low-ads">
+    <div class="avito-ads-container avito-ads-container_ldr_low"> <div id="template_ldr_low" class="avito-ads-template"> <div class="item-view-ads-ldr_tow avito-ads-content"> </div> </div> </div>
+ </div>
+  </div>
+  <div class="slide-alert js-slide-alert">
+  </div>
+  <div class="item-tooltip js-item-tooltip tooltip tooltip_bottom"> <i class="item-tooltip-arrow js-item-tooltip-arrow tooltip-arrow"></i> <div class="item-tooltip-content js-item-tooltip-content tooltip__content"></div> </div>
+ <script type="text/template" id="js-cookie-support"> <div class="cookie-support-icon"></div> <div class="cookie-support-title">Произошла ошибка</div> <div class="cookie-support-body">Для продолжения работы включите поддержку cookies<br>в&nbsp;настройках вашего браузера.</div> <button type="button" class="button button-origin js-reload-page">Я включил поддержку cookies</button> </script>
+ </div>
+  <div
+ class="js-footer-app layout-internal col-12"
+ data-source-data='{"luri":"rostov-na-donu","countrySlug":"rossiya","supportPrefix":"https:\/\/support.avito.ru","siteName":"Авито","city":null,"mobileVersionUrl":"m.avito.ru\/rostov-na-donu\/tovary_dlya_kompyutera\/videokarta_asus_geforce_gtx_1050_ti_4gb_1312704441?nomobile=0","isShopBackground":null,"isShopPlank":null,"isCompanyPage":false,"isTechPage":false,"isBrowserMobile":false}'> </div>
+   </div>
+
+ <div id="counters-invisible" class="counters-invisible">
+     <script>
+ (new Image()).src = '/img/5d9e1f3b01d7fbe99d24cdd4a4f662.gif';
+ </script>
+  <noscript> <img src="/stat/u?1584452366" alt=""/> </noscript>
+  <script>
+ var ci_id = 1312704441, ci_location = 652000, ci_category = 101, ci_root_category = 6;
+ </script>
+  <script>
+  if (window.devicePixelRatio > 1) {
+ avito.tracking.trackGTMEvent('tracking', 'retina', 'item');
+ }
+  </script>
+
+<script>
+         if (avito.tracking && avito.tracking.initCriteo) {
+ avito.tracking.initCriteo('[39534]', 0);
+ }
+       avito.tracking.trackCriteo(
+ { event: "viewItem", avito: "1", item: "1312704441" }
+ );
+  avito.tracking.trackCriteoTransaction = function(idPrefix) {
+ if (!idPrefix) {
+ return;
+ }
+ var utmFromCookie = document.cookie.match(/_utmz=[^;]*utmcsr=([^|]*)/);
+ var utmFromQueryString = location.href.indexOf('utm_source=criteo') !== -1 ? 1 : 0;
+ if (utmFromCookie && utmFromCookie.length) {
+ utmFromCookie = utmFromCookie.pop();
+ }
+ avito.tracking.trackCriteo(
+ { event: 'setAccount', account: 39534 },
+ { event: "manualDising" },
+ {
+ event: "trackTransaction",
+ id: [idPrefix, Math.floor(Math.random()*99999999999)].join('_'),
+ deduplication: utmFromQueryString || Number(utmFromCookie === 'criteo'),  item: [{
+ id: "1312704441",
+  price: 8500.00,
+ quantity: 1
+ }]
+ }
+ );
+ };
+
+ var _comscore = _comscore || [];
+ _comscore.push({ c1: "2", c2: "9829393", c4: document.location.href, c5: "bytovaya_elektronika" });
+ (function() {
+ var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+ s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+ el.parentNode.insertBefore(s, el);
+ })();
+
+</script>
+ <noscript> <img src="https://sb.scorecardresearch.com/p?c1=2&c2=9829393&cv=2.0&c4=avito.ru/rostov-na-donu/tovary_dlya_kompyutera/videokarta_asus_geforce_gtx_1050_ti_4gb_1312704441&c5=bytovaya_elektronika&cj=1" /> </noscript>
+
+ <script>
+ var img = new Image();
+ img.src = '//www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*avito_ru/ru/CP1251/tmsec=avito_6-101/' + Math.round(Math.random() * 1000000000);
+ </script> <noscript><img src="//www.tns-counter.ru/V13a****avito_ru/ru/CP1251/tmsec=avito_6-101/" width="1" height="1" alt="" /></noscript>
+
+<script type="text/javascript">
+ window.avito = window.avito || {};
+</script>
+  <!-- Yandex.Metrika counter --> <script>
+ (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+ m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+ (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ ym(34241905, "init", {
+  clickmap:true,
+ trackLinks:true,
+ accurateTrackBounce:true,
+ ecommerce:"dataLayer"
+ });
+ </script> <noscript><div><img src="https://mc.yandex.ru/watch/34241905" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+ <script>var google_conversion_id=987009030,google_conversion_label="f8JaCLLjvAQQhqDS1gM",google_custom_params=window.google_tag_params,google_remarketing_only=!0;</script><script src="//www.googleadservices.com/pagead/conversion.js"></script> <noscript> <div style="display:inline;"> <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/987009030/?value=0&amp;label=f8JaCLLjvAQQhqDS1gM&amp;guid=ON&amp;script=0"/> </div> </noscript>
+  </div>
+  <script src="https://static.avito.ru/s/cc/bundles/37f9d287848bedf5fafa.js" async></script>
+     <img style="display: none" height="1" width="1" alt=""
+ src="//wf.frontend.weborama.fr/streampixel/?wamid=2337&Wvar=%7B%22g_country%22%3A621540%2C%22g_reg%22%3A651110%2C%22master_category%22%3A6%2C%22item_property%22%3A%5B%226581%22%2C%226611%22%5D%2C%22slave_category%22%3A101%7D&d.r=1584452366"
+ />
+   <div id="js-auth"
+ data-captcha-enabled="1"
+ data-experiments-loginPopup="&#x7B;&quot;abs&quot;&#x3A;&quot;2514&#x3A;1&#x3A;3900&quot;,&quot;name&quot;&#x3A;&quot;aa_test_enter_metrics&quot;,&quot;feature&quot;&#x3A;&quot;control1&quot;&#x7D;"
+ data-experiments-loginSuggest="null"
+ data-experiments-messengerAuthOnboarding="null"></div>
+  <input type="hidden" class="js-token" name="token[4089584518500]" value="7aee66e0c8f1cbfd">
+  <script src="https://static.avito.ru/deps/object-assign/4.1.1/prod/web/main.js" ></script>
+<script src="https://static.avito.ru/deps/react/16.13.0/prod/web/main.js" ></script>
+<script src="https://static.avito.ru/deps/scheduler/0.19.0/prod/web/main.js" ></script>
+<script src="https://static.avito.ru/deps/react-dom/16.13.0/prod/web/main.js" ></script>
+<script src="https://static.avito.ru/deps/prop-types/15.7.2/prod/web/main.js" ></script>
+<script src="https://static.avito.ru/deps/react-popper/1.3.6/prod/web/main.js" ></script>
+<script src="https://static.avito.ru/deps/react-is/16.12.0/prod/web/main.js" ></script>
+  <script src="https://static.avito.ru/s/cc/chunks/cc9d2e0670afef8ded7d.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/74e9d1d9f681ff5be287.js" ></script>
+<script src="https://static.avito.ru/s/cc/bundles/1d7ee33ff37fcb2d0732.js" ></script>
+    <script src="https://static.avito.ru/s/cc/chunks/cdf016ebe513bd6a22a3.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/9a8ecd44f716d705ce28.js" ></script>
+<script src="https://static.avito.ru/s/cc/bundles/6c29a8f31ce07b8e25bb.js" ></script>
+     <script src="https://static.avito.ru/s/cc/chunks/67a217306e9c84c3f96a.js" ></script>
+<script src="https://static.avito.ru/s/cc/bundles/01de168db11dadcf4624.js" ></script>
+    <script src="https://static.avito.ru/s/cc/chunks/a2784cf2cb6f450b22d5.js" ></script>
+<script src="https://static.avito.ru/s/cc/bundles/1d415f123a40e8b953a9.js" ></script>
+  <script src="https://static.avito.ru/s/cc/bundles/4e7e6f53b7058119e727.js" ></script>
+  <script src="https://static.avito.ru/s/cc/chunks/39aa3dc0e4456b2f421c.js" defer></script>
+<script src="https://static.avito.ru/s/cc/chunks/45ef6ffd22db8b266f36.js" defer></script>
+<script src="https://static.avito.ru/s/cc/chunks/4675400ea656a0a9cef9.js" defer></script>
+<script src="https://static.avito.ru/s/cc/chunks/995aa4b029e3321d9abb.js" defer></script>
+<script src="https://static.avito.ru/s/cc/chunks/e2ceeffd04dfd2576d41.js" defer></script>
+<script src="https://static.avito.ru/s/cc/bundles/7c402e6486b01860b071.js" defer></script>
+   <script src="https://static.avito.ru/s/cc/bundles/d4b23a933b54f2b54dd4.js" defer></script>
+  <script src="https://static.avito.ru/s/cc/bundles/593481f4597e4cb38505.js" defer></script>
+  <script src="https://static.avito.ru/s/cc/chunks/278d7f64947bc1ba53b5.js" ></script>
+<script src="https://static.avito.ru/s/cc/bundles/93e3b29f91708b4a30ed.js" ></script>
+  <script>
+ var itemMainNode = document.querySelector('.item-view-main');
+ var itemContactsNode = document.querySelector('.item-view-contacts');
+  if (itemMainNode && itemContactsNode) {
+ var contactsHeight = itemContactsNode.clientHeight;
+ itemMainNode.style.minHeight = contactsHeight + 'px';
+ }
+  </script>
+     <script src="/s/cc/raw/8fcaa088cfc4d4f3836d1c10673959cf.js" ></script>
+  <script src="https://static.avito.ru/s/cc/bundles/a10c0708d1b554cd95c5.js" ></script>
+  <link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/d408ab3abef16090c471.css">
+<script src="https://static.avito.ru/s/cc/chunks/a14b5557c6d201fb2aec.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/53bad6787e9aa163bf23.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/7af82d3432d50e9f2b83.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/1ea7a6bff9675ff26318.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/c1f40b74478e6918d95c.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/64086a5ca3e031d929d5.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/e127ac730e72f56a7378.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/090085a987fa095f9fe4.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/2df656380567281fb6fc.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/c2739b6251689d41459c.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/3e8cb7285785639ec2fc.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/225b816e62935ca33564.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/fa97523b364d51e8bc98.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/7d294c13eb2acfc72c4c.js" ></script>
+<script src="https://static.avito.ru/s/cc/bundles/032243165008f875ee02.js" ></script>
+  <link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/2e7a7b72b0559b6d5752.css">
+<script src="https://static.avito.ru/s/cc/chunks/881a288243f005240357.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/fab96932b7068253c81b.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/4ade143cf4e3937ceb6e.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/0095af00a22c6ee7213c.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/90c66f29c50b193fcd33.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/1561e00c8d2b297bab01.js" ></script>
+<script src="https://static.avito.ru/s/cc/bundles/e6bffd51b9ea3c26d6e6.js" ></script>
+ <script src="https://static.avito.ru/s/cc/chunks/cb09e4401e3ca580b589.js" ></script>
+<script src="https://static.avito.ru/s/cc/bundles/4ee7bc13dd01c850cb7e.js" ></script>
+ <script src="https://static.avito.ru/s/cc/bundles/27d76a083f46d8c7b539.js" ></script>
+ <script src="https://static.avito.ru/s/cc/bundles/282ac13f88c9ca337153.js" ></script>
+ <link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/005539c141990bd2408c.css">
+<script src="https://static.avito.ru/s/cc/chunks/7ad31a3e1ccd577222a6.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/011b30e57be7be649f22.js" ></script>
+<script src="https://static.avito.ru/s/cc/bundles/eccbaa75491671763fef.js" ></script>
+    <script src="https://static.avito.ru/s/cc/bundles/8bbd19c6bbd2159fa2de.js" ></script>
+   <link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/9043dea8e9b75c20042e.css">
+<script src="https://static.avito.ru/s/cc/chunks/aa768ca52e6c80981786.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/016fd1a8488431e38d40.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/ef236521d1d1ce914f98.js" ></script>
+<script src="https://static.avito.ru/s/cc/bundles/2dea89ca3bd437f4f26a.js" ></script>
+   <script src="https://static.avito.ru/s/cc/bundles/7984e86211de5eb21496.js" ></script>
+ <link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/47ddd1b8000e3d5e2cb7.css">
+<script src="https://static.avito.ru/s/cc/chunks/641cb7a3eb9ca267667c.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/8de283acec1dfd09bf4b.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/4ac498428ddbaf570fb9.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/f3217e23c8fefb324f0b.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/7189060e8be400e8d13c.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/6aebfe2dce868507fabb.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/305de934340b414f71f0.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/75b3517ec28afdc89bf8.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/a8f5eda33b835f851b1b.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/b9cbd4cb970275088bdc.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/b3f92c81e6ba11b29504.js" ></script>
+<script src="https://static.avito.ru/s/cc/bundles/02bd2c8165f9174b6905.js" ></script>
+         <link rel="stylesheet" href="https://static.avito.ru/s/cc/styles/f253479e004486cbaa7c.css">
+<script src="https://static.avito.ru/s/cc/chunks/80a9c7907926901a233f.js" ></script>
+<script src="https://static.avito.ru/s/cc/chunks/f55afdd62e27736969a5.js" ></script>
+<script src="https://static.avito.ru/s/cc/bundles/a1f33c42e39f1ff750c8.js" ></script>
+        <script>
+    (function(apps) {
+        for (var key in apps) {
+            if (!apps.hasOwnProperty(key)) {
+                continue;
+            }
+
+            var app = apps[key];
+
+            if (
+                avito &&
+                avito.bundles &&
+                avito.bundles[app.name] &&
+                avito.bundles[app.name][app.version] &&
+                typeof avito.bundles[app.name][app.version].render === 'function'
+            ) {
+                render = avito.bundles[app.name][app.version].render;
+
+                app.instances.forEach(function(instance) {
+                    var mountNode = document.querySelector('.' + instance.selector);
+
+                    var props = {};
+
+                    try {
+                        props = JSON.parse(instance.props);
+                    } catch(error) {
+                        console.error('Failed to parse instance.props', error);
+                    }
+
+                    render(mountNode, props);
+                });
+            }
+        };
+    })({"profile-sidebar-navigation":{"name":"@avito\/profile-sidebar-navigation","version":"1.1.5","instances":[]}});
+</script></body> </html>

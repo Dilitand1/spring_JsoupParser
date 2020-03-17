@@ -1,14 +1,14 @@
 
+import JSOUP.JsoupFileWorker;
 import JSOUP.JsoupWorker;
+import fileworker.FileWorker;
 import jsoupPageDownloader.AvitoDownloader;
-import jsoupPageDownloader.PageDownloader;
+import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import pageObjects.AvitoObject;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 public class Main {
@@ -22,18 +22,22 @@ public class Main {
                 = new ClassPathXmlApplicationContext("ApplicationContext.xml");
         Main main = configurableApplicationContext.getBean("main",Main.class);
 
+        JsoupFileWorker jsoupFileWorker = configurableApplicationContext.getBean("jsoupFileWorker2",JsoupFileWorker.class);
         AvitoDownloader avitoDownloader = configurableApplicationContext.getBean("avitoDownloader", AvitoDownloader.class);
         //AvitoDownloader avitoDownloader = new AvitoDownloader();
+
+        avitoDownloader.downloadContent();
+
+        //avitoDownloader.downloadContent("http://48.img.avito.st/640x480/5055920348.jpg","./outputPictures/1.jpg");
+
+        /*
         avitoDownloader.downloadLinks();
         List<String> arrayList = avitoDownloader.getLinks();
         for(String s : arrayList){
             System.out.println(s);
         }
 
-        //JsoupWorker jsoupWorker = configurableApplicationContext.getBean("jsoupFileWorker",JsoupWorker.class);
-        //ArrayList<String> arrayList = jsoupWorker.getLinks();
-        //System.out.println(arrayList.get(0));
-
+         */
     }
 
     void init(){

@@ -19,7 +19,7 @@
         <property name="inputPath" value="output.txt"/>
     </bean>
 
-    <bean id="jsoupUrlAvitoLinksWorker" class="JSOUP.JsoupUrlWorker">
+    <bean id="jsoupUrlWorker" class="JSOUP.JsoupUrlWorker">
         <!--        <property name="document" value="${parser.startUrl}"/>-->
         <!--        <property name="linkElements" value="${parser.links.css}"/>-->
         <property name="cssQ" value="${parser.pagesCount.css}"/>
@@ -28,7 +28,7 @@
         <property name="firstPartRef" value="${parser.firstPartRef}"/>
     </bean>
 
-    <bean id="jsoupFileWorker" class="JSOUP.JsoupFileWorker" parent="jsoupUrlAvitoLinksWorker" init-method="init">
+    <bean id="jsoupFileWorker" class="JSOUP.JsoupFileWorker" parent="jsoupUrlWorker" init-method="init">
         <property name="document" value="output.txt"/>
         <property name="linkElements" value="${parser.links.css}"/>
     </bean>
@@ -50,6 +50,9 @@
         <property name="firstPartref" value="${avito.firstPartref}"/>
         <property name="url" value="${avito.url}"/>
         <property name="urlLinkPageSuffix" value="${avito.urlLinkPageSuffix}"/>
+        <property name="cachePath" value="${avito.cachePath}"/>
+        <property name="linksPath" value="${avito.linksPath}"/>
+        <property name="contentFolder" value="${avito.contentFolder}"/>
     </bean>
 
 

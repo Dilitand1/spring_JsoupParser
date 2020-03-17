@@ -2,15 +2,49 @@ package pageObjects;
 
 public class AvitoObject extends PageObject {
 
-    String titleClass = "title-info-title-text";
-    String priceClass = "js-item-price";
-    String adressClass = "item-address__string";
-    String descriptionClass = "item-description-html";
+    String title,price,adress,description,mainJpg;
 
-    String title,price,adress,description;
-
-    AvitoObject(){
-       this.id = atomicInt.incrementAndGet();
+    public AvitoObject(){
+       this.id = atomicID.incrementAndGet();
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
+    }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setMainJpg(String mainJpg) {
+        this.mainJpg = mainJpg;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public String getAdress() {
+        return adress;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getMainJpg() {
+        return mainJpg;
+    }
 }

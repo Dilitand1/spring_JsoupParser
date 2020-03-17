@@ -1,9 +1,9 @@
 package fileworker;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.List;
 
 public class FileWorker {
 
@@ -42,6 +42,35 @@ public class FileWorker {
         catch (IOException e){
             e.printStackTrace();
         }
+    }
+
+    public static void writeFile(List<String> texts,String path){
+        try {
+            Files.deleteIfExists(Paths.get(path));
+            for (String s : texts){
+                writeFile(s + "\n",path,true);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void writeFile(InputStream in, String path) throws IOException {
+        int ch;
+        try(FileOutputStream fos = new FileOutputStream(path,false)) {
+            while ((ch = in.read()) != -1) {
+                fos.write(ch);
+            }
+            in.close();
+        }
+    }
+
+    public static boolean fileExists(String path){
+        File file = new File(path);
+        if (file.exists()){
+            return true;
+        }
+        return false;
     }
 
     public void setInputPath(String inputPath) {
