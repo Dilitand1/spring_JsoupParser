@@ -42,7 +42,6 @@ public class AvitoDownloader implements PageDownloader {
     private String url;
     private String urlLinkPageSuffix;
 
-
     public AvitoDownloader() {
     }
 
