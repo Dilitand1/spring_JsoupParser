@@ -8,10 +8,20 @@
     <context:property-placeholder location="classpath:parser.properties"/>
     <context:component-scan base-package="classpath:java"/>
 
-    <bean id="random" class="java.lang.Integer" scope="prototype" factory-method="java.util.Random.nextInt">
+    <bean id="random" class="java.lang.Integer" scope="prototype" factory-method="java.util.Random.nextInt"/>
+
+    <bean name = "defaultLogger" class = "java.util.logging.Logger" factory-method="getLogger">
+        <constructor-arg value="111"/>
     </bean>
 
+    <bean id = "logger" class = "logger.MyLogger" init-method="init">
+        <constructor-arg index="1" value="${logger.configPath}"/>
+        <constructor-arg index="0" ref = "defaultLogger"/>
+    </bean>
+
+
     <bean id="main" class="Main" init-method="init">
+        <property name="logger" value="#{logger.logger}"/>
     </bean>
 
     <bean id="fileWorker" class="fileworker.FileWorker">
@@ -53,6 +63,8 @@
         <property name="cachePath" value="${avito.cachePath}"/>
         <property name="linksPath" value="${avito.linksPath}"/>
         <property name="contentFolder" value="${avito.contentFolder}"/>
+
+        <property name="logger" value="#{logger.logger}"/>
     </bean>
 
 

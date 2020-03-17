@@ -14,9 +14,13 @@ import java.net.Proxy;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.regex.Pattern;
 
 public class AvitoDownloader implements PageDownloader {
+
+    private Logger logger;
 
     private List<String> links = new ArrayList<>();
     private List<PageObject> pageObjects = new ArrayList<>();
@@ -46,7 +50,7 @@ public class AvitoDownloader implements PageDownloader {
     public void downloadContent() {
         downloadLinks();
         for (int i = 0; i < links.size(); i++) {
-            System.out.println("downloadContent parsing " + links.get(i));
+            logger.log(Level.INFO,"parsing " + links.get(i));
             AvitoObject avitoObject = new AvitoObject();
             Document document = downloadDocument(links.get(i));
             avitoObject.setPrice(document.select(priceClass).get(0).text());
@@ -66,7 +70,7 @@ public class AvitoDownloader implements PageDownloader {
     public void downloadLinks() {
         findCache();//проверяем кэш
         if(links.size() == 0 && cachedLinks.size() == 0) { //проверяем что нет ни ссылок ни кэша
-            System.out.println("грузим ссылки");
+            logger.log(Level.INFO,"DownloadContent links");
             documentLinks = downloadDocument(url);
             int currentPage = 1;
             if (downloadCountOfPages() > 1) {
@@ -89,7 +93,7 @@ public class AvitoDownloader implements PageDownloader {
                     links.add(firstPartref + e.attr("href").toString());
                 }
             }
-            System.out.println("сохраняем линки в файл");
+            logger.log(Level.INFO,"Saving links to file");
             FileWorker.writeFile(links,linksPath);
         }
     }
@@ -105,7 +109,7 @@ public class AvitoDownloader implements PageDownloader {
             FileWorker.writeFile(new BufferedInputStream(c.getInputStream()),pathToSave);
 
         } catch (IOException e) {
-            System.out.println(urlContent);
+            logger.log(Level.WARNING,urlContent);
             e.printStackTrace();
         }
     }
@@ -119,7 +123,7 @@ public class AvitoDownloader implements PageDownloader {
                     .timeout(20 * 1000)
                     .get();
         } catch (IOException e) {
-            System.out.println("downloadDocument " + e.getMessage());
+            logger.log(Level.WARNING,e.getMessage());
             doc = null;
         }
         return doc;
@@ -140,19 +144,19 @@ public class AvitoDownloader implements PageDownloader {
     }
 
     public void findCache() {
-        System.out.println("trying to find cache");
+        logger.log(Level.INFO,"Trying to find cache");
         System.out.println(FileWorker.fileExists(linksPath));
         if (FileWorker.fileExists(linksPath)) {
             links = Arrays.asList(FileWorker.readFile(linksPath).split("\n"));
-            System.out.println("reading file links");
+            logger.log(Level.INFO,"Links found. Reading file links");
         }
         if (FileWorker.fileExists((cachePath))){
-            System.out.println("reading cache path");
+            logger.log(Level.INFO,"Cache found. Reading cache path");
             List<String> tmpList = Arrays.asList(FileWorker.readFile(cachePath).split("\n"));
             for(String s : tmpList){
                 cachedLinks.put(Integer.parseInt(s.split("~")[0]),s.split("~")[1]);
             }
-            System.out.println("deleting downloaded files");
+            logger.log(Level.INFO,"Deleting already downloaded files");
             links.removeAll(cachedLinks.values());
         }
     }
@@ -219,5 +223,9 @@ public class AvitoDownloader implements PageDownloader {
 
     public void setLinks(List<String> links) {
         this.links = links;
+    }
+
+    public void setLogger(Logger logger) {
+        this.logger = logger;
     }
 }
