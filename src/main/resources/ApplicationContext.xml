@@ -8,7 +8,7 @@
     <context:property-placeholder location="classpath:parser.properties"/>
     <context:component-scan base-package="classpath:java"/>
 
-    <bean id="random" class="java.lang.Integer" scope="prototype" factory-method="java.util.Random.nextInt"/>
+    <bean id="random" class="java.lang.Integer" scope="prototype" factory-method="java.util.Random.nextInt" />
 
     <bean name = "defaultLogger" class = "java.util.logging.Logger" factory-method="getLogger">
         <constructor-arg value="111"/>
@@ -19,9 +19,14 @@
         <constructor-arg index="0" ref = "defaultLogger"/>
     </bean>
 
-
     <bean id="main" class="Main" init-method="init">
         <property name="logger" value="#{logger.logger}"/>
+        <property name="pageQueue" >
+            <bean class="java.util.concurrent.ConcurrentLinkedQueue"/>
+        </property>
+        <property name="linksQueue">
+            <bean class="java.util.concurrent.ConcurrentLinkedQueue"/>
+        </property>
     </bean>
 
     <bean id="fileWorker" class="fileworker.FileWorker">
@@ -53,7 +58,7 @@
         <property name="adressClass" value="${avito.adressClass}"/>
         <property name="descriptionClass" value="${avito.descriptionClass}"/>
         <property name="titleClass" value="${avito.titleClass}"/>
-        <property name="pattern" value="${avito.pattern}"/>
+        <property name="pattern" value="${avito.pattern1}"/>
         <property name="cssPages" value="${avito.cssPages}"/>
         <property name="cssAllLinks" value="${avito.cssAllLinks}"/>
         <property name="attr" value="${avito.attr}"/>
@@ -63,10 +68,38 @@
         <property name="cachePath" value="${avito.cachePath}"/>
         <property name="linksPath" value="${avito.linksPath}"/>
         <property name="contentFolder" value="${avito.contentFolder}"/>
-
         <property name="logger" value="#{logger.logger}"/>
     </bean>
 
+    <bean id = "avitoLinks" class="downloadLinks.DownloadAvitoLinks">
+        <property name="patternCountOfPages" value="${avito.pattern1}"/>
+        <property name="cssPages" value="${avito.cssPages}"/>
+        <property name="cssAllLinks" value="${avito.cssAllLinks}"/>
+        <property name="firstPartref" value="${avito.firstPartref}"/>
+        <property name="url" value="${avito.url}"/>
+        <property name="urlLinkPageSuffix" value="${avito.urlLinkPageSuffix}"/>
+        <property name="cachePath" value="${avito.cachePath}"/>
+        <property name="linksPath" value="${avito.linksPath}"/>
+        <property name="logger" value="#{logger.logger}"/>
+        <property name="cachedLinks" ><map></map></property>
+        <property name="linksQueue" value="#{main.linksQueue}"/>
+    </bean>
 
+    <bean id = "avitoDownloader2" class = "jsoupPageDownloader.AvitoDownloader2">
+        <property name="priceClass" value="${avito.priceClass}"/>
+        <property name="adressClass" value="${avito.adressClass}"/>
+        <property name="descriptionClass" value="${avito.descriptionClass}"/>
+        <property name="titleClass" value="${avito.titleClass}"/>
+        <property name="contentFolder" value="${avito.contentFolder}"/>
+        <property name="logger" value="#{logger.logger}"/>
+    </bean>
+
+    <bean id = "executionManager" class = "executionManager.ExecutionManagerImpl">
+        <property name="downloadLinks" ref="avitoLinks"/>
+        <property name="pageDownloader" ref="avitoDownloader2"/>
+        <property name="linksQueue" value="#{main.linksQueue}"/>
+        <property name="pageQueue" value="#{main.pageQueue}"/>
+        <property name="logger" value="#{logger.Logger}"/>
+    </bean>
 
 </beans>

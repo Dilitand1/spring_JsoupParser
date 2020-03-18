@@ -1,8 +1,12 @@
 package pageObjects;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class AvitoObject extends PageObject {
 
-    String title,price,adress,description,mainJpg;
+    String title,price,adress,description;
+    List jpgFiles = new ArrayList<String>();
 
     public AvitoObject(){
        this.id = atomicID.incrementAndGet();
@@ -24,8 +28,8 @@ public class AvitoObject extends PageObject {
         this.description = description;
     }
 
-    public void setMainJpg(String mainJpg) {
-        this.mainJpg = mainJpg;
+    public void setJpgFiles(List<String> jpgFiles) {
+        this.jpgFiles = jpgFiles;
     }
 
     public String getTitle() {
@@ -44,7 +48,7 @@ public class AvitoObject extends PageObject {
         return description;
     }
 
-    public String getMainJpg() {
-        return mainJpg;
+    public List<String> getJpgFiles() {
+        return jpgFiles;
     }
 }

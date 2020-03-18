@@ -17,13 +17,14 @@ import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public class AvitoDownloader implements PageDownloader {
 
     private Logger logger;
 
     private List<String> links = new ArrayList<>();
-    private List<PageObject> pageObjects = new ArrayList<>();
+    private List<PageObject> pageObjects;
     private String cachePath;
     private String linksPath;
     private String contentFolder;
@@ -42,6 +43,9 @@ public class AvitoDownloader implements PageDownloader {
     private String url;
     private String urlLinkPageSuffix;
 
+    private String picture_css;
+    private String picture_attr;
+
     public AvitoDownloader() {
     }
 
@@ -56,10 +60,19 @@ public class AvitoDownloader implements PageDownloader {
             avitoObject.setTitle(document.select(titleClass).get(0).text());
             avitoObject.setAdress(document.select(adressClass).get(0).text());
             avitoObject.setDescription(document.select(descriptionClass).get(0).text());
-            avitoObject.setMainJpg(document.select("img[src]").select("[src$=jpg]").attr("src"));
-            downloadFile("http:" + avitoObject.getMainJpg(),contentFolder + "/" + AvitoObject.getAtomicId() + ".jpg");
+
+            List<String> list = document.select(picture_css).stream().map(x->"http:" + (x.attr(picture_attr))).collect(Collectors.toList());
+            avitoObject.setJpgFiles(list);
+
+            for (int j = 0; j < avitoObject.getJpgFiles().size(); j++){
+                downloadFile("http:" + avitoObject.getJpgFiles().get(j), contentFolder + "/" + AvitoObject.getAtomicId() + "_" + j + ".jpg");
+            }
             pageObjects.add(avitoObject);
         }
+    }
+    @Override
+    public PageObject downloadPageContent(String url) {
+        return null;
     }
 
     /**
@@ -112,6 +125,7 @@ public class AvitoDownloader implements PageDownloader {
             e.printStackTrace();
         }
     }
+
     public Document downloadDocument(String url) {
         Document doc = null;
         try {
@@ -227,4 +241,14 @@ public class AvitoDownloader implements PageDownloader {
     public void setLogger(Logger logger) {
         this.logger = logger;
     }
+
+    public void setPicture_css(String picture_css) {
+        this.picture_css = picture_css;
+    }
+
+    public void setPicture_attr(String picture_attr) {
+        this.picture_attr = picture_attr;
+    }
+
+
 }

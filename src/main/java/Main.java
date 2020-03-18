@@ -1,14 +1,13 @@
 
 import JSOUP.JsoupWorker;
-import fileworker.FileWorker;
-import jsoupPageDownloader.AvitoDownloader;
-import logger.MyLogger;
+import executionManager.ExecutionManager;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import pageObjects.PageObject;
 
 import java.io.IOException;
+import java.util.Queue;
 import java.util.Random;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Main {
@@ -16,22 +15,21 @@ public class Main {
     int id;
     JsoupWorker jsoupWorker;
     static Logger logger;
+    Queue<PageObject> pageQueue;
+    Queue<String> linksQueue;
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
 
         ConfigurableApplicationContext configurableApplicationContext
                 = new ClassPathXmlApplicationContext("ApplicationContext.xml");
-        Main main = configurableApplicationContext.getBean("main",Main.class);
+        Main main = configurableApplicationContext.getBean("main", Main.class);
 
-        //JsoupFileWorker jsoupFileWorker = configurableApplicationContext.getBean("jsoupFileWorker2",JsoupFileWorker.class);
-
-        AvitoDownloader avitoDownloader = configurableApplicationContext.getBean("avitoDownloader", AvitoDownloader.class);
-        avitoDownloader.downloadContent();
-
-
+        ExecutionManager executionManager = configurableApplicationContext.getBean("executionManager", ExecutionManager.class);
+        executionManager.execute();
+        //avitoDownloader.downloadContent();
     }
 
-    void init(){
+    void init() {
         id = Math.abs(new Random().nextInt());
     }
 
@@ -49,5 +47,25 @@ public class Main {
 
     public void setJsoupWorker(JsoupWorker jsoupWorker) {
         this.jsoupWorker = jsoupWorker;
+    }
+
+    public void setPageList(Queue pageQueue) {
+        this.pageQueue = pageQueue;
+    }
+
+    public Queue<String> getLinksQueue() {
+        return linksQueue;
+    }
+
+    public void setLinksQueue(Queue linksQueue) {
+        this.linksQueue = linksQueue;
+    }
+
+    public void setPageQueue(Queue<PageObject> pageQueue) {
+        this.pageQueue = pageQueue;
+    }
+
+    public Queue getPageQueue() {
+        return pageQueue;
     }
 }
