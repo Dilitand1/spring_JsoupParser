@@ -12,6 +12,11 @@ public class AvitoObject extends PageObject {
        this.id = atomicID.incrementAndGet();
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + "~" + title + "~" + price + "~" + adress + "~" + description + "~" + jpgFiles;
+    }
+
     public void setTitle(String title) {
         this.title = title;
     }

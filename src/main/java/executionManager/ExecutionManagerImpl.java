@@ -22,9 +22,9 @@ public class ExecutionManagerImpl implements ExecutionManager {
 
         String url = null;
         while ((url = linksQueue.poll()) != null) {
-            pageQueue.add(pageDownloader.downloadPageContent(url));
+            pageQueue.offer(pageDownloader.downloadPageContent(url));
         }
-        System.out.println(pageQueue);
+        System.out.println(pageQueue.size());
         return null;
     }
 

@@ -32,6 +32,7 @@ public class AvitoDownloader2 implements PageDownloader {
         avitoObject.setAdress(document.select(adressClass).get(0).text());
         avitoObject.setDescription(document.select(descriptionClass).get(0).text());
         List<String> list = document.select(picture_css).stream().map(x -> "http:" + (x.attr(picture_attr))).collect(Collectors.toList());
+        System.out.println(list);
         avitoObject.setJpgFiles(list);
         return avitoObject;
     }

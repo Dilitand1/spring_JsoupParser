@@ -92,6 +92,8 @@
         <property name="titleClass" value="${avito.titleClass}"/>
         <property name="contentFolder" value="${avito.contentFolder}"/>
         <property name="logger" value="#{logger.logger}"/>
+        <property name= "picture_css" value = "${avito.picture.css}"/>
+        <property name="picture_attr" value="${avito.picture.attr}"/>
     </bean>
 
     <bean id = "executionManager" class = "executionManager.ExecutionManagerImpl">

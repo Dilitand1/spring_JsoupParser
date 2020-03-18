@@ -15,4 +15,9 @@ public abstract class PageObject {
     public static int getAtomicId(){
         return atomicID.intValue();
     }
+
+    @Override
+    public String toString() {
+        return id + "~" + "ref" + "~" + "title";
+    }
 }
