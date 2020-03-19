@@ -3,8 +3,8 @@ package pageObjects;
 import fileworker.FileWorker;
 import netWorker.NetWorker;
 
+import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class AvitoObject extends PageObject {
@@ -19,10 +19,11 @@ public class AvitoObject extends PageObject {
 
     @Override
     public void saveObject() throws IOException {
-        FileWorker.writeFile((this.toString()).replaceAll("\n"," ") + "\n",outputPathContentInfo,true);
         for(int i = 0; i < jpgFiles.size();i++) {
             NetWorker.writeUrlContentToFile(jpgFiles.get(i),(outputPathContent + "/" + getId() + "_" + i + ".jpg"));
         }
+        FileWorker.writeFile((this.toString()).replaceAll("\n"," ") + "\n",outputPathContentInfo,true);
+        //FileWorker.writeFile(this.getId() + "~" + this.getRef(),getCachePath(),true);
     }
     public void setPrice(String price) {
         this.price = price;

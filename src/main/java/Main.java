@@ -26,18 +26,14 @@ public class Main {
 
     public static void main(String[] args) throws IOException, InterruptedException {
 
+        //Перед запуском незабудь обновить перечень прокси адресов
+
         ConfigurableApplicationContext configurableApplicationContext
                 = new ClassPathXmlApplicationContext("ApplicationContext.xml");
         Main main = configurableApplicationContext.getBean("main", Main.class);
 
         ExecutionManager executionManager = configurableApplicationContext.getBean("executionManager", ExecutionManager.class);
         executionManager.execute();
-
-        //String s = "NTCN";
-        //FileWorker.writeFile(new ByteArrayInputStream(s.getBytes()),"./outputPictures/1_0.jpg");
-
-        //JsoupFileWorker jsoupFileWorker = configurableApplicationContext.getBean("jsoupFileWorker2",JsoupFileWorker.class);
-
     }
 
     void init() {

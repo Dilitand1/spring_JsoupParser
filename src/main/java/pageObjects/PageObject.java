@@ -10,6 +10,7 @@ public abstract class PageObject {
     String title;
     String outputPathContent;
     String outputPathContentInfo;
+    String cachePath;
 
     public PageObject(){
         this.id = atomicID.incrementAndGet();
@@ -48,5 +49,17 @@ public abstract class PageObject {
 
     public int getId() {
         return id;
+    }
+
+    public String getRef() {
+        return ref;
+    }
+
+    public String getCachePath() {
+        return cachePath;
+    }
+
+    public void setCachePath(String cachePath) {
+        this.cachePath = cachePath;
     }
 }

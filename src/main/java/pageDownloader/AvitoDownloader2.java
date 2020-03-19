@@ -28,7 +28,7 @@ public class AvitoDownloader2 implements PageDownloader {
         AvitoObject avitoObject = (AvitoObject) PageFactory.newAvitoObject();
         logger.log(Level.INFO, "parsing " + link);
         Document document = downloadDocument(link,"блокировка123",true);
-        avitoObject.setRef("link");
+        avitoObject.setRef(link);
         avitoObject.setPrice(document.select(priceClass).get(0).text());
         avitoObject.setTitle(document.select(titleClass).get(0).text());
         avitoObject.setAdress(document.select(adressClass).get(0).text());

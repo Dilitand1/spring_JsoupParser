@@ -7,8 +7,9 @@ import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
- *Нужно найти перечень прокси серверов и сохранить в файл proxy.txt
- *
+ * Нужно найти перечень прокси серверов и сохранить в файл proxy.txt
+ * Например скачать перечень http://free-proxy.cz/ru/proxylist/country/RU/https/ping/level1
+ * Проверить работспособность http://free.proxy-sale.com/proxy-checker/
  */
 public class ProxyFactory {
 
