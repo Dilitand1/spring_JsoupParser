@@ -1,12 +1,14 @@
 
 import JSOUP.JsoupWorker;
 import executionManager.ExecutionManager;
+import fileworker.FileWorker;
 import netWorker.NetWorker;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import pageObjects.PageObject;
 import proxy.ProxyFactory;
 
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.net.Proxy;
 import java.util.Queue;
@@ -30,6 +32,9 @@ public class Main {
 
         ExecutionManager executionManager = configurableApplicationContext.getBean("executionManager", ExecutionManager.class);
         executionManager.execute();
+
+        //String s = "NTCN";
+        //FileWorker.writeFile(new ByteArrayInputStream(s.getBytes()),"./outputPictures/1_0.jpg");
 
         //JsoupFileWorker jsoupFileWorker = configurableApplicationContext.getBean("jsoupFileWorker2",JsoupFileWorker.class);
 

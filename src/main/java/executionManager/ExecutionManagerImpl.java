@@ -2,7 +2,7 @@ package executionManager;
 
 import Context.Context;
 import downloadLinks.DownloadLinks;
-import jsoupPageDownloader.PageDownloader;
+import pageDownloader.PageDownloader;
 import pageObjects.PageObject;
 
 import java.io.IOException;
@@ -21,11 +21,13 @@ public class ExecutionManagerImpl implements ExecutionManager {
     public Context execute() throws InterruptedException {
         downloadLinks.downloadLinks();
 
+        //грузим контент со страниц
         String url = null;
         while ((url = linksQueue.poll()) != null) {
             pageQueue.offer(pageDownloader.downloadPageContent(url));
         }
-        System.out.println(pageQueue.size());
+
+        //сохраняем данныес страницы и картинки
         PageObject po = null;
         while ((po = pageQueue.poll()) != null){
             try {

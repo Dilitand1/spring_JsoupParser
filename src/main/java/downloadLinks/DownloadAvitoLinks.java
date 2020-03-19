@@ -71,7 +71,7 @@ public class DownloadAvitoLinks implements DownloadLinks {
         Document doc = null;
         try {
             doc = NetWorker.downloadDocument(url,m,b);
-        } catch (IOException e) {
+        } catch (IOException | InterruptedException e) {
             if (b) {
                 e.printStackTrace();
             }

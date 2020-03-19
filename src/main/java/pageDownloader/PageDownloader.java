@@ -1,4 +1,4 @@
-package jsoupPageDownloader;
+package pageDownloader;
 
 import org.jsoup.nodes.Document;
 import pageObjects.PageObject;

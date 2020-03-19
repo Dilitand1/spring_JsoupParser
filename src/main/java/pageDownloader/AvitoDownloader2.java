@@ -1,14 +1,12 @@
-package jsoupPageDownloader;
+package pageDownloader;
 
 import fileworker.FileWorker;
 import netWorker.NetWorker;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import pageObjects.AvitoObject;
 import pageObjects.PageFactory;
 import pageObjects.PageObject;
 
-import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.util.List;
 import java.util.Queue;
@@ -52,7 +50,7 @@ public class AvitoDownloader2 implements PageDownloader {
 
         try {
             doc = NetWorker.downloadDocument(url,blockMessage,b);
-        } catch (IOException e) {
+        } catch (IOException | InterruptedException e) {
             logger.log(Level.WARNING, e.getMessage() + " link saved to failedLinks");
             FileWorker.writeFile(url, "failedLinks.txt", true);
             e.printStackTrace();

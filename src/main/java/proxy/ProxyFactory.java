@@ -6,6 +6,10 @@ import java.net.Proxy;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+/**
+ *Нужно найти перечень прокси серверов и сохранить в файл proxy.txt
+ *
+ */
 public class ProxyFactory {
 
     public static Queue<Proxy> getProxy(String path){

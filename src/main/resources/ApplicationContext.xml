@@ -74,7 +74,7 @@
         <property name="linksQueue" value="#{main.linksQueue}"/>
     </bean>
 
-    <bean id="avitoDownloader2" class="jsoupPageDownloader.AvitoDownloader2">
+    <bean id="avitoDownloader2" class="pageDownloader.AvitoDownloader2">
         <property name="priceClass" value="${avito.priceClass}"/>
         <property name="adressClass" value="${avito.adressClass}"/>
         <property name="descriptionClass" value="${avito.descriptionClass}"/>

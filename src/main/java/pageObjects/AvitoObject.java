@@ -19,12 +19,11 @@ public class AvitoObject extends PageObject {
 
     @Override
     public void saveObject() throws IOException {
-        FileWorker.writeFile(this.toString(),outputPathContentInfo,true);
-        for(int i = 0; i < jpgFiles.size();i++){
-            NetWorker.writeUrlContentToFile(jpgFiles.get(i),(outputPathContent + "/" + getId() + "_" + i + ".jpg").replaceAll("\n","") + "\n");
+        FileWorker.writeFile((this.toString()).replaceAll("\n"," ") + "\n",outputPathContentInfo,true);
+        for(int i = 0; i < jpgFiles.size();i++) {
+            NetWorker.writeUrlContentToFile(jpgFiles.get(i),(outputPathContent + "/" + getId() + "_" + i + ".jpg"));
         }
     }
-
     public void setPrice(String price) {
         this.price = price;
     }
