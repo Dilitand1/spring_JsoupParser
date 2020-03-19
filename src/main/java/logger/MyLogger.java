@@ -4,6 +4,7 @@ import com.sun.xml.internal.messaging.saaj.util.ByteInputStream;
 
 import java.io.ByteArrayInputStream;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
@@ -18,11 +19,11 @@ public class MyLogger {
         this.configPath = configPath;
     }
 
-    void init(){
+    void init() throws IOException {
         try(FileInputStream ins = new FileInputStream(configPath)){
             LogManager.getLogManager().readConfiguration(ins);
-        }catch (Exception ignore){
-            ignore.printStackTrace();
+        } catch (FileNotFoundException fis){
+            LogManager.getLogManager().readConfiguration(new ByteArrayInputStream(loggerProperties().getBytes()));
         }
     }
 

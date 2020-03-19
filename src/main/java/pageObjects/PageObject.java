@@ -1,5 +1,6 @@
 package pageObjects;
 
+import java.io.IOException;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public abstract class PageObject {
@@ -7,6 +8,12 @@ public abstract class PageObject {
     int id;
     String ref;
     String title;
+    String outputPathContent;
+    String outputPathContentInfo;
+
+    public PageObject(){
+        this.id = atomicID.incrementAndGet();
+    }
 
     static void setAtomicID(int id){
         atomicID.set(id);
@@ -18,6 +25,28 @@ public abstract class PageObject {
 
     @Override
     public String toString() {
-        return id + "~" + "ref" + "~" + "title";
+        return id + "~" + ref + "~" + title;
+    }
+
+    abstract public void saveObject() throws IOException;
+
+    public void setOutputPathContent(String outputPathContent) {
+        this.outputPathContent = outputPathContent;
+    }
+
+    public void setOutputPathContentInfo(String outputPathContentInfo) {
+        this.outputPathContentInfo = outputPathContentInfo;
+    }
+
+    public void setRef(String ref) {
+        this.ref = ref;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public int getId() {
+        return id;
     }
 }

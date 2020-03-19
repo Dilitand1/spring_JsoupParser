@@ -1,11 +1,14 @@
 package jsoupPageDownloader;
 
 import fileworker.FileWorker;
+import netWorker.NetWorker;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import pageObjects.AvitoObject;
+import pageObjects.PageFactory;
 import pageObjects.PageObject;
 
+import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.util.List;
 import java.util.Queue;
@@ -24,34 +27,17 @@ public class AvitoDownloader2 implements PageDownloader {
 
     @Override
     public PageObject downloadPageContent(String link) {
-        AvitoObject avitoObject = new AvitoObject();
+        AvitoObject avitoObject = (AvitoObject) PageFactory.newAvitoObject();
         logger.log(Level.INFO, "parsing " + link);
-        Document document = downloadDocument(link);
+        Document document = downloadDocument(link,"блокировка123",true);
+        avitoObject.setRef("link");
         avitoObject.setPrice(document.select(priceClass).get(0).text());
         avitoObject.setTitle(document.select(titleClass).get(0).text());
         avitoObject.setAdress(document.select(adressClass).get(0).text());
         avitoObject.setDescription(document.select(descriptionClass).get(0).text());
         List<String> list = document.select(picture_css).stream().map(x -> "http:" + (x.attr(picture_attr))).collect(Collectors.toList());
-        System.out.println(list);
         avitoObject.setJpgFiles(list);
         return avitoObject;
-    }
-
-    @Override
-    public void downloadContent() {
-        for (int i = 0; i < linksQueue.size(); i++) {
-            String link = linksQueue.poll();
-            logger.log(Level.INFO, "parsing " + link);
-            AvitoObject avitoObject = new AvitoObject();
-            Document document = downloadDocument(link);
-            avitoObject.setPrice(document.select(priceClass).get(0).text());
-            avitoObject.setTitle(document.select(titleClass).get(0).text());
-            avitoObject.setAdress(document.select(adressClass).get(0).text());
-            avitoObject.setDescription(document.select(descriptionClass).get(0).text());
-            List<String> list = document.select(picture_css).stream().map(x -> "http:" + (x.attr(picture_attr))).collect(Collectors.toList());
-            avitoObject.setJpgFiles(list);
-            pageList.offer(avitoObject);
-        }
     }
 
     @Override
@@ -60,20 +46,16 @@ public class AvitoDownloader2 implements PageDownloader {
     }
 
     @Override
-    public Document downloadDocument(String url) {
+    public Document downloadDocument(String url,String blockMessage, boolean b) {
+
         Document doc = null;
+
         try {
-            doc = Jsoup.connect(url)
-                    .userAgent("Chrome/4.0.249.0 Safari/532.5")
-                    //.proxy(Proxy.NO_PROXY)
-                    //.referrer("http://www.google.com")
-                    .timeout(20 * 1000)
-                    .get();
+            doc = NetWorker.downloadDocument(url,blockMessage,b);
         } catch (IOException e) {
-            //logger.log(Level.WARNING, e.getMessage() + " link returned to queue");
-            //linksQueue.offer(url);
             logger.log(Level.WARNING, e.getMessage() + " link saved to failedLinks");
             FileWorker.writeFile(url, "failedLinks.txt", true);
+            e.printStackTrace();
         }
         return doc;
     }

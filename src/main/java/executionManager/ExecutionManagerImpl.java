@@ -5,6 +5,7 @@ import downloadLinks.DownloadLinks;
 import jsoupPageDownloader.PageDownloader;
 import pageObjects.PageObject;
 
+import java.io.IOException;
 import java.util.Queue;
 import java.util.logging.Logger;
 
@@ -25,6 +26,14 @@ public class ExecutionManagerImpl implements ExecutionManager {
             pageQueue.offer(pageDownloader.downloadPageContent(url));
         }
         System.out.println(pageQueue.size());
+        PageObject po = null;
+        while ((po = pageQueue.poll()) != null){
+            try {
+                po.saveObject();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
         return null;
     }
 

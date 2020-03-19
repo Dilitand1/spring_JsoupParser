@@ -1,18 +1,17 @@
 
-import JSOUP.JsoupFileWorker;
 import JSOUP.JsoupWorker;
 import executionManager.ExecutionManager;
-import org.jsoup.nodes.Document;
+import netWorker.NetWorker;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import pageObjects.PageObject;
+import proxy.ProxyFactory;
 
 import java.io.IOException;
-import java.util.List;
+import java.net.Proxy;
 import java.util.Queue;
 import java.util.Random;
 import java.util.logging.Logger;
-import java.util.stream.Collectors;
 
 public class Main {
 
@@ -21,6 +20,7 @@ public class Main {
     static Logger logger;
     Queue<PageObject> pageQueue;
     Queue<String> linksQueue;
+    Queue<java.net.Proxy> proxyQueue;
 
     public static void main(String[] args) throws IOException, InterruptedException {
 
@@ -31,18 +31,8 @@ public class Main {
         ExecutionManager executionManager = configurableApplicationContext.getBean("executionManager", ExecutionManager.class);
         executionManager.execute();
 
-        JsoupFileWorker jsoupFileWorker = configurableApplicationContext.getBean("jsoupFileWorker2",JsoupFileWorker.class);
+        //JsoupFileWorker jsoupFileWorker = configurableApplicationContext.getBean("jsoupFileWorker2",JsoupFileWorker.class);
 
-
-        //Document document = jsoupFileWorker.getDocument();
-        //List<String> list = document.select("div.gallery-img-frame").stream().map(x -> "http:" + (x.attr("data-url"))).collect(Collectors.toList());
-        //System.out.println(list);
-
-
-        //executionManager.execute();
-
-
-        //avitoDownloader.downloadContent();
     }
 
     void init() {
@@ -83,5 +73,13 @@ public class Main {
 
     public Queue getPageQueue() {
         return pageQueue;
+    }
+
+    public Queue<Proxy> getProxyQueue() {
+        return proxyQueue;
+    }
+
+    public void setProxyQueue(Queue<Proxy> proxyQueue) {
+        this.proxyQueue = proxyQueue;
     }
 }

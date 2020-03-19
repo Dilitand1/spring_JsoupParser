@@ -1,24 +1,28 @@
 package pageObjects;
 
+import fileworker.FileWorker;
+import netWorker.NetWorker;
+
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class AvitoObject extends PageObject {
 
-    String title,price,adress,description;
-    List jpgFiles = new ArrayList<String>();
-
-    public AvitoObject(){
-       this.id = atomicID.incrementAndGet();
-    }
+    String price,adress,description;
+    List<String> jpgFiles;
 
     @Override
     public String toString() {
-        return super.toString() + "~" + title + "~" + price + "~" + adress + "~" + description + "~" + jpgFiles;
+        return super.toString() + "~" + price + "~" + adress + "~" + description + "~" + jpgFiles;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    @Override
+    public void saveObject() throws IOException {
+        FileWorker.writeFile(this.toString(),outputPathContentInfo,true);
+        for(int i = 0; i < jpgFiles.size();i++){
+            NetWorker.writeUrlContentToFile(jpgFiles.get(i),(outputPathContent + "/" + getId() + "_" + i + ".jpg").replaceAll("\n","") + "\n");
+        }
     }
 
     public void setPrice(String price) {
@@ -56,4 +60,5 @@ public class AvitoObject extends PageObject {
     public List<String> getJpgFiles() {
         return jpgFiles;
     }
+
 }

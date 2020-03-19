@@ -4,8 +4,8 @@ import org.jsoup.nodes.Document;
 import pageObjects.PageObject;
 
 public interface PageDownloader {
-    void downloadContent();
+
     PageObject downloadPageContent(String url);
     void downloadLinks();
-    Document downloadDocument(String url);
+    Document downloadDocument(String url,String blockMessage, boolean b);
 }

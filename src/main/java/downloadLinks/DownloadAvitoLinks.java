@@ -1,14 +1,15 @@
 package downloadLinks;
 
 import fileworker.FileWorker;
+import netWorker.NetWorker;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.net.Proxy;
 import java.util.*;
-import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Pattern;
@@ -38,12 +39,12 @@ public class DownloadAvitoLinks implements DownloadLinks {
         downloadCache();//проверяем кэш
         if (linksQueue.size() == 0 && cachedLinks.size() == 0) { //проверяем что нет ни ссылок ни кэша
             logger.log(Level.INFO, "Download links");
-            document = downloadDocument(url);
+            document = downloadDocument(url,"заблокирован",true);
             currentPage = 0;
             if (downloadCountOfPages() > 1) {
                 while (true) {
                     logger.log(Level.INFO, "Текущая страница " + ++currentPage);
-                    document = downloadDocument(url + urlLinkPageSuffix + currentPage);
+                    document = downloadDocument(url + urlLinkPageSuffix + currentPage,"заблокирован", currentPage > countOfPages);
                     if (document == null) break;
                     Elements linkElements = document.select(cssAllLinks);
                     if (linkElements.size() > 0) {
@@ -66,18 +67,13 @@ public class DownloadAvitoLinks implements DownloadLinks {
     }
 
     @Override
-    public Document downloadDocument(String url) {
+    public Document downloadDocument(String url,String m, boolean b) {
         Document doc = null;
         try {
-            doc = Jsoup.connect(url)
-                    .userAgent("Chrome/4.0.249.0 Safari/532.5")
-                    //.proxy(Proxy.NO_PROXY)
-                    //.referrer("http://www.google.com")
-                    .timeout(20 * 1000)
-                    .get();
+            doc = NetWorker.downloadDocument(url,m,b);
         } catch (IOException e) {
-            if (currentPage <= countOfPages) {
-                logger.log(Level.WARNING, e.getMessage());
+            if (b) {
+                e.printStackTrace();
             }
         }
         return doc;
