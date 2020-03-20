@@ -16,7 +16,7 @@ public abstract class PageObject {
         this.id = atomicID.incrementAndGet();
     }
 
-    static void setAtomicID(int id){
+    public static void setAtomicID(int id){
         atomicID.set(id);
     }
 

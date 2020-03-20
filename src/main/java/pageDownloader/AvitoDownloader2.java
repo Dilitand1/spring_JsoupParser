@@ -38,8 +38,7 @@ public class AvitoDownloader2 implements PageDownloader {
         return avitoObject;
     }
 
-    @Override
-    public void downloadLinks() {
+    public synchronized void downloadLinks() {
         return;
     }
 

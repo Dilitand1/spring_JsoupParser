@@ -39,25 +39,6 @@
         <property name="inputPath" value="output.txt"/>
     </bean>
 
-    <bean id="jsoupUrlWorker" class="JSOUP.JsoupUrlWorker">
-        <!--        <property name="document" value="${parser.startUrl}"/>-->
-        <!--        <property name="linkElements" value="${parser.links.css}"/>-->
-        <property name="cssQ" value="${parser.pagesCount.css}"/>
-        <property name="attr" value="${parser.pagesCount.attr}"/>
-        <property name="pattern" value="${parser.pagesCount.pattern}"/>
-        <property name="firstPartRef" value="${parser.firstPartRef}"/>
-    </bean>
-
-    <bean id="jsoupFileWorker" class="JSOUP.JsoupFileWorker" parent="jsoupUrlWorker" init-method="init">
-        <property name="document" value="output.txt"/>
-        <property name="linkElements" value="${parser.links.css}"/>
-    </bean>
-
-    <bean id="jsoupFileWorker2" class="JSOUP.JsoupFileWorker">
-        <property name="document" value="output2.txt"/>
-        <property name="linkElements" value="${parser.links.css}"/>
-    </bean>
-
     <bean id="avitoLinks" class="downloadLinks.DownloadAvitoLinks">
         <property name="patternCountOfPages" value="${avito.pattern1}"/>
         <property name="cssPages" value="${avito.cssPages}"/>
@@ -69,7 +50,7 @@
         <property name="linksPath" value="${avito.linksPath}"/>
         <property name="logger" value="#{logger.logger}"/>
         <property name="cachedLinks">
-            <map></map>
+            <list/>
         </property>
         <property name="linksQueue" value="#{main.linksQueue}"/>
     </bean>
@@ -83,14 +64,16 @@
         <property name="logger" value="#{logger.logger}"/>
         <property name="picture_css" value="${avito.picture.css}"/>
         <property name="picture_attr" value="${avito.picture.attr}"/>
+
+
     </bean>
 
-    <bean id="executionManager" class="executionManager.ExecutionManagerImpl">
-        <property name="downloadLinks" ref="avitoLinks"/>
+    <bean id="executionDeepManager" class="executionManager.ExecutionManagerDeepImpl">
         <property name="pageDownloader" ref="avitoDownloader2"/>
-        <property name="linksQueue" value="#{main.linksQueue}"/>
         <property name="pageQueue" value="#{main.pageQueue}"/>
         <property name="logger" value="#{logger.Logger}"/>
+        <property name="downloadLinks" ref="avitoLinks"/>
+        <property name="linksQueue" value="#{main.linksQueue}"/>
     </bean>
 
     <bean id = "netWorker" class = "netWorker.NetWorker">

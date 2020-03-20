@@ -2,13 +2,12 @@ package downloadLinks;
 
 import fileworker.FileWorker;
 import netWorker.NetWorker;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import pageObjects.PageObject;
 
 import java.io.IOException;
-import java.net.Proxy;
 import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -21,7 +20,7 @@ public class DownloadAvitoLinks implements DownloadLinks {
 
     String linksPath;
     String cachePath;
-    Map<Integer, String> cachedLinks;
+    List<String> cachedLinks;
 
     String url;
     String cssPages;
@@ -93,11 +92,15 @@ public class DownloadAvitoLinks implements DownloadLinks {
         if (FileWorker.fileExists((cachePath))) {
             logger.log(Level.INFO, "Cache found. Reading cache path");
             List<String> tmpList = Arrays.asList(FileWorker.readFile(cachePath).split("\n"));
-            for (String s : tmpList) {
-                cachedLinks.put(Integer.parseInt(s.split("~")[0]), s.split("~")[1]);
+            int lastId = 1;
+            for(String s : tmpList){
+                cachedLinks.add(s.split("~")[1]);
+                lastId = lastId < new Integer(s.split("~")[0]) ? new Integer(s.split("~")[0]) : lastId;
             }
+            PageObject.setAtomicID(lastId);
+            //System.out.println(PageObject.getAtomicId());
             logger.log(Level.INFO, "Deleting already downloaded files");
-            linksQueue.removeAll(cachedLinks.values());
+            linksQueue.removeAll(cachedLinks);
         }
     }
 
@@ -132,7 +135,7 @@ public class DownloadAvitoLinks implements DownloadLinks {
         this.cachePath = cachePath;
     }
 
-    public void setCachedLinks(Map<Integer, String> cachedLinks) {
+    public void setCachedLinks(List<String> cachedLinks) {
         this.cachedLinks = cachedLinks;
     }
 

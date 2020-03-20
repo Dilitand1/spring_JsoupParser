@@ -3,7 +3,6 @@ package pageObjects;
 import fileworker.FileWorker;
 import netWorker.NetWorker;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.List;
 

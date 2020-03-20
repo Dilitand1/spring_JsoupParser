@@ -1,14 +1,7 @@
-
-import JSOUP.JsoupWorker;
 import executionManager.ExecutionManager;
-import fileworker.FileWorker;
-import netWorker.NetWorker;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import pageObjects.PageObject;
-import proxy.ProxyFactory;
-
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.net.Proxy;
 import java.util.Queue;
@@ -18,7 +11,6 @@ import java.util.logging.Logger;
 public class Main {
 
     int id;
-    JsoupWorker jsoupWorker;
     static Logger logger;
     Queue<PageObject> pageQueue;
     Queue<String> linksQueue;
@@ -40,7 +32,7 @@ public class Main {
                 = new ClassPathXmlApplicationContext("ApplicationContext.xml");
         Main main = configurableApplicationContext.getBean("main", Main.class);
 
-        ExecutionManager executionManager = configurableApplicationContext.getBean("executionManager", ExecutionManager.class);
+        ExecutionManager executionManager = configurableApplicationContext.getBean("executionDeepManager", ExecutionManager.class);
         executionManager.execute();
     }
 
@@ -58,10 +50,6 @@ public class Main {
 
     public void setLogger(Logger logger) {
         this.logger = logger;
-    }
-
-    public void setJsoupWorker(JsoupWorker jsoupWorker) {
-        this.jsoupWorker = jsoupWorker;
     }
 
     public void setPageList(Queue pageQueue) {
