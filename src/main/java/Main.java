@@ -26,7 +26,15 @@ public class Main {
 
     public static void main(String[] args) throws IOException, InterruptedException {
 
-        //Перед запуском незабудь обновить перечень прокси адресов
+        /**
+         *         Перед запуском незабудь обновить перечень прокси адресов (см. ProxyFactory)
+         *
+         *         допилить кэш
+         *         proxyfactory - реализовать внедрение параметров через спринг
+         *         допилить индикацию что прокси заблочен файерволом и дать ему "остыть" (узнать время остывания)
+         *         загружать линки многопоточно
+         *         удалить ненужные классы (JSOUP package)
+         */
 
         ConfigurableApplicationContext configurableApplicationContext
                 = new ClassPathXmlApplicationContext("ApplicationContext.xml");

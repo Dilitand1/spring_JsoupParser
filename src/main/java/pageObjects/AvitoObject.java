@@ -9,7 +9,7 @@ import java.util.List;
 
 public class AvitoObject extends PageObject {
 
-    String price,adress,description;
+    String price, adress, description;
     List<String> jpgFiles;
 
     @Override
@@ -19,12 +19,17 @@ public class AvitoObject extends PageObject {
 
     @Override
     public void saveObject() throws IOException {
-        for(int i = 0; i < jpgFiles.size();i++) {
-            NetWorker.writeUrlContentToFile(jpgFiles.get(i),(outputPathContent + "/" + getId() + "_" + i + ".jpg"));
+        for (int i = 0; i < jpgFiles.size(); i++) {
+            NetWorker.writeUrlContentToFile(jpgFiles.get(i), (outputPathContent + "/" + getId() + "_" + i + ".jpg"));
         }
-        FileWorker.writeFile((this.toString()).replaceAll("\n"," ") + "\n",outputPathContentInfo,true);
+        synchronized (AvitoObject.class) {
+            //запись в общий файл будет синхронно чтобы не упасть
+            FileWorker.writeFile((this.toString()).replaceAll("\n", " ") + "\n", outputPathContentInfo, true);
+        }
+        //допилить кэш
         //FileWorker.writeFile(this.getId() + "~" + this.getRef(),getCachePath(),true);
     }
+
     public void setPrice(String price) {
         this.price = price;
     }

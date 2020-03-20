@@ -6,10 +6,7 @@ import org.jsoup.nodes.Document;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;
-import java.net.ConnectException;
-import java.net.Proxy;
-import java.net.URL;
-import java.net.URLConnection;
+import java.net.*;
 import java.util.Queue;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -20,7 +17,7 @@ public class NetWorker {
 
     public static Document downloadDocument(String url, String blockedMessage, boolean b) throws IOException, InterruptedException {
         while (proxyQueue.size() == 0) {
-            logger.log(Level.INFO,"кончились прокси в очереди ждем когда вернется обратно");
+            logger.log(Level.INFO, "кончились прокси в очереди ждем когда вернется обратно");
             Thread.sleep(1000);
         }
         Proxy proxy = proxyQueue.poll(); //тянем проксю
@@ -32,17 +29,46 @@ public class NetWorker {
                     //.referrer("http://www.google.com")
                     .timeout(30 * 1000)
                     .get();
-        } catch (ConnectException ce) {
-            if (ce.getMessage().contains("Connection timed out")) {
+        } catch (SocketTimeoutException stE) {
+            if (stE.getMessage().contains("Read timed out")) {
+                logger.log(Level.INFO, stE.getMessage() + ", taking next proxy");
+                proxyQueue.offer(proxy);
+                doc = downloadDocument(url, blockedMessage, b);
+            }
+            else {
+                throw stE;
+            }
+        } catch (ConnectException cE) {
+            if (cE.getMessage().contains("Connection timed out")) {
                 logger.log(Level.INFO, "Time out connection, taking next proxy");
                 proxyQueue.offer(proxy);
                 doc = downloadDocument(url, blockedMessage, b);
+            } else if (cE.getMessage().contains("Status=404") || cE.getMessage().contains("Status=403") || cE.getMessage().contains("Connection refused: connect")) {
+                logger.log(Level.INFO, cE.getMessage() + ", taking next proxy");
+                proxyQueue.offer(proxy);
+                doc = downloadDocument(url, blockedMessage, b);
             } else {
-                ce.printStackTrace();
+                cE.printStackTrace();
+            }
+        } catch (SocketException seE) {
+            if (seE.getMessage().contains("Unexpected end of file from server")) {
+                logger.log(Level.INFO, seE.getMessage() + ", taking next proxy");
+                proxyQueue.offer(proxy);
+                doc = downloadDocument(url, blockedMessage, b);
+            }
+            else {
+                throw seE;
+            }
+        } catch (IOException ioE) {
+            if (ioE.getMessage().contains("Internal Server Error")) {
+                logger.log(Level.WARNING, ioE.getMessage() + ". deleting proxy, taking next proxy");
+                doc = downloadDocument(url, blockedMessage, b);
+            } else {
+                throw ioE;
             }
         }
         if (doc.toString().contains(blockedMessage)) {
-            logger.log(Level.INFO, "Proxy blocked changing proxy");
+            logger.log(Level.INFO, "Proxy blocked by firewall changing proxy");
             proxyQueue.offer(proxy);
             doc = downloadDocument(url, blockedMessage, b);
         }
@@ -60,14 +86,24 @@ public class NetWorker {
             c.setDoOutput(true);
             c.setDoInput(true);
             logger.log(Level.INFO, "downloading " + urlContent);
-            FileWorker.writeFile(new BufferedInputStream(c.getInputStream()), pathToSave);
+            BufferedInputStream BufferedInputStream = new BufferedInputStream(c.getInputStream());
+            FileWorker.writeFile(BufferedInputStream, pathToSave);
         } catch (ConnectException ce) {
             if (ce.getMessage().contains("Connection timed out")) {
                 logger.log(Level.INFO, "Time out connection, taking next proxy");
                 proxyQueue.offer(proxy);
                 writeUrlContentToFile(urlContent, pathToSave);
             } else {
+                System.out.println("writeUrlContentToFile" + ce.getMessage());
                 ce.printStackTrace();
+            }
+        } catch (IOException ioe) {
+            if (ioe.getMessage().contains("HTTP response code: 503")) {
+                logger.log(Level.INFO, ioe.getMessage() + " , taking next proxy");
+                proxyQueue.offer(proxy);
+                writeUrlContentToFile(urlContent, pathToSave);
+            } else {
+                throw ioe;
             }
         }
     }
@@ -79,5 +115,4 @@ public class NetWorker {
     public void setProxyQueue(Queue<Proxy> proxyQueue) {
         NetWorker.proxyQueue = proxyQueue;
     }
-
 }

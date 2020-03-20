@@ -37,7 +37,7 @@ public class FileWorker {
         return readFile(inputPath);
     }
 
-    public static void writeFile(String text, String path, boolean b) {
+    public static synchronized void writeFile(String text, String path, boolean b) {
         try (FileOutputStream fos = new FileOutputStream(path, b)) {
             fos.write(text.getBytes());
         } catch (IOException e) {
@@ -45,7 +45,7 @@ public class FileWorker {
         }
     }
 
-    public static void writeFile(List<String> texts, String path) {
+    public static synchronized void writeFile(List<String> texts, String path) {
         try {
             Files.deleteIfExists(Paths.get(path));
             for (String s : texts) {
@@ -56,7 +56,7 @@ public class FileWorker {
         }
     }
 
-    public static void writeFile(InputStream in, String path) throws IOException {
+    public static synchronized void writeFile(InputStream in, String path) throws IOException {
         int ch;
         try (FileOutputStream fos = new FileOutputStream(path, false)) {
             while ((ch = in.read()) != -1) {
@@ -66,7 +66,7 @@ public class FileWorker {
         }
     }
 
-    public static void writeFile(byte[] bytes, String path) throws IOException {
+    public static synchronized void writeFile(byte[] bytes, String path) throws IOException {
         try (FileOutputStream fos = new FileOutputStream(path, false)) {
             for (int i = 0; i < bytes.length; i++) {
                 fos.write(bytes[i]);

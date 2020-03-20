@@ -52,7 +52,7 @@ public class AvitoDownloader2 implements PageDownloader {
             doc = NetWorker.downloadDocument(url,blockMessage,b);
         } catch (IOException | InterruptedException e) {
             logger.log(Level.WARNING, e.getMessage() + " link saved to failedLinks");
-            FileWorker.writeFile(url, "failedLinks.txt", true);
+            FileWorker.writeFile(url + "\n", "failedLinks.txt", true);
             e.printStackTrace();
         }
         return doc;
