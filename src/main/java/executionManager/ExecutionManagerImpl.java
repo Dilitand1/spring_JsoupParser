@@ -62,7 +62,7 @@ public class ExecutionManagerImpl implements ExecutionManager {
                         } else {
                             try {
                                 if (linksQueue.isEmpty() && pageQueue.isEmpty()
-                                        && f1.stream().map(x-> x.isDone() || x.isCancelled() ? 0 : 1).reduce(0,(x,y) -> x + y) == 0){
+                                        || f1.stream().map(x-> x.isDone() || x.isCancelled() ? 0 : 1).reduce(0,(x,y) -> x + y) == 0){
                                     break;
                                 }
                                 System.out.println("Очередь пуста спим 5 сек");

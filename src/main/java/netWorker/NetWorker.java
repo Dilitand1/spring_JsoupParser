@@ -1,6 +1,7 @@
 package netWorker;
 
 import fileworker.FileWorker;
+import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
@@ -63,7 +64,12 @@ public class NetWorker {
             if (ioE.getMessage().contains("Internal Server Error")) {
                 logger.log(Level.WARNING, ioE.getMessage() + ". deleting proxy, taking next proxy");
                 doc = downloadDocument(url, blockedMessage, b);
-            } else {
+            } else if (ioE.getMessage().contains("Status=403") || ioE.getMessage().contains("503 Too many open connections"))  {
+                logger.log(Level.INFO, ioE.getMessage() + ", taking next proxy");
+                proxyQueue.offer(proxy);
+                doc = downloadDocument(url, blockedMessage, b);
+            }
+            else {
                 throw ioE;
             }
         }
@@ -89,7 +95,7 @@ public class NetWorker {
             BufferedInputStream BufferedInputStream = new BufferedInputStream(c.getInputStream());
             FileWorker.writeFile(BufferedInputStream, pathToSave);
         } catch (ConnectException ce) {
-            if (ce.getMessage().contains("Connection timed out")) {
+            if (ce.getMessage().contains("Connection timed out") || ce.getMessage().contains("Connection refused: connect")) {
                 logger.log(Level.INFO, "Time out connection, taking next proxy");
                 proxyQueue.offer(proxy);
                 writeUrlContentToFile(urlContent, pathToSave);
