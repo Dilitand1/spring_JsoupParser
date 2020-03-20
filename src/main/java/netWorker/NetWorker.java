@@ -98,7 +98,7 @@ public class NetWorker {
                 ce.printStackTrace();
             }
         } catch (IOException ioe) {
-            if (ioe.getMessage().contains("HTTP response code: 503")) {
+            if (ioe.getMessage().contains("HTTP response code: 503") || ioe.getMessage().contains("Unexpected end of file from server")) {
                 logger.log(Level.INFO, ioe.getMessage() + " , taking next proxy");
                 proxyQueue.offer(proxy);
                 writeUrlContentToFile(urlContent, pathToSave);
