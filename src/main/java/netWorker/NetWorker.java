@@ -27,12 +27,8 @@ public class NetWorker {
                     .userAgent("Chrome/4.0.249.0 Safari/532.5")
                     .proxy(proxy)
                     //.referrer("http://www.google.com")
-                    .timeout(30 * 1000)
+                    .timeout(15 * 1000)
                     .get();
-        } catch (org.jsoup.HttpStatusException hsE) {
-            logger.log(Level.INFO, hsE.getMessage() + ", taking next proxy");
-            proxyQueue.offer(proxy);
-            doc = downloadDocument(url, blockedMessage, b);
         } catch (IOException ioE) {
             if (ioE.getMessage().contains("Internal Server Error")) {
                 logger.log(Level.WARNING, ioE.getMessage() + ". deleting proxy, taking next proxy");
@@ -45,13 +41,14 @@ public class NetWorker {
                     || ioE.getMessage().contains("Unexpected end of file from server")
                     || ioE.getMessage().contains("timed out")
                     || ioE.getMessage().contains("Status=404")
-                    || ioE.getMessage().contains("HTTP error fetching URL. Status=403")
+                    //|| ioE.getMessage().contains("HTTP error fetching URL. Status=403")
                     || ioE.getMessage().contains("Unable to tunnel through proxy")
                     || ioE.getMessage().contains("Connection refused: connect")) {
                 logger.log(Level.INFO, proxy.address() + " " + ioE.getMessage() + ", taking next proxy");
                 proxyQueue.offer(proxy);
                 doc = downloadDocument(url, blockedMessage, b);
             } else {
+                proxyQueue.offer(proxy);
                 System.out.println("throwing");
                 throw ioE;
             }
@@ -65,7 +62,11 @@ public class NetWorker {
         return doc;
     }
 
-    public static void writeUrlContentToFile(String urlContent, String pathToSave) throws IOException {
+    public static void writeUrlContentToFile(String urlContent, String pathToSave) throws IOException, InterruptedException {
+        while (proxyQueue.size() == 0) {
+            logger.log(Level.INFO, "кончились прокси в очереди ждем когда вернется обратно");
+            Thread.sleep(1000);
+        }
         Proxy proxy = proxyQueue.poll();
         URL u;
         URLConnection c;
@@ -99,5 +100,9 @@ public class NetWorker {
 
     public void setProxyQueue(Queue<Proxy> proxyQueue) {
         NetWorker.proxyQueue = proxyQueue;
+    }
+
+    public Queue<Proxy> getProxyQueue() {
+        return proxyQueue;
     }
 }

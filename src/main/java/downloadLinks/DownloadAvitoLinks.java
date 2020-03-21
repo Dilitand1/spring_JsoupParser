@@ -43,7 +43,7 @@ public class DownloadAvitoLinks implements DownloadLinks {
             if (downloadCountOfPages() > 1) {
                 while (true) {
                     logger.log(Level.INFO, "Текущая страница " + ++currentPage);
-                    document = downloadDocument(url + urlLinkPageSuffix + currentPage,"заблокирован", currentPage > countOfPages);
+                    document = downloadDocument(url + urlLinkPageSuffix + currentPage,"заблокирован", currentPage < countOfPages);
                     if (document == null) break;
                     Elements linkElements = document.select(cssAllLinks);
                     if (linkElements.size() > 0) {

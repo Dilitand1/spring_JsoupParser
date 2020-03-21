@@ -25,7 +25,7 @@ public class ExecutionManagerDeepImpl implements ExecutionManager {
 
     /**
      *
-     * Реализация с глубокой прогрузкой со всеми вложениями.
+     * Реализация с прогрузкой при передачи всех нужных линков методом downloadLinks.
      * Из за прокси работает очень медленно как решить хз. Можно распарсить поверхностно - это будет быстро
      *
      * Сначала тянет перечень всех линков потом заходит в каждый и распарсивает все поля (кроме телефона - нужно разбираться как выгрузить их)
@@ -65,7 +65,7 @@ public class ExecutionManagerDeepImpl implements ExecutionManager {
                             try {
                                 System.out.println("Очередь есть работаем");
                                 po.saveObject();
-                            } catch (IOException e) {
+                            } catch (IOException | InterruptedException e) {
                                 e.printStackTrace();
                             }
                         } else {

@@ -1,5 +1,6 @@
 package pageDownloader;
 
+import downloadLinks.DownloadLinks;
 import fileworker.FileWorker;
 import netWorker.NetWorker;
 import org.jsoup.nodes.Document;
@@ -19,9 +20,15 @@ public class AvitoDownloader2 implements PageDownloader {
     Queue<String> linksQueue;
     Queue<PageObject> pageList;
     Logger logger;
+    String patternCountOfPages;
+
+    int currentPage;
+    int countOfPages;
 
     String priceClass, titleClass, adressClass, descriptionClass;
     String picture_css, picture_attr, contentFolder;
+
+    DownloadLinks downloadLinks;
 
     @Override
     public PageObject downloadPageContent(String link) {
@@ -36,10 +43,6 @@ public class AvitoDownloader2 implements PageDownloader {
         List<String> list = document.select(picture_css).stream().map(x -> "http:" + (x.attr(picture_attr))).collect(Collectors.toList());
         avitoObject.setJpgFiles(list);
         return avitoObject;
-    }
-
-    public synchronized void downloadLinks() {
-        return;
     }
 
     @Override

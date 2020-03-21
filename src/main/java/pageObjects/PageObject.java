@@ -29,7 +29,7 @@ public abstract class PageObject {
         return id + "~" + ref + "~" + title;
     }
 
-    abstract public void saveObject() throws IOException;
+    abstract public void saveObject() throws IOException, InterruptedException;
 
     public void setOutputPathContent(String outputPathContent) {
         this.outputPathContent = outputPathContent;

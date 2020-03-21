@@ -17,7 +17,7 @@ public class AvitoObject extends PageObject {
     }
 
     @Override
-    public void saveObject() throws IOException {
+    public void saveObject() throws IOException, InterruptedException {
         for (int i = 0; i < jpgFiles.size(); i++) {
             NetWorker.writeUrlContentToFile(jpgFiles.get(i), (outputPathContent + "/" + getId() + "_" + i + ".jpg"));
         }

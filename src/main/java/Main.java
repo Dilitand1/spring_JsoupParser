@@ -12,15 +12,12 @@ public class Main {
 
     int id;
     static Logger logger;
-    Queue<PageObject> pageQueue;
-    Queue<String> linksQueue;
-    Queue<java.net.Proxy> proxyQueue;
+    ExecutionManager executionManager;
 
     public static void main(String[] args) throws IOException, InterruptedException {
 
         /**
          *         Перед запуском незабудь обновить перечень прокси адресов (см. ProxyFactory)
-         *
          *         допилить кэш
          *         proxyfactory - реализовать внедрение параметров через спринг
          *         допилить индикацию что прокси заблочен файерволом и дать ему "остыть" (узнать время остывания)
@@ -31,9 +28,7 @@ public class Main {
         ConfigurableApplicationContext configurableApplicationContext
                 = new ClassPathXmlApplicationContext("ApplicationContext.xml");
         Main main = configurableApplicationContext.getBean("main", Main.class);
-
-        ExecutionManager executionManager = configurableApplicationContext.getBean("executionDeepManager", ExecutionManager.class);
-        executionManager.execute();
+        main.executionManager.execute();
     }
 
     void init() {
@@ -52,31 +47,7 @@ public class Main {
         this.logger = logger;
     }
 
-    public void setPageList(Queue pageQueue) {
-        this.pageQueue = pageQueue;
-    }
-
-    public Queue<String> getLinksQueue() {
-        return linksQueue;
-    }
-
-    public void setLinksQueue(Queue linksQueue) {
-        this.linksQueue = linksQueue;
-    }
-
-    public void setPageQueue(Queue<PageObject> pageQueue) {
-        this.pageQueue = pageQueue;
-    }
-
-    public Queue getPageQueue() {
-        return pageQueue;
-    }
-
-    public Queue<Proxy> getProxyQueue() {
-        return proxyQueue;
-    }
-
-    public void setProxyQueue(Queue<Proxy> proxyQueue) {
-        this.proxyQueue = proxyQueue;
+    public void setExecutionManager(ExecutionManager executionManager) {
+        this.executionManager = executionManager;
     }
 }
