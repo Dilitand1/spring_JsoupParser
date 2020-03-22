@@ -7,15 +7,15 @@ import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
- * Нужно найти перечень прокси серверов и сохранить в файл proxy.txt
+ * Нужно найти перечень прокси серверов и сохранить в файл proxy.txt в формате ip;port
  * Например скачать перечень http://free-proxy.cz/ru/proxylist/country/RU/https/ping/level1
- * Проверить работспособность http://free.proxy-sale.com/proxy-checker/ (убираем медленные, иначе будут проблемы)
+ * Проверить работоспособность http://free.proxy-sale.com/proxy-checker/ (убираем медленные, иначе будут проблемы)
  */
 public class ProxyFactory {
 
     public static Queue<Proxy> getProxy(String path) {
         ConcurrentLinkedQueue<Proxy> proxyQueue = new ConcurrentLinkedQueue<>();
-        proxyQueue.offer(Proxy.NO_PROXY);
+        proxyQueue.offer(Proxy.NO_PROXY);//добавляет 1 параметр - по умолчанию будет работать без прокси
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             String line;
             while ((line = br.readLine()) != null) {
