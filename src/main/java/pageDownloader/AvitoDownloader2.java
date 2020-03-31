@@ -47,9 +47,7 @@ public class AvitoDownloader2 implements PageDownloader {
 
     @Override
     public Document downloadDocument(String url,String blockMessage, boolean b) {
-
         Document doc = null;
-
         try {
             doc = NetWorker.downloadDocument(url,blockMessage,b);
         } catch (IOException | InterruptedException e) {

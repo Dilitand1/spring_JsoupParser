@@ -19,6 +19,6 @@ public class ProxyFactoryTest {
     public void getProxy() {
         Queue queue = ProxyFactory.getProxy("proxy.txt");
         assertNotNull(queue);
-        assertThat(queue.contains(Proxy.NO_PROXY),is(true));
+        assertTrue(queue.contains(Proxy.NO_PROXY));
     }
 }
