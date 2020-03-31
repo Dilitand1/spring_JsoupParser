@@ -32,7 +32,7 @@ public class AvitoDownloader2 implements PageDownloader {
 
     @Override
     public PageObject downloadPageContent(String link) {
-        AvitoObject avitoObject = (AvitoObject) PageFactory.newAvitoObject();
+        AvitoObject avitoObject = (AvitoObject) PageFactory.newPageObject("AvitoObject");
         logger.log(Level.INFO, "parsing " + link);
         Document document = downloadDocument(link,"блокировка123",true);
         avitoObject.setRef(link);

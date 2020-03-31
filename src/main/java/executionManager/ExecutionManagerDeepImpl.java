@@ -35,23 +35,29 @@ public class ExecutionManagerDeepImpl implements ExecutionManager {
 
     @Override
     public Context execute() throws InterruptedException {
-        //Линки загружаются однопоточно. Сделаем многопоточность после того как допилю все остальное
+        //Линки загружаются однопоточно. Сделаем многопоточность после того как допилю все остальное хотя и так норм вроде
         downloadLinks.downloadLinks();
 
         List<Future> f1 = new ArrayList<>();
         ExecutorService pageDownloaderService = Executors.newFixedThreadPool(5);
-        //грузим контент со страниц, попробуем в 1 поток
+        //грузим контент со страниц, попробуем в 1 поток разберемся с проксей и будем многопоточить
+        //После теста могу сказать что один поток это медленно надо думать с проксей...
         for (int i = 0; i < 1; i++) {
             f1.add(pageDownloaderService.submit(new Runnable() {
                 @Override
                 public void run() {
                     String url = null;
                     while ((url = linksQueue.poll()) != null) {
-                        pageQueue.offer(pageDownloader.downloadPageContent(url));
+                        PageObject pageObject = pageDownloader.downloadPageContent(url);
+                        //Если null то грузит сразу в pageQueue
+                        if (pageObject != null) {
+                            pageQueue.offer(pageObject);
+                        }
                     }
                 }
             }));
         }
+
         //сохраняем данные с страницы и картинки
         List<Future> f2 = new ArrayList<>();
         ExecutorService contentDownloaderService = Executors.newFixedThreadPool(5);
@@ -110,5 +116,9 @@ public class ExecutionManagerDeepImpl implements ExecutionManager {
 
     public void setPageQueue(Queue<PageObject> pageQueue) {
         this.pageQueue = pageQueue;
+    }
+
+    public Queue<PageObject> getPageQueue() {
+        return pageQueue;
     }
 }

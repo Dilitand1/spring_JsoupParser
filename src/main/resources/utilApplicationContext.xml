@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.2.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd"
+>
+    <context:property-placeholder location="classpath:parser.properties"/>
+
+    <bean id="logger" class="logger.MyLogger" init-method="init">
+        <constructor-arg index="1" value="${logger.configPath}"/>
+        <constructor-arg index="0" >
+            <bean class="java.util.logging.Logger" factory-method="getLogger">
+                <constructor-arg value="111"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="fileWorker" class="fileworker.FileWorker">
+        <property name="append" value="false"/>
+        <property name="inputPath" value="output.txt"/>
+    </bean>
+
+    <bean id="netWorker" class="netWorker.NetWorker">
+        <property name="logger" value="#{logger.logger}"/>
+        <property name="proxyQueue">
+            <bean class="proxy.ProxyFactory" factory-method="getProxy">
+                <constructor-arg value="proxy.txt"/>
+            </bean>
+        </property>
+    </bean>
+
+</beans>

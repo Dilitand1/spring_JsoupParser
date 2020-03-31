@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 public class MyLogger {
 
     private Logger logger;
-    String configPath;
+    private String configPath;
 
     MyLogger(Logger logger, String configPath){
         this.logger = logger;

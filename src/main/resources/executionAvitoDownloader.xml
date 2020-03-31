@@ -1,0 +1,80 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.2.xsd http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd"
+>
+    <import resource = "utilApplicationContext.xml"/>
+    <context:property-placeholder location="classpath:parser.properties"/>
+
+    <bean id="avitoLinks" class="downloadLinks.DownloadAvitoLinks">
+        <property name="patternCountOfPages" value="${avito.pattern1}"/>
+        <property name="cssPages" value="${avito.cssPages}"/>
+        <property name="cssAllLinks" value="${avito.cssAllLinks}"/>
+        <property name="firstPartref" value="${avito.firstPartref}"/>
+        <property name="url" value="${avito.url}"/>
+        <property name="urlLinkPageSuffix" value="${avito.urlLinkPageSuffix}"/>
+        <property name="cachePath" value="${avito.cachePath}"/>
+        <property name="linksPath" value="${avito.linksPath}"/>
+        <property name="logger" value="#{logger.logger}"/>
+        <property name="cachedLinks">
+            <list/>
+        </property>
+        <property name="linksQueue">
+            <bean class="java.util.concurrent.ConcurrentLinkedQueue"/>
+        </property>
+    </bean>
+
+    <bean id="avitoDownloader2" class="pageDownloader.AvitoDownloader2">
+        <property name="priceClass" value="${avito.priceClass}"/>
+        <property name="adressClass" value="${avito.adressClass}"/>
+        <property name="descriptionClass" value="${avito.descriptionClass}"/>
+        <property name="titleClass" value="${avito.titleClass}"/>
+        <property name="contentFolder" value="${avito.contentFolder}"/>
+        <property name="logger" value="#{logger.logger}"/>
+        <property name="picture_css" value="${avito.picture.css}"/>
+        <property name="picture_attr" value="${avito.picture.attr}"/>
+    </bean>
+
+    <bean id="executionDeepManagerAvitoDownloader" class="executionManager.ExecutionManagerDeepImpl">
+        <property name="pageDownloader" ref="avitoDownloader2"/>
+        <property name="downloadLinks" ref="avitoLinks"/>
+        <property name="linksQueue" value="#{avitoLinks.linksQueue}"/>
+
+        <property name="logger" value="#{logger.Logger}"/>
+        <property name="pageQueue">
+            <bean class="java.util.concurrent.ConcurrentLinkedQueue"/>
+        </property>
+    </bean>
+
+
+    <bean id="avitoSimpleLinks" class="downloadLinks.DownloadSimpleAvitoLinks">
+        <property name="patternCountOfPages" value="${avito.pattern1}"/>
+        <property name="cssPages" value="${avito.cssPages}"/>
+        <property name="url" value="${avito.url}"/>
+        <property name="urlLinkPageSuffix" value="${avito.urlLinkPageSuffix}"/>
+        <property name="logger" value="#{logger.Logger}"/>
+        <property name="linksQueue">
+            <bean class="java.util.concurrent.ConcurrentLinkedQueue"/>
+        </property>
+    </bean>
+
+    <bean id="SimpleAvitoDownloader" class="pageDownloader.AvitoSimpleDownloader">
+        <property name="logger" value="#{logger.logger}"/>
+        <property name="pageQueue" >
+            <bean class = "java.util.concurrent.ConcurrentLinkedQueue"/>
+        </property>
+    </bean>
+
+    <bean id="executionSimpleManagerAvitoDownloader" class="executionManager.ExecutionManagerDeepImpl">
+        <property name="pageDownloader" ref="SimpleAvitoDownloader"/>
+        <property name="downloadLinks" ref="avitoSimpleLinks"/>
+        <property name="linksQueue" value="#{avitoSimpleLinks.linksQueue}"/>
+        <property name="logger" value="#{logger.Logger}"/>
+        <property name="pageQueue" value="#{SimpleAvitoDownloader.pageQueue}">
+        </property>
+    </bean>
+
+</beans>

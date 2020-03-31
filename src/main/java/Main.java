@@ -1,12 +1,18 @@
+import downloadLinks.DownloadSimpleAvitoLinks;
 import executionManager.ExecutionManager;
+import netWorker.NetWorker;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import pageObjects.PageObject;
+
 import java.io.IOException;
-import java.net.Proxy;
-import java.util.Queue;
+import java.util.List;
 import java.util.Random;
 import java.util.logging.Logger;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Main {
 
@@ -18,14 +24,26 @@ public class Main {
 
         /**
          *         Перед запуском незабудь обновить перечень прокси адресов (см. ProxyFactory)
-         *         допилить индикацию что прокси заблочен файерволом и дать ему "остыть" (узнать время остывания)
-         *         загружать линки многопоточно
+         *         нужно будет допилить индикацию что прокси заблочен файерволом и дать ему "остыть" (узнать время остывания)
+         *         загружать линки многопоточно (хотя и так норм работает)
+         *
+         *         !!!Не делай больше через xml - это гемор...
          */
 
         ConfigurableApplicationContext configurableApplicationContext
                 = new ClassPathXmlApplicationContext("ApplicationContext.xml");
-        Main main = configurableApplicationContext.getBean("main", Main.class);
+        //Main main = configurableApplicationContext.getBean("main", Main.class);
+
+        Main main = configurableApplicationContext.getBean("mainSimpleAvitoLinks",Main.class);
         main.executionManager.execute();
+        //test();
+    }
+
+    public static void test(){
+        Document document = NetWorker.readDocumentFromFile("test222.html");
+        Elements elements = document.select("div.item__line");
+        System.out.println(elements.get(0));
+
     }
 
     void init() {

@@ -15,6 +15,7 @@ public class NetWorker {
     static public Queue<Proxy> proxyQueue;
     static public Logger logger;
 
+    //url - откуда грузим, blockedMessage - сообщение о том что заблокировал firewall (везде разный может быть) , b - реагировать на эксепшены или нет
     public static Document downloadDocument(String url, String blockedMessage, boolean b) throws IOException, InterruptedException {
         while (proxyQueue.size() == 0) {
             logger.log(Level.INFO, "кончились прокси в очереди ждем когда вернется обратно");
@@ -67,6 +68,7 @@ public class NetWorker {
             logger.log(Level.INFO, "кончились прокси в очереди ждем когда вернется обратно");
             Thread.sleep(1000);
         }
+        //тянем прокси
         Proxy proxy = proxyQueue.poll();
         URL u;
         URLConnection c;
@@ -78,6 +80,8 @@ public class NetWorker {
             logger.log(Level.INFO, "downloading " + urlContent);
             BufferedInputStream BufferedInputStream = new BufferedInputStream(c.getInputStream());
             FileWorker.writeFile(BufferedInputStream, pathToSave);
+            //возвращаем прокси назад
+            proxyQueue.offer(proxy);
         } catch (IOException ioe) {
             if (ioe.getMessage().contains("Connection timed out")
                     || ioe.getMessage().contains("HTTP response code: 500")
@@ -92,6 +96,12 @@ public class NetWorker {
                 throw ioe;
             }
         }
+
+    }
+
+    public static Document readDocumentFromFile(String path){
+        Document document = Jsoup.parse(FileWorker.readFile(path));
+        return document;
     }
 
     public static void setLogger(Logger logger) {
@@ -105,4 +115,5 @@ public class NetWorker {
     public Queue<Proxy> getProxyQueue() {
         return proxyQueue;
     }
+
 }
