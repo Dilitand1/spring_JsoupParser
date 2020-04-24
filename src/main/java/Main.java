@@ -19,6 +19,11 @@ public class Main {
     int id;
     static Logger logger;
     ExecutionManager executionManager;
+    List list;
+
+    public void setList(List list) {
+        this.list = list;
+    }
 
     public static void main(String[] args) throws IOException, InterruptedException {
 
@@ -27,7 +32,7 @@ public class Main {
          *         нужно будет допилить индикацию что прокси заблочен файерволом и дать ему "остыть" (узнать время остывания)
          *         загружать линки многопоточно (хотя и так норм работает)
          *
-         *         !!!Не делай больше через xml - это гемор...
+         *         !!!Не делай больше через xml...
          */
 
         ConfigurableApplicationContext configurableApplicationContext

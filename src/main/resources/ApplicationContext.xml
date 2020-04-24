@@ -11,8 +11,10 @@
     <import resource = "utilApplicationContext.xml"/>
     <import resource="executionAvitoDownloader.xml"/>
 
-    <bean id="random" class="java.lang.Integer" scope="prototype" factory-method="java.util.Random.nextInt"/>
-
+    <bean id = "random" class="java.util.Random" scope="prototype"/>
+    <bean id= "random2" scope="prototype" class="java.lang.Integer">
+        <constructor-arg value="#{random.nextInt()}"/>
+    </bean>
 
     <bean id="main" class="Main" init-method="init">
         <property name="logger" value="#{logger.logger}"/>
@@ -22,6 +24,11 @@
     <bean id="mainSimpleAvitoLinks" class="Main" init-method="init">
         <property name="logger" value="#{logger.logger}"/>
         <property name="executionManager" ref = "executionSimpleManagerAvitoDownloader"/>
+        <property name="id" ref="random2"/>
+        <property name="list">
+            <list>
+            </list>
+        </property>
     </bean>
 
 </beans>
