@@ -15,23 +15,23 @@ import java.util.regex.Pattern;
 
 public class DownloadAvitoLinks extends DownloadLinks {
 
-    Queue<String> linksQueue;
-    Logger logger;
+    private Queue<String> linksQueue;
+    private Logger logger;
 
-    String linksPath;
-    String cachePath;
-    List<String> cachedLinks;
+    private String linksPath;
+    private String cachePath;
+    private List<String> cachedLinks;
 
-    String url;
-    String cssPages;
-    String patternCountOfPages;
-    String urlLinkPageSuffix;
-    String cssAllLinks;
-    String firstPartref;
+    private String url;
+    private String cssPages;
+    private String patternCountOfPages;
+    private String urlLinkPageSuffix;
+    private String cssAllLinks;
+    private String firstPartref;
 
-    int currentPage;
-    int countOfPages;
-    Document document;
+    private int currentPage;
+    private int countOfPages;
+    private Document document;
 
     @Override
     public void downloadLinks() {

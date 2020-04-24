@@ -5,12 +5,12 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public abstract class PageObject {
     static volatile AtomicInteger atomicID = new AtomicInteger(0);
-    int id;
-    String ref;
+    private int id;
+    private String ref;
     String title;
     String outputPathContent;
     String outputPathContentInfo;
-    String cachePath;
+    private String cachePath;
 
     public PageObject(){
         this.id = atomicID.incrementAndGet();

@@ -16,10 +16,10 @@ import java.util.regex.Pattern;
 
 public class Main {
 
-    int id;
-    static Logger logger;
-    ExecutionManager executionManager;
-    List list;
+    private int id;
+    private static Logger logger;
+    private ExecutionManager executionManager;
+    private List list;
 
     public void setList(List list) {
         this.list = list;
